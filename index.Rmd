@@ -1,7 +1,7 @@
 --- 
-title: "BABLab"
-author: "Emily Towner"
-date: "`r Sys.Date()`"
+title: "Brain and Body Lab"
+# author: "Emily Towner"
+# date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
@@ -14,9 +14,43 @@ description: "These are the notes, logs, and protocols for the Brain and Body La
 
 # Introduction
 
-The Mind, Brain, Body study looks at how early caregiving experiences influence the emotional, cognitive, and brain development, as well as physical health and wellness.
+----------
 
-The study also explores how the bacteria that live inside us (the microbiome) are connected to the development of our brains and bodies.
+<h1>Welcome to the BABLab Wiki!</h1>
+
+In the <b>Brain and Body Lab</b> we are interested in how early experiences influence interactions between the brain and body, contributing to mental and physical health. We hope to use this information to improve the wellbeing of children, adolescents, and adults across the world. In other words, in the BABLab, we aim to do good science that makes a difference to people’s lives, today and tomorrow.
+
+The BABLab is directed by Dr. Bridget Callaghan, Assistant Professor of Psychology at UCLA.
+
+**Current Projects:**
+
+ - [Mind, Brain, Body (MBB)](https://osf.io/ha3rq/)
+ - [EGG and Emotionality (EGG)](https://osf.io/nf2bv/)
+
+<hr>
+
+## Finding the Lab
+
+We're located in the Psychology Department at UCLA! <br>
+5581 Pritzker Hall <br>
+This is in the tower building, 5th floor.
+
+<hr>
+
+## Contact Info
+
+If you have any questions about the lab please contact the lab's managers.
+
+Emily Towner - [emilytowner@ucla.edu](mailto:emilytowner@ucla.edu). <br>
+Kristen Chu - [kristenchu@g.ucla.edu](mailto:kristenchu@g.ucla.edu)
+
+Alternatively, you can reach out to our lab email, [bablab.ucla@gmail.com](mailto:bablab.ucla@gmail.com)
+
+<hr>
+
+## Other Information
+
+Feel free to contribute any relevant sections or information - best lunch spots on campus, tips and tricks, or anything else helpful to your fellow lab members!
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages
