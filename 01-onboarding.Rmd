@@ -13,9 +13,10 @@ If you are a new member of the BAB Lab, there are a few basic things you will wa
  2. Ask the lab manager to be added to the following
 - [Slack](https://slack.com/) (download the desktop and mobile [apps](https://slack.com/downloads/mac)
 - [Trello](https://trello.com/emilyanntowner/boards) (download the desktop and mobile [apps](https://trello.com/en-US/platforms) - watch this [tutorial](https://www.youtube.com/watch?v=_Ry-SnJygy8&feature=youtu.be))
+- Box
 - Google calendars
 - Email list
-- Dropbox paper
+- Dropbox Paper
 - Relevant OSF projects
 
 3. Send (via Slack) the lab manager your information including your
@@ -29,7 +30,7 @@ If you are a new member of the BAB Lab, there are a few basic things you will wa
 
 ----------
 
-### Onboarding - Staff Research Associate
+## Onboarding - Staff Research Associate
 
 1. Submit to Bridget
     - Signed employment contract
@@ -57,10 +58,10 @@ If you are a new member of the BAB Lab, there are a few basic things you will wa
     - Create an At Your Service Online ([AYSO](https://atyourserviceonline.ucop.edu/ayso/)) account (retirement)
 8. Visit (once you have your employee ID)
     - Location: UCLA BruinCard Center (Kerckhoff Hall, Room 123)
-        - Bring ID and completed [form][15]
+        - Bring ID and completed [form](https://secure.bruincard.ucla.edu/BCW/BruinCard_Web/Docs/BC%20Terms%20%20Signature%2006.pdf)
 9. Complete (once you have your UCLA logon ID)
-    - Sign-up and complete the required employee training [courses][16]
-    - Sign-up and attend [orientation][17]
+    - Sign-up and complete the required employee training [courses](https://ucla.app.box.com/s/mizhokn39tq7z6odvnvutvaoko11n823)
+    - Sign-up and attend [orientation](https://www.chr.ucla.edu/training-and-development/new-employee-orientation)
     - Upload orientation training certificates to Dropbox (BAB/Lab/Training)
 10. Select
     - Health insurance plan (within 30 days)
@@ -71,7 +72,7 @@ Union membership requires pension plan
     - Include your name and Bruincard # to be granted weekend swipe card access as well as B and C level access for freezer storage
     - The swipe access reader is located on the right hand side of door to the right courtyard of the tower entrance.
 12. IRB Trainings
-    - Create a [UCLA SSO for CITI Program][18]
+    - Create a [UCLA SSO for CITI Program](http://ora.research.ucla.edu/OHRPP/Documents/Education/SSO_CITI_New_Acct.pdf)
     - Add and complete the following courses:
         - Human Research – Social & Behavioral Researchers & Staff
         - Human Research- Biomedical Researchers & Staff
@@ -79,7 +80,7 @@ Union membership requires pension plan
     - Add certificates to the training folder on Dropbox (BAB/Lab/Training)
     - Get a WebIRB account
         - Email your faculty sponsor/advisor the following information:
-            - Your UCLA Logon ID – (Verify your [UCLA Logon ID][19])
+            - Your UCLA Logon ID – (Verify your [UCLA Logon ID](https://accounts.iam.ucla.edu/lookup))
             - Your UCLA UID # (9-digit)
             - Your full name
                 - First
@@ -90,7 +91,7 @@ Union membership requires pension plan
         - Bridget to email this information to webIRBHelp@research.ucla.edu to request the account.
         - Ask the lab manager to be added to all IRB protocols
 13. IBC Trainings
-    - Sign up for the following courses via UCLA [WorkSafe][20]
+    - Sign up for the following courses via UCLA [WorkSafe](https://worksafe.ucla.edu/Ability/Programs/Standard/Control/elmLearner.wml?PortalID=LearnerWeb)
         - NIH Guidelines for UCLA Researchers IBC Compliance Training (online)
         - Laboratory Safety Fundamentals (online)
         - Blood-borne Pathogens Training (online)
@@ -98,9 +99,9 @@ Union membership requires pension plan
         - Biosafety ABC’s – Biosafety Level 2 Training (in-person)
         - Biosafety Cabinet (online)
     - Add certificates to your user folder on Dropbox (BAB/Lab/Training)
-    - Record completion for [HPL][21]
+    - Record completion for [HPL](https://docs.google.com/document/d/1hCYg4hYJ7wi4nsLl1vDs1a-7Of3Tnzvocx58bdcj2cc/edit)
     - Submit certificates to Arielle Radin (radina02@g.ucla.edu) at HPL
-    - Read the [Lab Specific Biosafety Manual][22] and sign off
+    - Read the [Lab Specific Biosafety Manual](https://www.dropbox.com/s/t9atbx9d991gbwa/Lab_specific_biosafety_manual.pdf?dl=0) and sign off
     - Complete Lab Specific Training and sign off
         - This must be updated annually
     - Get vaccinations (suggested)
@@ -115,69 +116,38 @@ Union membership requires pension plan
 14. REDCap
     - Complete and send REDCap access form to Martin Lai (mylai@mednet.ucla.edu) (Dropbox/BAB/Lab/Lab_protocols/REDCap/Access/Template/)
 15. Website admin access 
-    - Contact Jun Wan (jwan@psych.ucla.edu) for access to the [life sciences Wordpress multisite server][23]
+    - Contact Jun Wan (jwan@psych.ucla.edu) for access to the [life sciences Wordpress multisite server](https://sites.lifesci.ucla.edu/)
 16. MRI Trainings
     - TBD 
 17. Department of Psychology Printing Acess
-    - Login (upper right hand corner) to: https://support.lifesci.ucla.edu/hc/en-us
-    - click submit a request
-    - inquire about gaining printer access- include your UID number and email
-    - access printing at Franz Hall 
+    - [Login](https://support.lifesci.ucla.edu/hc/en-us) (upper right hand corner)
+    - Click submit a request
+    - Inquire about gaining printer access- include your UID number and email
+    - Access printing at Franz Hall 
+    - [Instructions](https://ucla.app.box.com/s/db0zzvgrydw1yz99yo1nlooq1j4n7jos) - sending print jobs via email 
 
 <h4>Important links:</h4>
 
-- [UCLA time reporting system][24]
+- [UCLA time reporting system](24https://uctrs.it.ucla.edu/)
 
 <h4>Review:</h4>
 
-- [Getting started at UCLA][25]
-- [Welcome Kit][26]
-- [How-to access UCPath portal][27]
+- [Getting started at UCLA](https://www.chr.ucla.edu/new-employee/getting-started)
+- [Welcome Kit](https://ucnet.universityofcalifornia.edu/forms/pdf/welcome-kit.pdf)
+- [How-to access UCPath portal](https://www.centralresourceunit.ucla.edu/s/)
 - [Workers’ Comp
-Pamphlet][28]
-- [When an injury occurs][29]
-- [Substance Abuse Brochure][30]
+Pamphlet](https://ucla.app.box.com/s/jyzoag8v9qw6katuvgegjil8an2tsx2j)
+- [When an injury occurs](https://ucla.app.box.com/s/nua4ypfpjlt1226fusney4zyvo6qzzhj)
+- [Substance Abuse Brochure](https://ucla.app.box.com/s/qrj4j7bnca1r8fy9n1bdfdf6orf1g0dq)
 
-<hr>
+----------
 
-### Onboarding - Volunteer Research Assistant
+## Onboarding - Volunteer Research Assistant
 
-<hr>
+----------
 
-### Onboarding - Postdoctoral Scholar
+## Onboarding - Postdoctoral Scholar
 
-<hr>
+----------
 
-### Onboarding - Graduate Student
-
-
-  [1]: 
-  [2]: 
-  [3]: 
-  [4]: 
-  [5]: 
-  [6]: 
-  [7]: 
-  [8]: 
-  [9]: 
-  [10]: 
-  [11]: 
-  [12]: 
-  [13]: 
-  [14]: 
-  [15]: https://secure.bruincard.ucla.edu/BCW/BruinCard_Web/Docs/BC%20Terms%20%20Signature%2006.pdf
-  [16]: https://ucla.app.box.com/s/mizhokn39tq7z6odvnvutvaoko11n823
-  [17]: https://www.chr.ucla.edu/training-and-development/new-employee-orientation
-  [18]: http://ora.research.ucla.edu/OHRPP/Documents/Education/SSO_CITI_New_Acct.pdf
-  [19]: https://accounts.iam.ucla.edu/lookup
-  [20]: https://worksafe.ucla.edu/Ability/Programs/Standard/Control/elmLearner.wml?PortalID=LearnerWeb
-  [21]: https://docs.google.com/document/d/1hCYg4hYJ7wi4nsLl1vDs1a-7Of3Tnzvocx58bdcj2cc/edit
-  [22]: https://www.dropbox.com/s/t9atbx9d991gbwa/Lab_specific_biosafety_manual.pdf?dl=0
-  [23]: https://sites.lifesci.ucla.edu/
-  [24]: https://uctrs.it.ucla.edu/
-  [25]: https://www.chr.ucla.edu/new-employee/getting-started
-  [26]: https://ucnet.universityofcalifornia.edu/forms/pdf/welcome-kit.pdf
-  [27]: https://www.centralresourceunit.ucla.edu/s/
-  [28]: https://ucla.app.box.com/s/jyzoag8v9qw6katuvgegjil8an2tsx2j
-  [29]: https://ucla.app.box.com/s/nua4ypfpjlt1226fusney4zyvo6qzzhj
-  [30]: https://ucla.app.box.com/s/qrj4j7bnca1r8fy9n1bdfdf6orf1g0dq
+## Onboarding - Graduate Student

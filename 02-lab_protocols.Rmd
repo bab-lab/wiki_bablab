@@ -12,7 +12,7 @@ You might be wondering why we need a protocol for a lab meeting? The answer is s
 
 #### Meeting Blocks
 
-The first layer to the lab meeting structure is to have ‘Meeting Blocks’ which focus the content of our lab meetings for set periods of time (typically 3-5 weeks) on a particular topic. The topics of the Meeting Blocks are decided as a group and will be chosen for strategic purposes (e.g., if we are writing a grant or paper on a particular topic area we might assign a meeting block to that topic, likewise – if we are exploring measures for a new study, we could assign a meeting block to searching for a range of measures and deciding on the best available). You can find a list of potential Meeting Block topics at the end of this document. If there is a topic of high general interest to the lab, we can also schedule a meeting block on it (even if we don’t directly research that topic). At the end of each meeting block we will discuss the next block assignment as a group. If you have an idea for a meeting block, feel free to bring it up at the end of the current block (and add it to the list in this paper doc).
+The first layer to the lab meeting structure is to have ‘Meeting Blocks’ which focus the content of our lab meetings for set periods of time (typically 3-5 weeks) on a particular topic. The topics of the Meeting Blocks are decided as a group and will be chosen for strategic purposes (e.g., if we are writing a grant or paper on a particular topic area we might assign a meeting block to that topic, likewise – if we are exploring measures for a new study, we could assign a meeting block to searching for a range of measures and deciding on the best available). You can find a list of potential Meeting Block topics at the end of this document. If there is a topic of high general interest to the lab, we can also schedule a meeting block on it (even if we don’t directly research that topic). At the end of each meeting block we will discuss the next block assignment as a group. If you have an idea for a meeting block, feel free to bring it up at the end of the current block (and add it to the list in this bookdown project).
 
 #### Syllabus Development
 
@@ -20,7 +20,7 @@ The first step in a meeting block will be to develop a syllabus for the coming w
 
 *Roles & Responsibilities*
 
-Select! a sub-topic or research question for each meeting within the block
+Select a sub-topic or research question for each meeting within the block
 Select a set of readings/material (can be movie clips, podcasts etc.) to go through each week (keep in mind that people have limited time to review the material for lab meeting so assign one primary reading/material and place add additional materials into a supplement, in case people wish to review further)
 Make a document for the meeting and share it with all meeting attendees
 Make sure that people are signed up to lead each meeting in the block
@@ -99,11 +99,11 @@ Guests: Individuals invited to the meeting*
 
 Example: 
 
-![Calendar Template Example][3]
+![<!--- Calendar Template Example --->](images/lab_protocols/trainee_tuesdays_thursdays/1.png)
 
 I (Emily) have also shared my personal calendar with the BABLab account, so you can see when I am available to meet with you. You can access it by selecting "Emily Towner" from "Other calendars" in the BABLab calendar. The off-white "busy" slots are times I am unavailable (doctor's appointments, non lab-related meetings etc.). 
 
-![Emily's Calendar][4]
+![<!--- Emily's Calendar --->](images/lab_protocols/trainee_tuesdays_thursdays/2.png)
 
 ----------
 
@@ -115,6 +115,8 @@ I (Emily) have also shared my personal calendar with the BABLab account, so you 
 The purpose of clinical meetings are to discuss and review ongoing clinical interviews (KSADs), troubleshoot any recent difficulties, and learn helpful interviewing tactics for future clinical interviews. During the meeting, you will present the team with background information from your clinical interview and walk through each supplement. 
 
 <h4>What To Prepare</h4>
+
+Using a shared Dropbox Paper document, please prepare the following:
 
  - Who you are presenting
       - Participant's KSADS file
@@ -133,9 +135,7 @@ The purpose of clinical meetings are to discuss and review ongoing clinical inte
  - Questions for the team
     - Any situations you feel may have been difficult to address during the clinical interview
 
-*Additional notes*
-
-These meetings are also a safe space to debrief potentially difficult interviews.
+*These meetings are also a safe space to debrief potentially difficult interviews.*
 
 ----------
 
@@ -150,22 +150,16 @@ When sending things out USPS, you can place your recharge ID under the sender’
 
 ## Purchasing
 
-### Funds
-
-**Startup**: 4-404040-CB-69460 (Recharge ID: WSTV)
-
-**R00**: 4-444040-CB-31447 (Recharge ID: Y7XE)
-
 ### PAC Orders
 
-PAC forms are used for most purchasing requests (besides Amazon which we can order from directly with our Amazon business account). Please consult the [UCLA preferred vendors list][5] first before submitting a PAC form for an outside vendor.
+PAC forms are used for most purchasing requests (besides Amazon which we can order from directly with our Amazon business account). Please consult the [UCLA preferred vendors list](http://staff.purchasing.ucla.edu/Portal/app/agreements/agreementsummary.aspx) first before submitting a PAC form for an outside vendor.
 
 
-- Save any quote to (Dropbox/BAB/Lab/Finances/Purchasing/)
+- Save any quote to (BAB/Lab/Finances/Purchasing/)
 - Check Trello purchasing board for existing item
 - If no existing item, create one and add description based on templates
-- Fill out blank PAC form located in (Dropbox/BAB/Lab/Lab_protocols/Finances/Purchasing/)
-- Save to (Dropbox/BAB/Lab/Finances/Purchasing)
+- Fill out blank PAC form located in (BAB/Lab/Lab_protocols/Finances/Purchasing/)
+- Save to (BAB/Lab/Finances/Purchasing)
 - Email the completed PAC order form to <br> psych-orders@psych.ucla.edu
     - **Subject** - CB, [Fill in Vendor] Request, Bridget Callaghan
     - CC’ Bridget (bcallaghan@ucla.edu) - do not need signature if PI is cc’d
@@ -194,15 +188,15 @@ Instructions for checking out via our Amazon Business Account.
 - Review your order details and once confirmed, click on submit order for approval.
 - Complete item order information on Trello and move to "Submitted" list
 - Once placed, move item to "Placed" list on Trello
-- Once item is received lab manager log amount in funds spreadsheet
+- Once item is received, lab manager to log amount in funds spreadsheet
     - Add in any tax/shipping/expense that wasn’t accounted for on Trello to most expensive item 
     - Mark as "Logged" on Trello
 
 ### Reimbursement
 
 For reimbursement: 
-- Fill out a blank reimbursement form found in  (Dropbox/BAB/Lab/Lab_protocols/Finances/Reimbursement/)
-- Save reimbursement form to (Dropbox/BAB/Lab/Finances/Reimbursement)
+- Fill out a blank reimbursement form found in  (BAB/Lab/Lab_protocols/Finances/Reimbursement/)
+- Save reimbursement form to (BAB/Lab/Finances/Reimbursement)
 - Email the completed reimbursement form to <br> psych-orders@psych.ucla.edu
     - Subject - CB, [Fill in Vendor] Reimbursement, Bridget Callaghan
     - CC’ Bridget (bcallaghan@ucla.edu) - do not need signature if PI is cc’d
@@ -219,13 +213,14 @@ For reimbursement:
 
 ### Petty Cash
 
- - Fill out a blank IRB research payment request form (Dropbox/BAB/Lab/Lab_protocols/Finances/Petty_cash/)
+ - Fill out a blank IRB research payment request form (BAB/Lab/Lab_protocols/Finances/Petty_cash/)
  - Send it to Brian Hoang (brianhoang@psych.ucla.edu) for a signature
- - Submit the form at this [site][6] 
+ - Submit the form at this [site](https://sa.ucla.edu/MessageCenter/OneStop/Home/PostMessage?topicId=293)
  - It can take up to 10 business days for them to reply back.
  - When they recontact with a delivery time, ensure that either of the people who signed the form (Bridget and an RA) are in the lab at the time of delivery to sign off on the order. 
  - They will not deliver the cash if one of the signers is not present
  - Once the disbursement is received, log it on the study specific payment log
+ - Ask the lab manager to log the pettycash amount in the funds spreadsheet
 
 ### Vendor specific protocols
 
@@ -240,37 +235,39 @@ Uprinting
  - Select the items you want to purchase and add them to the cart. 
      - Note that you need to have the pdf or image files on-hand and make sure they match the dimensions of what they will be printed on
 - When checking out, select “Terms” as the payment method
-- Create and submit a PAC form to purchasing as usual, but also cc jhoan.e@digitalroominc.com and request that purchasing get in touch with her to pay for the order
+- Create and submit a PAC form to purchasing as usual, but also cc' jhoan.e@digitalroominc.com and request that purchasing get in touch with her to pay for the order
 
 ### Logging purchases on Trello
-1. Search up "Purchasing" board on Trello. It should be green.There are different tabs:
-- **To Return**: items that will be returned
-- **Maybe**: items that may be bought
-- **To Order**: items to order/ buy
-- **Sumbitted**: orders that have been submitted
-- **Placed**: orders that have been placed
-- **In Stock**: items that have arrived and are in lab
+1. Go to the "Purchasing" board on Trello. It should be green.There are different tabs:
+  - **To Return**: items that will be returned
+  - **Maybe**: items that may be bought
+  - **To Order**: items to order/ buy
+  - **Submitted**: orders that have been submitted
+  - **Placed**: orders that have been placed
+  - **In Stock**: items that have arrived and are in lab
 
-2. Add a card to "To Order". Name it with this format: **item being bought - $price**
+2. Add a card to "To Order" - name it with this format: **item being bought - $price**
 
 3. Add the following labels:
-- **Budget: Nonlogged** (this is by default)
-- **Fund** (ask lab manager whether it's Startup or R00)
-- **Category** (ask lab manager which category)
+  - **Budget: Nonlogged** (always log this by default)
+  - **Fund** (ask lab manager whether it's Startup, R00, or other fund)
+  - **Category** (ask lab manager which category)
 
 4. Add the link of the item on 'add an attachment'. Rename the link the exact name of the item as written on Amazon (or whatever website).
 
 5. Add a description with this format:
-- Units: (insert amount of item, ex. 20 pencils)
-- Orders: (insert how many orders placed, ex. 1 order of 20 pencils)
-- Date submitted: (insert date we submitted order)
-- Date placed: (insert date vendor has placed order)
-- Date received: (insert date we got it in lab)
-- If the card is something that may run out eventually (ex. granola bars, notebooks) add an approximate due date.
+  - Units: (insert amount of item, ex. 20 pencils)
+  - Orders: (insert how many orders placed, ex. 1 order of 20 pencils)
+  - Date submitted: (insert date we submitted order)
+  - Date placed: (insert date vendor has placed order)
+  - Date received: (insert date we got it in lab)
+  - If the card is something that may run out eventually (ex. granola bars, notebooks) add an approximate due date.
 
 6. Whenever an item has been submitted, placed, and in stock, move the card into its respective tab. 
 
-@[youtube](https://youtu.be/6YPngZ2cZto)
+Watch the video for a detailed explanation.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6YPngZ2cZto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ----------
 
@@ -286,11 +283,43 @@ Uprinting
 - You can add members, labels (useful for studies), checklist, attachment, due date and more to the back of the card. This information will show when you click on the card.
 3. **Show Menu function:** This is a great way to search specific items, such as your own name for tasks, or the study for which there are tasks for, or tasks which have upcoming due dates. 
 
-@[youtube](https://youtu.be/_Ry-SnJygy8)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_Ry-SnJygy8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ### REDCap
+
 #### Entering Instruments
-@[youtube](https://youtu.be/aKdWA0ABOrU)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aKdWA0ABOrU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+----------
+
+
+### Box
+
+We have moved over to Box for our file storage service. This works very similarly to Google Drive or Dropbox, but is more secure. Additionally, each lab member can have their own account, it's free and great for collaboration!
+
+Please download [Box Drive](https://www.box.com/drive) to use. 
+
+1. Click download for your operating system
+
+![<!--- Box Website --->](images/lab_protocols/box/1.png)
+
+2. After installing, you may need to click allow in your security preferences
+
+![<!--- Box Website --->](images/lab_protocols/box/2.png)
+
+3. Log in with your UCLA email (make sure to accept the Box sharing request first)
+
+![<!--- Box Website --->](images/lab_protocols/box/3.png)
+
+4. Now you can use Box on your desktop.
+
+![<!--- Box Website --->](images/lab_protocols/box/4.png)
+
+5. On the web version, change your notification preferences so that you don't get an email every time someone uploads a file by unchecking the boxes below
+
+![<!--- Box Website --->](images/lab_protocols/box/5.png)
 
 ----------
 
