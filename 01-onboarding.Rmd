@@ -11,8 +11,8 @@ If you are a new member of the BAB Lab, there are a few basic things you will wa
  1. Read the [Lab Manual](https://paper.dropbox.com/doc/BAB-Lab-Manual-AhbI86OnRmh6Lu5Osk6g6bBAg-Y1PCLFS9hIQt2CsZrDDJy#:h2=Server)
 
  2. Ask the lab manager to be added to the following
-- [Slack](https://slack.com/) (download the desktop and mobile [apps][3])
-- [Trello][4] (download the desktop and mobile [apps][5] - watch this [tutorial][6])
+- [Slack](https://slack.com/) (download the desktop and mobile [apps](https://slack.com/downloads/mac)
+- [Trello](https://trello.com/emilyanntowner/boards) (download the desktop and mobile [apps](https://trello.com/en-US/platforms) - watch this [tutorial](https://www.youtube.com/watch?v=_Ry-SnJygy8&feature=youtu.be))
 - Google calendars
 - Email list
 - Dropbox paper
@@ -27,8 +27,7 @@ If you are a new member of the BAB Lab, there are a few basic things you will wa
 
  4. Complete the onboarding process for your position below
 
-
-<hr>
+----------
 
 ### Onboarding - Staff Research Associate
 
@@ -39,23 +38,23 @@ If you are a new member of the BAB Lab, there are a few basic things you will wa
     - 1283A Franz Hall
     - (310) 206-9720
 3. Submit to HR
-    - [Union overtime/comp form][7]
-    - [Personal data form][8]
-    - [Background check authorization form][9]
+    - [Union overtime/comp form](https://ucla.app.box.com/s/z58tkq6l13qwl0zw5gtqhdxq0cne1wcu)
+    - [Personal data form](https://ucla.app.box.com/s/7jmouwl8fbp5039qq4tfmreo5r5ydmjq)
+    - [Background check authorization form](https://ucla.app.box.com/s/tothrcm0zcz50hj829bkcj1idclcudzr)
 4. Schedule with HR
     - Background check phone call
     - Hiring meeting
-    - Bring employment verification [documents][10] to meeting (i.e. passport)
-    - Sign [state oath of allegiance/patent policy/patent acknowledgment][11] (in person)
+    - Bring employment verification [documents](https://ucla.app.box.com/s/iwguajwkedo2zf2lfr5ie3z5tc4vnz7m) to meeting (i.e. passport)
+    - Sign [state oath of allegiance/patent policy/patent acknowledgment](https://ucnet.universityofcalifornia.edu/forms/pdf/upay-585.pdf) (in person)
 5. Pick-up
     - Location: Psychology Main Office (1285 Psychology Building – See Tyler Tuione)
         - Parking permits
 6. Respond
     - To the tracker I-9 email on or before your first day of work
 7. Create (once you have your employee ID)
-    - Create a [UCLA logon ID][12]
-    - Create a [UCPath account][13] (payroll, benefits, etc.)
-    - Create an At Your Service Online ([AYSO][14]) account (retirement)
+    - Create a [UCLA logon ID](https://accounts.iam.ucla.edu/#/)
+    - Create a [UCPath account](https://idpproxy-ucpath.universityofcalifornia.edu/simplesaml/module.php/ucpathdiscovery/disco.php?entityID=https://ucpath.universityofcalifornia.edu&return=https://idpproxy-ucpath.universityofcalifornia.edu/simplesaml/module.php/saml/sp/discoresp.php?AuthID=_6a3d8a7c8144ccec21e8fff0206d805c7b4d0beb08%253Ahttps%253A%252F%252Fidpproxy-ucpath.universityofcalifornia.edu%252Fsimplesaml%252Fsaml2%252Fidp%252FSSOService.php%253Fspentityid%253Dhttps%25253A%25252F%25252Fucpath.universityofcalifornia.edu%25253A443%25252Fsimplesaml%25252Fmodule.php%25252Fsaml%25252Fsp%25252Fmetadata.php%25252Fdefault-sp%2526cookieTime%253D1563390873%2526RelayState%253Dhttps%25253A%25252F%25252Fucpath.universityofcalifornia.edu%25252Fsaml_login&returnIDParam=idpentityid) (payroll, benefits, etc.)
+    - Create an At Your Service Online ([AYSO](https://atyourserviceonline.ucop.edu/ayso/)) account (retirement)
 8. Visit (once you have your employee ID)
     - Location: UCLA BruinCard Center (Kerckhoff Hall, Room 123)
         - Bring ID and completed [form][15]
@@ -154,18 +153,18 @@ Pamphlet][28]
 
   [1]: 
   [2]: 
-  [3]: https://slack.com/downloads/mac
-  [4]: https://trello.com/emilyanntowner/boards
-  [5]: https://trello.com/en-US/platforms
-  [6]: https://www.youtube.com/watch?v=_Ry-SnJygy8&feature=youtu.be
-  [7]: https://ucla.app.box.com/s/z58tkq6l13qwl0zw5gtqhdxq0cne1wcu
-  [8]: https://ucla.app.box.com/s/7jmouwl8fbp5039qq4tfmreo5r5ydmjq
-  [9]: https://ucla.app.box.com/s/tothrcm0zcz50hj829bkcj1idclcudzr
-  [10]: https://ucla.app.box.com/s/iwguajwkedo2zf2lfr5ie3z5tc4vnz7m
-  [11]: https://ucnet.universityofcalifornia.edu/forms/pdf/upay-585.pdf
-  [12]: https://accounts.iam.ucla.edu/#/
-  [13]: https://idpproxy-ucpath.universityofcalifornia.edu/simplesaml/module.php/ucpathdiscovery/disco.php?entityID=https://ucpath.universityofcalifornia.edu&return=https://idpproxy-ucpath.universityofcalifornia.edu/simplesaml/module.php/saml/sp/discoresp.php?AuthID=_6a3d8a7c8144ccec21e8fff0206d805c7b4d0beb08%253Ahttps%253A%252F%252Fidpproxy-ucpath.universityofcalifornia.edu%252Fsimplesaml%252Fsaml2%252Fidp%252FSSOService.php%253Fspentityid%253Dhttps%25253A%25252F%25252Fucpath.universityofcalifornia.edu%25253A443%25252Fsimplesaml%25252Fmodule.php%25252Fsaml%25252Fsp%25252Fmetadata.php%25252Fdefault-sp%2526cookieTime%253D1563390873%2526RelayState%253Dhttps%25253A%25252F%25252Fucpath.universityofcalifornia.edu%25252Fsaml_login&returnIDParam=idpentityid
-  [14]: https://atyourserviceonline.ucop.edu/ayso/
+  [3]: 
+  [4]: 
+  [5]: 
+  [6]: 
+  [7]: 
+  [8]: 
+  [9]: 
+  [10]: 
+  [11]: 
+  [12]: 
+  [13]: 
+  [14]: 
   [15]: https://secure.bruincard.ucla.edu/BCW/BruinCard_Web/Docs/BC%20Terms%20%20Signature%2006.pdf
   [16]: https://ucla.app.box.com/s/mizhokn39tq7z6odvnvutvaoko11n823
   [17]: https://www.chr.ucla.edu/training-and-development/new-employee-orientation
