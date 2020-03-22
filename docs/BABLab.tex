@@ -167,7 +167,7 @@ If you are a new member of the BAB Lab, there are a few basic things you will wa
 \begin{itemize}
 \tightlist
 \item
-  \href{https://slack.com/}{Slack} (download the desktop and mobile \href{https://slack.com/downloads/mac}{apps}
+  \href{https://slack.com/}{Slack} (download the desktop and mobile \href{https://slack.com/downloads/mac}{apps})
 \item
   \href{https://trello.com/emilyanntowner/boards}{Trello} (download the desktop and mobile \href{https://trello.com/en-US/platforms}{apps} - watch this \href{https://www.youtube.com/watch?v=_Ry-SnJygy8\&feature=youtu.be}{tutorial})
 \item
@@ -808,6 +808,13 @@ Using a shared Dropbox Paper document, please prepare the following:
 \subsection{USPS}\label{usps}}
 
 When sending things out USPS, you can place your recharge ID under the sender's address, circle it, \& drop it in the outgoing mail bin in 1282 (faculty mailroom)
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\hypertarget{recycling-waste}{%
+\section{Recycling \& Waste}\label{recycling-waste}}
+
+We can leave small items outside our door for recycling/trash pickup. For large items we should bring them to the A-level loading dock to be recycled.
 
 \begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
@@ -1674,7 +1681,147 @@ If you are unsure of what a post should look like, check out previous posts and 
 \hypertarget{research-protocols}{%
 \chapter{Research Protocols}\label{research-protocols}}
 
-Text
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\hypertarget{data-management}{%
+\section{Data Management}\label{data-management}}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\hypertarget{storing-active-datasets}{%
+\subsection{Storing Active Datasets}\label{storing-active-datasets}}
+
+Lab data can be stored on Box, the psychology department server, and on external hard drives and CD's. Any data with personally identifying information can only be stored on non-networked, encrypted, external harddrives, flash drives, and CD's.
+
+Although the the data is routinely backed up, the backup is only on-site -- so make extra backups! Each lab member should back up raw data on an external hard drive, as well as the code needed to reproduce all analyses. You should not store data locally on your computer (but logging into your Box/server account on your computer is ok).
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\hypertarget{data-organization}{%
+\subsection{Data Organization}\label{data-organization}}
+
+If you have already run several independent projects and have a data organization structure that works well for you, feel free to use it. If not (or if you are looking for a change), the following structure is recommended (based on Neuropipe):
+
+\begin{itemize}
+\tightlist
+\item
+  projectName/subjects
+
+  \begin{itemize}
+  \tightlist
+  \item
+    individual directories for each of your participants
+  \item
+    projectName/subjects/\{subj\}/analysis
+
+    \begin{itemize}
+    \tightlist
+    \item
+      subject-specific analyses (e.g., 1st and 2nd level analysis -- at the run level and experiment level)
+    \end{itemize}
+  \item
+    projectName/subjects/\{subj\}/data
+
+    \begin{itemize}
+    \tightlist
+    \item
+      raw data for that participant, with the following directories\ldots{}
+
+      \begin{itemize}
+      \tightlist
+      \item
+        behavioralData (for, well, behavioral data)
+      \item
+        eyetrackingData (if applicable)
+      \item
+        nifti (raw nifti files / raw MRI and fMRI data)
+      \item
+        rois (participant-specific ROIs)
+      \end{itemize}
+    \end{itemize}
+  \item
+    projectName/subjects/\{subj\}/design
+
+    \begin{itemize}
+    \tightlist
+    \item
+      timing files for that participant, with different directories for the different GLMs you're running (and the different runs in the experiment)
+    \end{itemize}
+  \item
+    projectName/subjects/\{subj\}/fsf
+
+    \begin{itemize}
+    \tightlist
+    \item
+      if you're using FSL, put the .fsf fies here. If you're using SPM or something else, save the files for setting up preprocessing and GLMs here
+    \end{itemize}
+  \item
+    projectName/subjects/\{subj\}/scripts
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Matlab, Python, R, or bash scripts that you used for that participant. You should keep the `template' scripts elsewhere, but you can store scripts you modified specifically for that participant here
+    \end{itemize}
+  \end{itemize}
+\item
+  projectName/scripts
+
+  \begin{itemize}
+  \tightlist
+  \item
+    template scripts and that you may modify for each participant, as well as scripts and functions used for all participants and group analyses
+  \item
+    recommend making subdirectories for each type of analysis (e.g., behavior, pattern analysis, functional connectivity, univariate)
+  \item
+    if you have scripts that are the same for each participant, you can have symbolic links for them in your participant-specific scripts directories
+  \end{itemize}
+\item
+  projectName/results
+
+  \begin{itemize}
+  \tightlist
+  \item
+    figures with main results, powerpoint or keynote presentations, manuscripts if you wish
+  \end{itemize}
+\item
+  projectName/notes
+
+  \begin{itemize}
+  \tightlist
+  \item
+    detailed notes about the design, analysis pipeline, relevant papers, etc
+  \end{itemize}
+\item
+  projectName/group
+
+  \begin{itemize}
+  \tightlist
+  \item
+    group analyses
+  \item
+    recommend making subdirectories for each type of analysis (e.g., behavior, pattern analysis, functional connectivity, univariate)
+  \end{itemize}
+\item
+  projectName/task
+
+  \begin{itemize}
+  \tightlist
+  \item
+    code for your behavioral experiment, stimuli, piloting information
+  \item
+    if you are running your presentation code off of the server, it will still be good to have a copy of the code here (but you can keep the stimuli only on the server if you'd like)
+  \end{itemize}
+\end{itemize}
+
+When you leave the lab, your projects directories should be set up like this, or something similarly transparent, so that other people can look at your data and code. You must do this, otherwise your analysis pipeline and data structure will be uninterpretable to others once you leave, and this will slow everyone down (and cause us to bug you repeatedly to clean up your project directory or answer questions about it).
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\hypertarget{archiving-inactive-datasets}{%
+\subsection{Archiving Inactive Datasets}\label{archiving-inactive-datasets}}
+
+Before you leave, or upon completion of a project, you must archive old datasets and back them up. We will develop the instructions for this when we reach our first inactive dataset.
 
 \bibliography{book.bib,packages.bib}
 

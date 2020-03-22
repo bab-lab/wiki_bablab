@@ -11,7 +11,7 @@ If you are a new member of the BAB Lab, there are a few basic things you will wa
  1. Read the [Lab Manual](https://bab-lab.github.io/lab_manual/)
 
  2. Ask the lab manager to be added to the following
-- [Slack](https://slack.com/) (download the desktop and mobile [apps](https://slack.com/downloads/mac)
+- [Slack](https://slack.com/) (download the desktop and mobile [apps](https://slack.com/downloads/mac))
 - [Trello](https://trello.com/emilyanntowner/boards) (download the desktop and mobile [apps](https://trello.com/en-US/platforms) - watch this [tutorial](https://www.youtube.com/watch?v=_Ry-SnJygy8&feature=youtu.be))
 - Box
 - Google calendars

@@ -1,3 +1,58 @@
 # Research Protocols
 
-Text
+----------
+
+## Data Management
+
+----------
+ 
+### Storing Active Datasets
+ 
+Lab data can be stored on Box, the psychology department server, and on external hard drives and CD's. Any data with personally identifying information can only be stored on non-networked, encrypted, external harddrives, flash drives, and CD's. 
+ 
+Although the the data is routinely backed up, the backup is only on-site – so make extra backups! Each lab member should back up raw data on an external hard drive, as well as the code needed to reproduce all analyses. You should not store data locally on your computer (but logging into your Box/server account on your computer is ok).
+
+----------
+ 
+### Data Organization
+ 
+If you have already run several independent projects and have a data organization structure that works well for you, feel free to use it. If not (or if you are looking for a change), the following structure is recommended (based on Neuropipe):
+
+- projectName/subjects
+    - individual directories for each of your participants
+    - projectName/subjects/{subj}/analysis
+        - subject-specific analyses (e.g., 1st and 2nd level analysis – at the run level and experiment level)
+    - projectName/subjects/{subj}/data
+        - raw data for that participant, with the following directories…
+            - behavioralData (for, well, behavioral data)
+            - eyetrackingData (if applicable)
+            - nifti (raw nifti files / raw MRI and fMRI data)
+            - rois (participant-specific ROIs)
+    - projectName/subjects/{subj}/design
+        - timing files for that participant, with different directories for the different GLMs you’re running (and the different runs in the experiment)
+    - projectName/subjects/{subj}/fsf
+        - if you’re using FSL, put the .fsf fies here. If you’re using SPM or something else, save the files for setting up preprocessing and GLMs here
+    - projectName/subjects/{subj}/scripts
+        - Matlab, Python, R, or bash scripts that you used for that participant. You should keep the ‘template’ scripts elsewhere, but you can store scripts you modified specifically for that participant here
+- projectName/scripts
+    - template scripts and that you may modify for each participant, as well as scripts and functions used for all participants and group analyses
+    - recommend making subdirectories for each type of analysis (e.g., behavior, pattern analysis, functional connectivity, univariate)
+    - if you have scripts that are the same for each participant, you can have symbolic links for them in your participant-specific scripts directories
+- projectName/results
+    - figures with main results, powerpoint or keynote presentations, manuscripts if you wish
+- projectName/notes
+    - detailed notes about the design, analysis pipeline, relevant papers, etc
+- projectName/group
+    - group analyses
+    - recommend making subdirectories for each type of analysis (e.g., behavior, pattern analysis, functional connectivity, univariate)
+- projectName/task
+    - code for your behavioral experiment, stimuli, piloting information
+    - if you are running your presentation code off of the server, it will still be good to have a copy of the code here (but you can keep the stimuli only on the server if you’d like)
+
+When you leave the lab, your projects directories should be set up like this, or something similarly transparent, so that other people can look at your data and code. You must do this, otherwise your analysis pipeline and data structure will be uninterpretable to others once you leave, and this will slow everyone down (and cause us to bug you repeatedly to clean up your project directory or answer questions about it).
+
+----------
+ 
+### Archiving Inactive Datasets
+ 
+Before you leave, or upon completion of a project, you must archive old datasets and back them up. We will develop the instructions for this when we reach our first inactive dataset.
