@@ -4,6 +4,8 @@
 
 ## Meetings and Training
 
+----------
+
 ### Lab Meetings
 
 We are happy to have a range of students join us for weekly lab meeting, whether you are an official member of the lab, or are just visiting – we want a diversity of perspectives in the lab, so join in and make your voice heard.
@@ -51,7 +53,9 @@ Be thoughtful in the lab meetings and try to make constructive comments
 If you come across additional material that you think would be good to include in the lab meeting supplement, add it into the paper doc (on dropbox)
 Try to connect the discussions in lab meeting with the past meetings in the current meeting block, as well as with discussions in past blocks
 
-#### Potential Lab Meeting Block Topics (in no particular order)
+#### Potential Lab Meeting Block Topics 
+
+(in no particular order)
 
  - <s>Sensitive periods in learning and memory</s>
  - <s>Mind Brain Body Study: Questionnaires</s>
@@ -69,6 +73,7 @@ Try to connect the discussions in lab meeting with the past meetings in the curr
  - Integrating physiological measures to enrich our understanding of behavior
  - Kind of crazy ideas, but wouldn’t it be cool if they worked session.
  - Research group highlight - we pick a research group (or even a general research topic) and review the body of work they engage in, or in the case of the research topic, who the big research groups in the field are.
+
 
 ----------
 
@@ -139,8 +144,9 @@ Using a shared Dropbox Paper document, please prepare the following:
 
 ----------
 
-
 ## Mail
+
+----------
 
 ### USPS
 
@@ -150,16 +156,18 @@ When sending things out USPS, you can place your recharge ID under the sender’
 
 ## Purchasing
 
+----------
+
 ### PAC Orders
 
 PAC forms are used for most purchasing requests (besides Amazon which we can order from directly with our Amazon business account). Please consult the [UCLA preferred vendors list](http://staff.purchasing.ucla.edu/Portal/app/agreements/agreementsummary.aspx) first before submitting a PAC form for an outside vendor.
 
 
-- Save any quote to (BAB/Lab/Finances/Purchasing/)
+- Save any quote to (BABLAB/Lab/Finances/Purchasing/)
 - Check Trello purchasing board for existing item
 - If no existing item, create one and add description based on templates
-- Fill out blank PAC form located in (BAB/Lab/Lab_protocols/Finances/Purchasing/)
-- Save to (BAB/Lab/Finances/Purchasing)
+- Fill out blank PAC form located in (BABLAB/Lab/Lab_protocols/Finances/Purchasing/)
+- Save to (BABLAB/Lab/Finances/Purchasing)
 - Email the completed PAC order form to <br> psych-orders@psych.ucla.edu
     - **Subject** - CB, [Fill in Vendor] Request, Bridget Callaghan
     - CC’ Bridget (bcallaghan@ucla.edu) - do not need signature if PI is cc’d
@@ -168,6 +176,8 @@ PAC forms are used for most purchasing requests (besides Amazon which we can ord
 - Once item is received lab manager log amount in funds spreadsheet
     - Add in any tax/shipping/expense that wasn’t accounted for on Trello to most expensive item 
     - Mark as "Logged" on Trello 
+
+----------
 
 ### Amazon Orders
 
@@ -191,16 +201,21 @@ Instructions for checking out via our Amazon Business Account.
 - Once item is received, lab manager to log amount in funds spreadsheet
     - Add in any tax/shipping/expense that wasn’t accounted for on Trello to most expensive item 
     - Mark as "Logged" on Trello
+    
+----------
 
 ### Reimbursement
 
 For reimbursement: 
-- Fill out a blank reimbursement form found in  (BAB/Lab/Lab_protocols/Finances/Reimbursement/)
-- Save reimbursement form to (BAB/Lab/Finances/Reimbursement)
+
+- Fill out a blank reimbursement form found in  (BABLAB/Lab/Lab_protocols/Finances/Reimbursement/)
+- Save reimbursement form to (BABLAB/Lab/Finances/Reimbursement)
 - Email the completed reimbursement form to <br> psych-orders@psych.ucla.edu
     - Subject - CB, [Fill in Vendor] Reimbursement, Bridget Callaghan
     - CC’ Bridget (bcallaghan@ucla.edu) - do not need signature if PI is cc’d
 - Lab manager log reimbursement amount in funds spreadsheet
+
+----------
 
 ### Guest Parking Passes
 
@@ -211,9 +226,11 @@ For reimbursement:
 - Wait for Parking Services to call the lab (about a week), record the confirmation code they give you.
 - Pick up the passes with the confirmation code at 555 Westwood Plaza, Suite 100.
 
+----------
+
 ### Petty Cash
 
- - Fill out a blank IRB research payment request form (BAB/Lab/Lab_protocols/Finances/Petty_cash/)
+ - Fill out a blank IRB research payment request form (for cash or card)(BABLAB/Lab/Lab_protocols/Finances/Petty_cash/)
  - Send it to Brian Hoang (brianhoang@psych.ucla.edu) for a signature
  - Submit the form at this [site](https://sa.ucla.edu/MessageCenter/OneStop/Home/PostMessage?topicId=293)
  - It can take up to 10 business days for them to reply back.
@@ -221,6 +238,8 @@ For reimbursement:
  - They will not deliver the cash if one of the signers is not present
  - Once the disbursement is received, log it on the study specific payment log
  - Ask the lab manager to log the pettycash amount in the funds spreadsheet
+ 
+----------
 
 ### Vendor specific protocols
 
@@ -237,7 +256,10 @@ Uprinting
 - When checking out, select “Terms” as the payment method
 - Create and submit a PAC form to purchasing as usual, but also cc' jhoan.e@digitalroominc.com and request that purchasing get in touch with her to pay for the order
 
+----------
+
 ### Logging purchases on Trello
+
 1. Go to the "Purchasing" board on Trello. It should be green.There are different tabs:
   - **To Return**: items that will be returned
   - **Maybe**: items that may be bought
@@ -271,29 +293,40 @@ Watch the video for a detailed explanation.
 
 ----------
 
-## Software
-
-### Using Trello
-1. There are multiple lists on the Tasks Board! Doing, To-do, Later and Done. Depending on the task, simply move it to the right list once you progress with it.
-- **To Do:** Current tasks to complete.
-- **Doing:** Tasks currently being done.
-- **Later**: Tasks not as pressing, but still must be done.
-- **Done**: Completed tasks.
-2. **To add a card**: Click '+ Add Another Card' under the appropriate list. There are multiple functions within this:
-- You can add members, labels (useful for studies), checklist, attachment, due date and more to the back of the card. This information will show when you click on the card.
-3. **Show Menu function:** This is a great way to search specific items, such as your own name for tasks, or the study for which there are tasks for, or tasks which have upcoming due dates. 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_Ry-SnJygy8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-### REDCap
-
-#### Entering Instruments
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aKdWA0ABOrU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Technology
 
 ----------
 
+### Slack
+
+If you haven’t already found this out for yourself, emails are a clunky way of communicating for most lab needs. Moreover, most people will find that they have a backlog of emails awaiting their attention. For this reason, we will use Slack for the primary means of lab communication.
+
+The beauty of Slack is that you only subscribe to the channels that concern you. For messages to one person or a small group, use direct messages. If you have to include out-of-lab recipients, use e-mail. If you have a paper you want to share, download it and then upload it to Slack in the #papers channel.
+ 
+Full-time lab members should install Slack on their computers and/or phones and check it regularly (during working hours). Part-time lab members should also check Slack when they are working in the lab as there may be important messages in there for them.
+ 
+Of course, if there is an emergency, and you need to contact Bridget, use her email or phone or drop into her office.
+
+| Slack Channel                  | Type    | Purpose                                                                                                            |
+| -----------------------------  | ------- | -------------------------------------------------------------------------------------------------------------------|
+| #bablab_core                   | Private | For private communication between the core team - this includes the PI, Lab Managers, Postdocs, and Grad Students  |
+| #bablab_ra                     | Private | For private communication between the lab managers and all the research assistants                                 |
+| #bablab_senior_ra              | Private | For private communication between the lab managers and the senior research assistants                              |
+| #general                       | Public  | For lab-wide communication and announcements                                                                       |
+| #meetings_lab                  | Public  | For notes or communication related to lab meetings                                                                 |
+| #methods_fmri                  | Public  | Sharing wisdom on fMRI data collection / analysis or asking (and answering) the fMRI questions of others           |
+| #methods_mb                    | Public  | Sharing wisdom on microbiome data collection / analysis or asking and answering the microbiome questions of others |
+| #notes_conferences             | Public  | For taking notes at conferences                                                                                    |
+| #papers                        | Public  | Sharing links to lab-relevant papers and discussing them                                                           |
+| #random                        | Public  | Non-work-related chatting – e.g., pics of pets, funny cartoons etc.                                                |
+| #recruitment                   | Public  | Any ideas you have for recruiting youth into our study                                                             |
+| #stats                         | Public  | To ask and answer questions about statistical analyses                                                             |
+| #study_egg_emotionality        | Private | To discuss issues related to the EGG and Emotionality study                                                        |
+| #study_mbb                     | Private | To discuss issues related to the Mind, Brain, Body study                                                           |
+| #study_transfer_mental_health  | Private | To discuss issues related to the Transfer Mental Health Study                                                      |
+| #tips_coding                   | Public  | Sharing wisdom on code writing or asking (and answering) the coding questions of others                            |
+
+----------
 
 ### Box
 
@@ -323,33 +356,151 @@ Please download [Box Drive](https://www.box.com/drive) to use.
 
 ----------
 
+### Using Trello
+1. There are multiple lists on the Tasks Board! 
+<br>These include: Doing, To-do, Later and Done. 
+<br>Depending on the task, simply move it to the right list once you progress with it.
+
+- **To Do:** Current tasks to complete.
+- **Doing:** Tasks currently being done.
+- **Later**: Tasks not as pressing, but still must be done.
+- **Done**: Completed tasks.
+2. **To add a card**: Click '+ Add Another Card' under the appropriate list. There are multiple functions within this:
+- You can add members, labels (useful for studies), checklist, attachment, due date and more to the back of the card. This information will show when you click on the card.
+3. **Show Menu function:** This is a great way to search specific items, such as your own name for tasks, or the study for which there are tasks for, or tasks which have upcoming due dates. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_Ry-SnJygy8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+----------
+
+### Server
+
+In addition to Box, we make regular biweekly backups to a dedicated psychology department server (in addition to two external drives)
+ 
+To connect to the CallaghanLab server:
+ 
+*Contact the lab manager first to set up your credentials.
+ 
+On a Mac –
+
+- From the dropdown menu under "Go", select “Connect to Server...” (Apple + K)
+- Enter the network/server address: `smb://pythia.psych.ucla.edu/Users/CallaghanLab/`
+- Click on “Connect”.
+- A dialogue box will prompt you for your credentials. Enter your credentials obtained from Psychology IT and click on “OK”.
+- If everything was entered correctly from above, the mapped drive will appear under "Shared" in the Mac's Finder.
+
+ 
+On a PC –
+
+- From the Windows file explorer, right mouse click on "Computer" for Windows 7 or "This PC" on Windows 8/10.
+- Select "Map network drive".
+- Specify an available "Drive" letter from the dropdown menu.
+- Enter the network/server location for the "Folder" field and click on "Finish".
+    - Network/server location: `\\pythia.psych.ucla.edu\Users\CallaghanLab\`
+- Enter your username and password that was provided by Psychology IT in the "network credentials" popup dialogue box and click on OK.
+- If everything was entered correctly from above, the mapped drive will appear under "Network locations" when you click on "Computer/This PC".
+- After the drive has been mapped, logged out of Windows to "logout" from the network drive.
+- Don't right mouse click on the mapped drive and select "Disconnect". This will only unmap the network drive and you will have to go through the process all over again.
+
+ 
+To connect off-campus connect to the UCLA/BOL VPN and let it run in the background prior to logging into the mapped drive you had configured on your computer.
+
+How-to download/install the [Cisco VPN client](https://help.bol.ucla.edu/kb_view.do?sysparm_article=kb0010923).
+
+
+> Every night the server is backed up to the Life Sciences data center in Hershey Hall.  That's always been the case.  To make those nightly backups more safe, there is another copy of the backups stored offsite (i.e. to prevent losing both the server AND the backups in a fire, earthquake, etc.)
+> 
+> Once we have Shadow Copy enabled, we'll also have more direct access to backups, so we won't need to work with Life Sciences to retrieve backups.  Psych IT will be able to grab a recent copy of your files/folders ourselves.  We'll also have access to incremental backups (i.e. yesterday's copy, two day old copy, three day old copy...up to two weeks back).
+> 
+> So at that point we'll have 3 forms of backup, and plenty of safety net.
+> 
+> - Dave (Psych IT)
+
+----------
+
+### Dropbox Paper
+
+The lab has a shared Dropbox Paper account — which is slightly different than regular Dropbox file storage. On the Dropbox Paper, we will place collaborative documents. We will grant you access permission to various folders in the Dropbox Paper account, You may need to initialize an account with the email we grant access permission.
+
+----------
+
+### GitHub
+
+The lab’s GitHub should be used to share code and data with people outside of the lab (i.e., people not on our IRB). Not all data can be shared (because of IRB restrictions) and not all data that can be shared should be shared immediately. Speak with Bridget about when to share data, and what needs to be done to the data (e.g., the level of de-identification required) before we share it. Ask the lab manager to get access to the lab’s GitHub.
+
+Our lab manual, lab wiki, and study wikis are also hosted on our GitHub.
+
+----------
+ 
+### Google Calendars
+
+The lab has many Google calendars and you should subscribe to those that make sense for your unique situation.
+ 
+1. **BABLab:** Used for lab meetings, out of schedule meetings, birthdays, formal lab events etc.
+2. **Availability:** If you are part time, please place the hours you plan to come into the lab on this calendar. If you are going to be away, please place the dates and times on this calendar. This is critical as the lab manager will use this information when scheduling people to run participants for our studies. Bridget and the core team will also put her out of office times on this calendar to help people with scheduling.  
+3. **MBB:** Used for booking sessions and reminders for the Mind, Brain, Body study
+4. **The Bear's Den:** used to reserve time in experimental room 1 
+5. **The Rainbow Room:** used to reserve time in experimental room 2 
+6. **A180 Testing Computer:** the SAND Lab room that can be used for blood spots 
+7. **HPL1333:** The Health Psychology Lab room that can be used for blood spots
+
+----------
+
+### E-mail
+
+We have an email listserv for communicating with the whole lab and individuals who subscribe to our list - including visitors and students from other labs who attend our meetings, visiting scholars, etc. 
+ 
+The email is: **bablab@googlegroups.com**
+
+If you are thinking about joining the lab and would like to be notified about upcoming lab meetings, please request to join the listserv. 
+ 
+There is also a lab email account which people use to contact the lab to participate in studies (bablab.ucla@gmail.com). This email account will be staffed by the lab manager/s and they will sort the emails in specific folders within the Gmail account. If you are running a study, it is your responsibility to check your study's folder on the lab Gmail every few days and respond to participant inquiries in the "potential" participants folder in relation to your study.
+
+----------
+
+### REDCap
+
+#### Entering Instruments
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aKdWA0ABOrU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+----------
+
 ## Equipment
 
+----------
+
 ### Biopac
+
+----------
 
 ### Printer
 
  - Make sure you are connected to eduroam wifi
  - Open up Printer & Scanners in System Preferences 
     - If current printer is not working, right click printer and click Reset Printing System
+![<!--- Printer --->](images/lab_protocols/printer/1.png)
 - Reset Computer 
 - Open up System Preferences – Printers & Scanners 
 - Click on + sign to add a printer 
 - Enter IP Address from Printer: 164.67.125.35
+![<!--- Printer --->](images/lab_protocols/printer/2.png)
 - Make sure Use displays: EPSON WF-7710 Series 
 - Click ADD
 - Reset your Printer Presets if needed 
 
-
 ----------
 
 ## Social Media
+
+----------
 
 ### Instagram
 
 The pride and joy of the lab. There is a lot of content to keep track of and to ensure is posted weekly.
 
 General important rules:
+
 - Keep posts short, family-friendly, and accessible.
 - If you post on the story, it should also likely be added to a story highlight.
 - Stick to the color scheme and aesthetic (this includes matching the text in story highlights to the story highlight cover color).
@@ -357,39 +508,45 @@ General important rules:
 - Maintain the consistency of the Lab’s hashtags (will be elaborated on further down).
 
 Feed Content:
+
 - The feed grid is an important part of the aesthetic of the lab’s social media. We can divide the grid into “A Week” and “B Week” rows. Because there are 3 posts horizontally in the grid, there should be 3 pieces of content posted each week (or with relative consistency). 
 
 “A Week”:
+
 - Biome Bites! ad post: This is simply a post saying to check the story for this week’s Biome Bites! installment. The caption for this should be brief and maybe reference the content in the actual story post.
 - Lab Meeting ad post OR Email List ad post: Post this on lab meeting day in “A Week”. If there is a speaker or specific topic for the week, discuss that briefly in the caption.
 - In “B Week”, don’t post this even if there is a lab meeting. Instead, post a previous Lab Meeting ad post on the story. If there is not a lab meeting during that “A Week”, you should post the Email List ad post instead.
 - Brain Bites! ad post: This is simply a post saying to check the story for this week’s Brain Bites! installment. The caption for this should be brief and maybe reference the content in the actual story post.
 
 “B Week”:
+
 - 3 random posts: post pictures from around the lab, from events, or advertisements for upcoming events. Check the existing feed for ideas, and try to stay current with seasons, trends, etc.
 - If there is an event upcoming, use the following template to advertise it.
 
 Important notes for all feed content:
+
 - Post all posts to both instagram and facebook (integrated feature on insta)
 - End every single post with the following: #brain
 - Add 2-3 topical hashtags on the new line afterwards, and then follow that with the following block of hashtags: #funscience #psychology #neuroscience #research #lablife #ucla #gutbiome #dev #psych #brain #body #adolescence #childhood #ela #losangeles #scientist 
 
 Story Content:
-- Q&A Monday: every Monday, post the Q&A Monday story with instagram’s questions feature attached. Check periodically throughout the day to see if there are any questions worth responding to. Post any responses on the Q&A story highlight.
-- Biome Bites!: A weekly fun fact about the microbiome. Try to stay scientific (with citations) and avoid product/treatment recommendations that might be trendy or controversial. Post the bite itself on the story, and every other week advertise it with a main feed post. Add to the Weekly Bites story highlight.
-- Lab Meeting ad: on lab meeting days, post one of the ad posts on the story.
-- Brain Bites!: A weekly fun fact about the brain/developmental psych. Try to stay scientific (with citations) and avoid product/treatment recommendations that might be trendy or controversial. Post the bite itself on the story, and every other week advertise it with a main feed post. Add to the Weekly Bites story highlight.
-- Contact Story ad: on Fridays, post the contact story post.
+
+- **Q&A Monday:** every Monday, post the Q&A Monday story with instagram’s questions feature attached. Check periodically throughout the day to see if there are any questions worth responding to. Post any responses on the Q&A story highlight.
+- **Biome Bites!:** A weekly fun fact about the microbiome. Try to stay scientific (with citations) and avoid product/treatment recommendations that might be trendy or controversial. Post the bite itself on the story, and every other week advertise it with a main feed post. Add to the Weekly Bites story highlight.
+- **Lab Meeting ad:** on lab meeting days, post one of the ad posts on the story.
+- **Brain Bites!:** A weekly fun fact about the brain/developmental psych. Try to stay scientific (with citations) and avoid product/treatment recommendations that might be trendy or controversial. Post the bite itself on the story, and every other week advertise it with a main feed post. Add to the Weekly Bites story highlight.
+- **Contact Story ad:** on Fridays, post the contact story post.
 
 When events are coming up, be sure to post frequently on the story about the date, time, and what activities we will be doing. 
 
 There is a whole series of story templates made to show off different activities and share information regarding the event.
 
-
 Where to Find the Designs:
+
 - All of the above designs for social media posts are on our canva site. 
 - If you need to adjust any of the designs, feel free to do so. 
-- Pre-downloaded versions are also saved as images and pdfs on dropbox.
+
+----------
 
 ### Facebook
 

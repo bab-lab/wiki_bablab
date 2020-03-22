@@ -8,7 +8,7 @@ If you are a new member of the BAB Lab, there are a few basic things you will wa
 
 **Here are some tips:**
 
- 1. Read the [Lab Manual](https://paper.dropbox.com/doc/BAB-Lab-Manual-AhbI86OnRmh6Lu5Osk6g6bBAg-Y1PCLFS9hIQt2CsZrDDJy#:h2=Server)
+ 1. Read the [Lab Manual](https://bab-lab.github.io/lab_manual/)
 
  2. Ask the lab manager to be added to the following
 - [Slack](https://slack.com/) (download the desktop and mobile [apps](https://slack.com/downloads/mac)
@@ -62,7 +62,7 @@ If you are a new member of the BAB Lab, there are a few basic things you will wa
 9. Complete (once you have your UCLA logon ID)
     - Sign-up and complete the required employee training [courses](https://ucla.app.box.com/s/mizhokn39tq7z6odvnvutvaoko11n823)
     - Sign-up and attend [orientation](https://www.chr.ucla.edu/training-and-development/new-employee-orientation)
-    - Upload orientation training certificates to Dropbox (BAB/Lab/Training)
+    - Upload orientation training certificates to Box (BABLAB/Lab/Training)
 10. Select
     - Health insurance plan (within 30 days)
 Retirement plan (within 90 days)
@@ -77,7 +77,7 @@ Union membership requires pension plan
         - Human Research – Social & Behavioral Researchers & Staff
         - Human Research- Biomedical Researchers & Staff
         - UCLA HIPAA
-    - Add certificates to the training folder on Dropbox (BAB/Lab/Training)
+    - Add certificates to the training folder on Box (BABLAB/Lab/Training)
     - Get a WebIRB account
         - Email your faculty sponsor/advisor the following information:
             - Your UCLA Logon ID – (Verify your [UCLA Logon ID](https://accounts.iam.ucla.edu/lookup))
@@ -98,10 +98,10 @@ Union membership requires pension plan
         - Medical Waste Management (online)
         - Biosafety ABC’s – Biosafety Level 2 Training (in-person)
         - Biosafety Cabinet (online)
-    - Add certificates to your user folder on Dropbox (BAB/Lab/Training)
+    - Add certificates to your user folder on Box (BABLAB/Lab/Training)
     - Record completion for [HPL](https://docs.google.com/document/d/1hCYg4hYJ7wi4nsLl1vDs1a-7Of3Tnzvocx58bdcj2cc/edit)
     - Submit certificates to Arielle Radin (radina02@g.ucla.edu) at HPL
-    - Read the [Lab Specific Biosafety Manual](https://www.dropbox.com/s/t9atbx9d991gbwa/Lab_specific_biosafety_manual.pdf?dl=0) and sign off
+    - Read the [Lab Specific Biosafety Manual](https://ucla.box.com/s/igqe24fbhh6cjqqbysdjye482tuw0axd) and sign off
     - Complete Lab Specific Training and sign off
         - This must be updated annually
     - Get vaccinations (suggested)
@@ -114,7 +114,7 @@ Union membership requires pension plan
             - Tdap (Tetanus, Diptheria, Pertussis)
             - Meningococcal
 14. REDCap
-    - Complete and send REDCap access form to Martin Lai (mylai@mednet.ucla.edu) (Dropbox/BAB/Lab/Lab_protocols/REDCap/Access/Template/)
+    - Complete and send REDCap access form to Martin Lai (mylai@mednet.ucla.edu) (BABLAB/Lab/Lab_protocols/REDCap/Access/Template/)
 15. Website admin access 
     - Contact Jun Wan (jwan@psych.ucla.edu) for access to the [life sciences Wordpress multisite server](https://sites.lifesci.ucla.edu/)
 16. MRI Trainings
