@@ -17,7 +17,6 @@ If you are a new member of the BAB Lab, there are a few basic things you will wa
 - Google calendars
 - Email list
 - Dropbox Paper
-- Relevant OSF projects
 
 3. Send (via Slack) the lab manager your information including your
 - Preferred name

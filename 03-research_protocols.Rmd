@@ -56,3 +56,83 @@ When you leave the lab, your projects directories should be set up like this, or
 ### Archiving Inactive Datasets
  
 Before you leave, or upon completion of a project, you must archive old datasets and back them up. We will develop the instructions for this when we reach our first inactive dataset.
+
+----------
+
+## Ethics
+
+----------
+
+### IRB
+
+**Consent, Assent, and Screening**
+
+Links to [templates](https://ohrpp.research.ucla.edu/consent-templates/) from the UCLA research administration group. 
+
+----------
+
+### IBC
+
+**What is the IBC?**
+
+The IBC is the Institutional Biosafety Committee, which has the same purpose as the IRB but specific to research involving biohazards materials. The IBC is an arm of the UCLA Environment Health & Safety office (EH&S). 
+
+**How to Apply for Approval**
+
+1.  DBS approval and approval to collect any other biological samples is processed through UCLA SafetyNet, the IBC online system, which is the IBC’s equivalent to webIRB. SafetyNet is accessible [here](https://safetynet.research.ucla.edu/) with UCLA logon ID.
+    - IBC approval IS needed for blood samples
+    - IBC approval IS NOT needed for saliva, stool, or hair samples unless — 
+        - Saliva is collected from dental procedures
+        - Stool or hair samples are contaminated with blood or infected with pathogens (e.g. HBV, HIV)
+2. Once signed in, a new protocol is created by clicking ‘Create BUA’. A BUA is a Biological Use Authorization, which is synonymous with IBC protocol. Completing the BUA is just like completing an IRB protocol, but with a focus on the collection of biological samples. 
+3. A BUA (or IBC protocol) requires the following document in addition to information supplied in the online form:
+    - Lab Specific Biosafety Manual (includes the following)
+        - Laboratory Specific SOPs (based on general template available [here](https://ucla.app.box.com/v/ehs-bio-lab-biomanual))
+        - Bloodborne Pathogens Exposure Control Plan (based on general template available [here](https://ucla.app.box.com/v/ehs-bbp-ecp-template))
+
+*NOTE:*
+
+- Consultation with an EH&S is likely necessary to complete the BUA protocol. Contact EH&S or IBC employees with questions at biosafety@ehs.ucla.edu or ibc@research.ucla.edu. 
+- All EH&S documents are available [here](https://www.ehs.ucla.edu/documents).
+- Additional documents may be required depending on the kind of biological material that’s going to be collected.
+
+4. Once a BUA is completed, it will appear under ‘Submissions.’
+5. IBC staff may require that modifications be made to the protocol, just as the IRB would. You may reply to modification requests and make modifications in the same way that you would for an IRB protocol, by logging your response to a reviewers comment and then making the necessary change in the protocol itself.
+6. Once all modifications are made, there are two more requirements before a BUA can be approved:
+
+- Staff involved in collecting biological samples must acquire necessary training
+    - Training may be completed via the UCLA [WorkSafe](https://worksafe.ucla.edu/Ability/Programs/Standard/Control/elmLearner.wml?PortalID=LearnerWeb) portal accessible with UCLA logon ID. 
+        - For Dried Blood Spot collection, the following trainings are required of any staff working directly with samples: 
+            - NIH Guidelines for UCLA Researchers IBC Compliance Training (online)
+            - Laboratory Safety Fundamentals (online)
+            - Blood-borne Pathogens Training (online)
+            - Medical Waste Management (online)
+            - Biological Safety Cabinet (BSC) (online)
+            - Biosafety ABC's - Biosafety Level 2 Training (in-person)
+        - The PI is required to complete two courses : 
+            - NIH Guidelines for UCLA Researchers: IBC Compliance Training (online)
+            - Laboratory Safety for PIs and Lab Supervisors (in-person)
+    - Training must be up to date. Training certificates are maintained on the BAB Lab Box at BABLAB/Lab/Training/IBC
+    - A room inspection must be done to approve the use of physical space for sample collection and storage. 
+- The room inspection is arranged directly with EH&S staff.
+
+----------
+
+## Interviews
+
+----------
+
+### KSADS
+
+- Align expectations from the start (semi-structured interview)
+- Encourage brief responses
+- Can write down details later
+- Dive in and direct participant
+- Read the threshold criteria
+
+Align expectations from the start (semi-structured interview)
+Encourage brief responses
+Can write down details later
+Dive in and direct participant
+Read the threshold criteria
+

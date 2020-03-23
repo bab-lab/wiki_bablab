@@ -563,3 +563,16 @@ Just ensure that you stay active with checking notifications and responding to c
 Consistency across all of the lab materials is the most important thing to maintain for our online footprint. 
 
 If you are unsure of what a post should look like, check out previous posts and highlights for ideas!
+
+----------
+
+## Research Assistant Hiring
+
+Qualified candidates should fill out this [form](https://docs.google.com/forms/d/1WDX1bcG9omdbDOrQnQXXMcPyl9itPG_MIwfFHBcWYqs/edit), then be scheduled for an interview. 
+
+Once hired, there are several email templates to welcome/onboard members to the team. Please send the email and follow the instructions in the prompt. 
+
+- [BAB - ONBOARDING STUDENT]
+- [BAB - ONBOARDING NON-STUDENT]
+
+
