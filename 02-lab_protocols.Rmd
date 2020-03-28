@@ -464,6 +464,14 @@ There is also a lab email account which people use to contact the lab to partici
 
 ----------
 
+### Mac OS - Catalina
+
+If you upgrade your Mac operating system to Catalina, and wish to run tasks on PsychoPy, you must enable the following settings in the image below. 
+
+![<!--- Catalina settings --->](images/lab_protocols/catalina/1.png)
+
+----------
+
 ### REDCap
 
 #### Entering Instruments
@@ -568,11 +576,31 @@ If you are unsure of what a post should look like, check out previous posts and 
 
 ## Research Assistant Hiring
 
-Qualified candidates should fill out this [form](https://docs.google.com/forms/d/1WDX1bcG9omdbDOrQnQXXMcPyl9itPG_MIwfFHBcWYqs/edit), then be scheduled for an interview. 
+### Not hiring
 
-Once hired, there are several email templates to welcome/onboard members to the team. Please send the email and follow the instructions in the prompt. 
+If we are not looking for research assistants, please respond to any inquiries with the following template.
 
-- [BAB - ONBOARDING STUDENT]
-- [BAB - ONBOARDING NON-STUDENT]
+- [BAB - NOT HIRING]
+
+### Hiring
+
+If we are looking for research assistants, please follow the protocol below. 
+
+1. Qualified candidates should be invited to fill out our form using the folowing template. 
+
+  - [BAB - INVITE APPLY]
+
+2. Candidates to be interviewed should be invited to interview using the following template. 
+
+  - [BAB - INTERVIEW]
+
+3. Candidates we wish to extend an offer to should be emailed using the following template.
+
+  - [BAB - OFFER]
+
+4. Once hired, there are several email templates to welcome/onboard members to the team. Please send the email and follow the instructions in the prompt. 
+
+  - [BAB - ONBOARDING STUDENT]
+  - [BAB - ONBOARDING NON-STUDENT]
 
 
