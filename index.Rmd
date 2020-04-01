@@ -15,7 +15,6 @@ description: "These are the notes, logs, and protocols for the Brain and Body La
 # Introduction
 
 ----------
-test
 
 
 <h1>Welcome to the BABLab Wiki!</h1>
@@ -26,7 +25,7 @@ The BABLab is directed by Dr. Bridget Callaghan, Assistant Professor of Psycholo
 
 **Current Projects:**
 
- - [Mind, Brain, Body (MBB)](https://osf.io/ha3rq/)
+ - [Mind, Brain, Body (MBB)](https://bab-lab.github.io/mind_brain_body/)
  - [EGG and Emotionality (EGG)](https://osf.io/nf2bv/)
  - Transfer Mental Health
 

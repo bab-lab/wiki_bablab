@@ -22,13 +22,13 @@ The first step in a meeting block will be to develop a syllabus for the coming w
 
 *Roles & Responsibilities*
 
-Select a sub-topic or research question for each meeting within the block
-Select a set of readings/material (can be movie clips, podcasts etc.) to go through each week (keep in mind that people have limited time to review the material for lab meeting so assign one primary reading/material and place add additional materials into a supplement, in case people wish to review further)
-Make a document for the meeting and share it with all meeting attendees
-Make sure that people are signed up to lead each meeting in the block
-Be in charge of sending reminders for the meetings in the block
-Make any meeting notes at the end of each meeting, and make sure the paper doc is up to date at the close of the meeting
-Make a post on the BABLab twitter for each meeting so people know what we are talking and thinking about
+Select a sub-topic or research question for each meeting within the block.
+Select a set of readings/material (can be movie clips, podcasts etc.) to go through each week (keep in mind that people have limited time to review the material for lab meeting so assign one primary reading/material and place add additional materials into a supplement, in case people wish to review further).
+Make a document for the meeting and share it with all meeting attendees.
+Make sure that people are signed up to lead each meeting in the block.
+Be in charge of sending reminders for the meetings in the block.
+Make any meeting notes at the end of each meeting, and make sure the paper doc is up to date at the close of the meeting.
+Make a post on the BABLab twitter for each meeting so people know what we are talking and thinking about.
 
 #### Meeting Leaders
 
@@ -36,10 +36,10 @@ Each meeting will be assigned a meeting leader. The leader is the person who has
 
 *Roles and Responsibilities*
 
-Read/watch/listen to the media assigned for that week in detail
-Think about themes that can be brought up in the lab meeting to discuss as a group
-Be ready to facilitate the meeting and stimulate conversation
-Keep the meeting on track (practice those assertive conversation steering techniques!)
+Read/watch/listen to the media assigned for that week in detail.
+Think about themes that can be brought up in the lab meeting to discuss as a group.
+Be ready to facilitate the meeting and stimulate conversation.
+Keep the meeting on track (practice those assertive conversation steering techniques!).
 The meeting leader does NOT need to make slides, prepare food, or do anything else beyond the roles and responsibilities outlined above.
 
 #### Meeting Attendee
@@ -48,10 +48,10 @@ It is not always possible to read/watch/listen to the media for every lab meetin
 
 *Roles and Responsibilities*
 
-Familiarize yourself with the media being presented that week. If you have time, do a deep dive too
-Be thoughtful in the lab meetings and try to make constructive comments
-If you come across additional material that you think would be good to include in the lab meeting supplement, add it into the paper doc (on dropbox)
-Try to connect the discussions in lab meeting with the past meetings in the current meeting block, as well as with discussions in past blocks
+Familiarize yourself with the media being presented that week. If you have time, do a deep dive too.
+Be thoughtful in the lab meetings and try to make constructive comments.
+If you come across additional material that you think would be good to include in the lab meeting supplement, add it into the paper doc (on Dropbox).
+Try to connect the discussions in lab meeting with the past meetings in the current meeting block, as well as with discussions in past blocks.
 
 #### Potential Lab Meeting Block Topics 
 
@@ -479,6 +479,40 @@ If you upgrade your Mac operating system to Catalina, and wish to run tasks on P
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aKdWA0ABOrU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ----------
+
+### R
+
+To install R:
+
+ - Go to [R Project](http://www.r-project.org)
+ - Click the "download R" link in the middle of the page under "Getting Started"
+ - Select a CRAN location (a mirror site) and click the corresponding link
+ - Click on the "Download R for (Mac) OS X" link at the top of the page
+ - Click on the file containing the latest version of R under "Files"
+ - Save the .pkg file, double-click it to open, and follow the installation instructions
+
+----------
+
+### RStudio
+
+To install RStudio:
+
+ - Go to [RStudio](http://www.rstudio.com) and click on the "Download RStudio" button
+ - Click on "Download RStudio Desktop"
+ - Click on the version recommended for your system, or the latest Mac version, save the .dmg file on your computer, double-click it to open, and then drag and drop it to your applications folder
+
+----------
+
+### Python
+
+To install Python:
+
+- Download the [Anaconda Distribution](https://www.anaconda.com/distribution/)
+- Be sure that you download the Python 3.7 version. (Note, this can take upwards of 1-2 hours depending on your internet connection)
+- Helpful instructions for these checks can be found on the Anaconda User Guide website: [“Getting Started”](https://docs.anaconda.com/anaconda/user-guide/getting-started/)
+- Any issues are most likely due to incorrect installation, which is addressed in the [FAQ page](https://docs.anaconda.com/anaconda/user-guide/faq/)
+ 
+-----------
 
 ## Equipment
 
