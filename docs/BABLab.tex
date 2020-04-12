@@ -1,6 +1,3 @@
-\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
-\PassOptionsToPackage{hyphens}{url}
-%
 \documentclass[]{book}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
@@ -9,33 +6,30 @@
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
-  \usepackage{textcomp} % provides euro and other symbols
 \else % if luatex or xelatex
-  \usepackage{unicode-math}
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
   \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
 \fi
 % use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 % use microtype if available
 \IfFileExists{microtype.sty}{%
-\usepackage[]{microtype}
+\usepackage{microtype}
 \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
-\IfFileExists{parskip.sty}{%
-\usepackage{parskip}
-}{% else
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
-}
 \usepackage{hyperref}
-\hypersetup{
+\hypersetup{unicode=true,
             pdftitle={Brain and Body Lab},
             pdfborder={0 0 0},
             breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
+\usepackage{natbib}
+\bibliographystyle{apalike}
 \usepackage{longtable,booktabs}
-% Fix footnotes in tables (requires footnote package)
-\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{longtable}}{}
 \usepackage{graphicx,grffile}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
@@ -45,6 +39,12 @@
 % margins by default, and it is still possible to overwrite the defaults
 % using explicit options in \includegraphics[width, height, ...]{}
 \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
@@ -59,11 +59,30 @@
 \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
 \fi
 
-% set default figure placement to htbp
-\makeatletter
-\def\fps@figure{htbp}
-\makeatother
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
 
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\providecommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{Brain and Body Lab}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{}
+    \preauthor{}\postauthor{}
+    \date{}
+    \predate{}\postdate{}
+  
 \usepackage{booktabs}
 \usepackage{amsthm}
 \makeatletter
@@ -72,12 +91,6 @@
   \thm@postskip=\thm@preskip
 }
 \makeatother
-\usepackage[]{natbib}
-\bibliographystyle{apalike}
-
-\title{Brain and Body Lab}
-\author{}
-\date{\vspace{-2.5em}}
 
 \begin{document}
 \maketitle
@@ -89,7 +102,7 @@
 \hypertarget{introduction}{%
 \chapter{Introduction}\label{introduction}}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 Welcome to the BABLab Wiki!
 
@@ -134,7 +147,7 @@ Feel free to contribute any relevant sections or information - best lunch spots 
 \hypertarget{onboarding}{%
 \chapter{Onboarding}\label{onboarding}}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{first-steps}{%
 \section{First Steps}\label{first-steps}}
@@ -197,7 +210,7 @@ If you are a new member of the BAB Lab, there are a few basic things you will wa
   Complete the onboarding process for your position below
 \end{enumerate}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{onboarding---staff-research-associate}{%
 \section{Onboarding - Staff Research Associate}\label{onboarding---staff-research-associate}}
@@ -528,7 +541,7 @@ Review:
   \href{https://ucla.app.box.com/s/qrj4j7bnca1r8fy9n1bdfdf6orf1g0dq}{Substance Abuse Brochure}
 \end{itemize}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{onboarding---volunteer-research-assistant}{%
 \section{Onboarding - Volunteer Research Assistant}\label{onboarding---volunteer-research-assistant}}
@@ -629,7 +642,7 @@ Review:
 \hypertarget{onboarding---postdoctoral-scholar}{%
 \section{Onboarding - Postdoctoral Scholar}\label{onboarding---postdoctoral-scholar}}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{onboarding---graduate-student}{%
 \section{Onboarding - Graduate Student}\label{onboarding---graduate-student}}
@@ -637,12 +650,12 @@ Review:
 \hypertarget{lab-protocols}{%
 \chapter{Lab Protocols}\label{lab-protocols}}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{meetings-and-training}{%
 \section{Meetings and Training}\label{meetings-and-training}}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{lab-meetings}{%
 \subsection{Lab Meetings}\label{lab-meetings}}
@@ -737,7 +750,7 @@ Try to connect the discussions in lab meeting with the past meetings in the curr
   Research group highlight - we pick a research group (or even a general research topic) and review the body of work they engage in, or in the case of the research topic, who the big research groups in the field are.
 \end{itemize}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{trainee-tuesdays-thursdays}{%
 \subsection{Trainee Tuesdays \& Thursdays}\label{trainee-tuesdays-thursdays}}
@@ -791,7 +804,7 @@ I (Emily) have also shared my personal calendar with the BABLab account, so you 
 \caption{}
 \end{figure}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{clinical-meetings}{%
 \subsection{Clinical Meetings}\label{clinical-meetings}}
@@ -870,31 +883,31 @@ Using a shared Dropbox Paper document, please prepare the following:
 
 \emph{These meetings are also a safe space to debrief potentially difficult interviews.}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{mail}{%
 \section{Mail}\label{mail}}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{usps}{%
 \subsection{USPS}\label{usps}}
 
 When sending things out USPS, you can place your recharge ID under the sender's address, circle it, \& drop it in the outgoing mail bin in 1282 (faculty mailroom)
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{recycling-waste}{%
 \section{Recycling \& Waste}\label{recycling-waste}}
 
 We can leave small items outside our door for recycling/trash pickup. For large items we should bring them to the A-level loading dock to be recycled.
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{purchasing}{%
 \section{Purchasing}\label{purchasing}}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{pac-orders}{%
 \subsection{PAC Orders}\label{pac-orders}}
@@ -939,7 +952,7 @@ PAC forms are used for most purchasing requests (besides Amazon which we can ord
   \end{itemize}
 \end{itemize}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{amazon-orders}{%
 \subsection{Amazon Orders}\label{amazon-orders}}
@@ -996,7 +1009,7 @@ Instructions for checking out via our Amazon Business Account.
   \end{itemize}
 \end{itemize}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{reimbursement}{%
 \subsection{Reimbursement}\label{reimbursement}}
@@ -1023,7 +1036,7 @@ For reimbursement:
   Lab manager log reimbursement amount in funds spreadsheet
 \end{itemize}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{guest-parking-passes}{%
 \subsection{Guest Parking Passes}\label{guest-parking-passes}}
@@ -1048,7 +1061,7 @@ For reimbursement:
   Pick up the passes with the confirmation code at 555 Westwood Plaza, Suite 100.
 \end{itemize}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{petty-cash}{%
 \subsection{Petty Cash}\label{petty-cash}}
@@ -1073,7 +1086,7 @@ For reimbursement:
   Ask the lab manager to log the pettycash amount in the funds spreadsheet
 \end{itemize}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{vendor-specific-protocols}{%
 \subsection{Vendor specific protocols}\label{vendor-specific-protocols}}
@@ -1103,7 +1116,7 @@ Uprinting
   Create and submit a PAC form to purchasing as usual, but also cc' \href{mailto:jhoan.e@digitalroominc.com}{\nolinkurl{jhoan.e@digitalroominc.com}} and request that purchasing get in touch with her to pay for the order
 \end{itemize}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{logging-purchases-on-trello}{%
 \subsection{Logging purchases on Trello}\label{logging-purchases-on-trello}}
@@ -1185,12 +1198,12 @@ Uprinting
 
 Watch the video for a detailed explanation.
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{technology}{%
 \section{Technology}\label{technology}}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{slack}{%
 \subsection{Slack}\label{slack}}
@@ -1329,7 +1342,7 @@ Sharing wisdom on code writing or asking (and answering) the coding questions of
 \bottomrule
 \end{longtable}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{box}{%
 \subsection{Box}\label{box}}
@@ -1407,7 +1420,7 @@ Please download \href{https://www.box.com/drive}{Box Drive} to use.
 \caption{}
 \end{figure}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{using-trello}{%
 \subsection{Using Trello}\label{using-trello}}
@@ -1455,7 +1468,7 @@ Please download \href{https://www.box.com/drive}{Box Drive} to use.
   \textbf{Show Menu function:} This is a great way to search specific items, such as your own name for tasks, or the study for which there are tasks for, or tasks which have upcoming due dates.
 \end{enumerate}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{server}{%
 \subsection{Server}\label{server}}
@@ -1528,14 +1541,14 @@ So at that point we'll have 3 forms of backup, and plenty of safety net.
 \end{itemize}
 \end{quote}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{dropbox-paper}{%
 \subsection{Dropbox Paper}\label{dropbox-paper}}
 
 The lab has a shared Dropbox Paper account --- which is slightly different than regular Dropbox file storage. On the Dropbox Paper, we will place collaborative documents. We will grant you access permission to various folders in the Dropbox Paper account, You may need to initialize an account with the email we grant access permission.
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{github}{%
 \subsection{GitHub}\label{github}}
@@ -1544,7 +1557,7 @@ The lab's GitHub should be used to share code and data with people outside of th
 
 Our lab manual, lab wiki, and study wikis are also hosted on our GitHub.
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{google-calendars}{%
 \subsection{Google Calendars}\label{google-calendars}}
@@ -1570,7 +1583,7 @@ The lab has many Google calendars and you should subscribe to those that make se
   \textbf{HPL1333:} The Health Psychology Lab room that can be used for blood spots
 \end{enumerate}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{e-mail}{%
 \subsection{E-mail}\label{e-mail}}
@@ -1583,7 +1596,7 @@ If you are thinking about joining the lab and would like to be notified about up
 
 There is also a lab email account which people use to contact the lab to participate in studies (\href{mailto:bablab.ucla@gmail.com}{\nolinkurl{bablab.ucla@gmail.com}}). This email account will be staffed by the lab manager/s and they will sort the emails in specific folders within the Gmail account. If you are running a study, it is your responsibility to check your study's folder on the lab Gmail every few days and respond to participant inquiries in the ``potential'' participants folder in relation to your study.
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{mac-os---catalina}{%
 \subsection{Mac OS - Catalina}\label{mac-os---catalina}}
@@ -1596,7 +1609,7 @@ If you upgrade your Mac operating system to Catalina, and wish to run tasks on P
 \caption{}
 \end{figure}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{redcap}{%
 \subsection{REDCap}\label{redcap}}
@@ -1604,7 +1617,7 @@ If you upgrade your Mac operating system to Catalina, and wish to run tasks on P
 \hypertarget{entering-instruments}{%
 \subsubsection{Entering Instruments}\label{entering-instruments}}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{r}{%
 \subsection{R}\label{r}}
@@ -1627,7 +1640,7 @@ To install R:
   Save the .pkg file, double-click it to open, and follow the installation instructions
 \end{itemize}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{rstudio}{%
 \subsection{RStudio}\label{rstudio}}
@@ -1644,7 +1657,7 @@ To install RStudio:
   Click on the version recommended for your system, or the latest Mac version, save the .dmg file on your computer, double-click it to open, and then drag and drop it to your applications folder
 \end{itemize}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{python}{%
 \subsection{Python}\label{python}}
@@ -1663,17 +1676,17 @@ To install Python:
   Any issues are most likely due to incorrect installation, which is addressed in the \href{https://docs.anaconda.com/anaconda/user-guide/faq/}{FAQ page}
 \end{itemize}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{equipment}{%
 \section{Equipment}\label{equipment}}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{biopac}{%
 \subsection{Biopac}\label{biopac}}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{printer}{%
 \subsection{Printer}\label{printer}}
@@ -1708,12 +1721,12 @@ To install Python:
   Reset your Printer Presets if needed
 \end{itemize}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{social-media}{%
 \section{Social Media}\label{social-media}}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{instagram}{%
 \subsection{Instagram}\label{instagram}}
@@ -1810,7 +1823,7 @@ Where to Find the Designs:
   If you need to adjust any of the designs, feel free to do so.
 \end{itemize}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{facebook}{%
 \subsection{Facebook}\label{facebook}}
@@ -1823,7 +1836,7 @@ Consistency across all of the lab materials is the most important thing to maint
 
 If you are unsure of what a post should look like, check out previous posts and highlights for ideas!
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{research-assistant-hiring}{%
 \section{Research Assistant Hiring}\label{research-assistant-hiring}}
@@ -1904,12 +1917,12 @@ If we are looking for research assistants, please follow the protocol below.
 \hypertarget{research-protocols}{%
 \chapter{Research Protocols}\label{research-protocols}}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{data-management}{%
 \section{Data Management}\label{data-management}}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{storing-active-datasets}{%
 \subsection{Storing Active Datasets}\label{storing-active-datasets}}
@@ -1918,7 +1931,7 @@ Lab data can be stored on Box, the psychology department server, and on external
 
 Although the the data is routinely backed up, the backup is only on-site -- so make extra backups! Each lab member should back up raw data on an external hard drive, as well as the code needed to reproduce all analyses. You should not store data locally on your computer (but logging into your Box/server account on your computer is ok).
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{data-organization}{%
 \subsection{Data Organization}\label{data-organization}}
@@ -2039,19 +2052,19 @@ If you have already run several independent projects and have a data organizatio
 
 When you leave the lab, your projects directories should be set up like this, or something similarly transparent, so that other people can look at your data and code. You must do this, otherwise your analysis pipeline and data structure will be uninterpretable to others once you leave, and this will slow everyone down (and cause us to bug you repeatedly to clean up your project directory or answer questions about it).
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{archiving-inactive-datasets}{%
 \subsection{Archiving Inactive Datasets}\label{archiving-inactive-datasets}}
 
 Before you leave, or upon completion of a project, you must archive old datasets and back them up. We will develop the instructions for this when we reach our first inactive dataset.
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{ethics}{%
 \section{Ethics}\label{ethics}}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{irb}{%
 \subsection{IRB}\label{irb}}
@@ -2060,7 +2073,7 @@ Before you leave, or upon completion of a project, you must archive old datasets
 
 Links to \href{https://ohrpp.research.ucla.edu/consent-templates/}{templates} from the UCLA research administration group.
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{ibc}{%
 \subsection{IBC}\label{ibc}}
@@ -2186,12 +2199,12 @@ The IBC is the Institutional Biosafety Committee, which has the same purpose as 
   The room inspection is arranged directly with EH\&S staff.
 \end{itemize}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{interviews}{%
 \section{Interviews}\label{interviews}}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{ksads}{%
 \subsection{KSADS}\label{ksads}}
@@ -2210,17 +2223,17 @@ The IBC is the Institutional Biosafety Committee, which has the same purpose as 
   Read the threshold criteria
 \end{itemize}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{tests}{%
 \section{Tests}\label{tests}}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{wasi}{%
 \subsection{WASI}\label{wasi}}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{wasi-administration}{%
 \subsubsection{WASI Administration}\label{wasi-administration}}
@@ -2297,7 +2310,7 @@ Ensure you have all necessary materials (WASI/WIAT administration instruction sh
   Stop audio recording
 \end{enumerate}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{wasi-scoring}{%
 \subsubsection{WASI Scoring}\label{wasi-scoring}}
@@ -2374,12 +2387,12 @@ Ensure you have all necessary materials (WASI/WIAT administration instruction sh
   \end{itemize}
 \end{enumerate}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{wiat}{%
 \subsection{WIAT}\label{wiat}}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{wiat-administration}{%
 \subsubsection{WIAT Administration}\label{wiat-administration}}
@@ -2462,7 +2475,7 @@ Ensure you have all necessary materials (WASI/WIAT administration instruction sh
   Stop audio recording
 \end{enumerate}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{wiat-scoring}{%
 \subsubsection{WIAT Scoring}\label{wiat-scoring}}
@@ -2579,12 +2592,12 @@ Ensure you have all necessary materials (WASI/WIAT administration instruction sh
   \end{itemize}
 \end{enumerate}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{behavioral-coding}{%
 \section{Behavioral Coding}\label{behavioral-coding}}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{fims}{%
 \subsection{FIMS}\label{fims}}
@@ -2603,12 +2616,12 @@ Ensure you have all necessary materials (WASI/WIAT administration instruction sh
   Attunement = harmonious
 \end{itemize}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{physiological-measurement}{%
 \section{Physiological Measurement}\label{physiological-measurement}}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{ecg}{%
 \subsection{ECG}\label{ecg}}
@@ -2699,7 +2712,7 @@ Electrocardiogram (ECG) measures a subject's heart rate and waveform pattern. Wi
   Hit the green ``Start'' button and click through all of the dialog boxes that you're prompted with
 \end{itemize}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{egg}{%
 \subsection{EGG}\label{egg}}
@@ -2862,7 +2875,7 @@ Electrocardiogram (ECG) measures a subject's heart rate and waveform pattern. Wi
   \end{itemize}
 \end{itemize}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \hypertarget{gsr}{%
 \subsection{GSR}\label{gsr}}
@@ -2975,22 +2988,22 @@ Electrodermal response (EDR) measurements (including Galvanic Skin Response, GSR
   Hit the green ``Start'' button and click through all of the dialog boxes that you're prompted with
 \end{itemize}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \textbf{ECG}
 
 McLaughlin, K. A., Sheridan, M. A., Tibu, F., Fox, N. A., Zeanah, C. H., \& Nelson, C. A. (2015). Causal effects of the early caregiving environment on development of stress response systems in children. \emph{Proceedings of the National Academy of Sciences}, \emph{112}(18), 5637--5642.\\
 \url{https://doi.org/10.1073/pnas.1423363112}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \textbf{EGG}
 
 Yin, J., \& Chen, J. D. Z. (2013). Electrogastrography: methodology, validation, and applications. \emph{Journal of Neurogastroenterol Motil}, \emph{19}(1), 5-17. \url{http://dx.doi.org/10.5056/jnm.2013.19.1.5}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \textbf{GSR}
 
@@ -2999,8 +3012,9 @@ Braithwaite, J. J., Watson, D. G., Jones, R., \& Rowe, M. (2013). Guide for anal
 Martin, I. (1963). Delayed GSR conditioning and the effect of electrode placement on measurements of skin resistance. \emph{Journal of Psychosomatic Research}, \emph{7}(1), 15-22.\\
 \url{https://www.sciencedirect.com/science/article/abs/pii/0022399963900473}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
 \bibliography{book.bib,packages.bib}
+
 
 \end{document}
