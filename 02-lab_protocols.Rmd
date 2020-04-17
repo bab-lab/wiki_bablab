@@ -514,6 +514,32 @@ To install Python:
  
 -----------
 
+### VPN to Lab Computers
+We have set up a VPN on the mac mini in the Bear Den (on the left side of the room). 
+Because this computer has the Acknowledge software installed on it, and has the USB Key for that program you need to use that computer for processing any physiology data. If you are off campus, you can VPN to the computer using the following steps. NB: you will need to have downloaded Cisco Anyconnect - you can access that by clicking [here](https://www.it.ucla.edu/it-support-center/services/virtual-private-network-vpn-clients)
+
+Step 1. Open Cisco and type 'ssl.vpn.ucla.edu' and press 'connect'
+
+![<!--- Cisco --->](images/lab_protocols/cisco/1.png)
+
+Step 2. Type in your UCLA ID and Password (same as you use to get into email)
+
+Step 3. Accept the SSO push to your second device
+
+Step 4. Click 'Accept'
+
+Step 5. Go to the magnifying glass at the top right of your screen and search for Screen Sharing.
+
+Step 6. Type in the IP address for the Bear Den computer: 164.67.125.42
+
+Step 7. Type in the username and pw for the Bear Den computer:
+        Username - Brain & Body Lab
+        PW - BaBLaB
+
+Step 8. You will see a new window pop up, with a desktop, which is the desktop of the Bear Den computer.
+
+A second option would be to go to the Finder on your Mac, on the top menu bar click 'Go' and then click 'Connect to Server'. Type in vpn://164.67.125.42. This will take you straight to the screen sharing page where you can then perform Step 7 & 8 from above. 
+
 ## Equipment
 
 ----------
