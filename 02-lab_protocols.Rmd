@@ -478,6 +478,12 @@ If you upgrade your Mac operating system to Catalina, and wish to run tasks on P
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aKdWA0ABOrU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### Using the test logic feature
+
+You can use the test logic with a record feature to see if this question will be shown for a specific participant
+
+![<!--- Branching logic test --->](images/lab_protocols/redcap/1.png)
+
 ----------
 
 ### R
