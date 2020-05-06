@@ -102,9 +102,11 @@ The BABLab is directed by Dr.~Bridget Callaghan, Assistant Professor of Psycholo
 \begin{itemize}
 \tightlist
 \item
-  \href{https://bab-lab.github.io/mind_brain_body/}{Mind, Brain, Body (MBB)}
+  \href{https://bablab.github.io/wiki_mind_brain_body/}{Mind, Brain, Body (MBB)}
 \item
-  \href{https://osf.io/nf2bv/}{EGG and Emotionality (EGG)}
+  \href{https://bablab.github.io/wiki_parenting_under_pressure/}{Parenting Under Pressure (PUP)}
+\item
+  \href{https://bablab.github.io/wiki_inside_out/}{Inside Out}
 \item
   Transfer Mental Health
 \end{itemize}
@@ -3065,6 +3067,679 @@ Electrodermal response (EDR) measurements (including Galvanic Skin Response, GSR
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
+\hypertarget{git}{%
+\section{Git}\label{git}}
+
+To use GitHub and other Git applications, you will need to install Git on your local computer. Git runs in the background and performs tracking and version control for you. This is similar to the way that RStudio runs on top of R.
+
+To install Git:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Go \href{https://git-scm.com/downloads}{here}
+\item
+  Use the \href{https://brew.sh/}{homebrew} method
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Type this line of code into your terminal and press enter (you may have to enter your password, if it looks like you aren't entering text, you really are, so just type and press enter)
+  \end{itemize}
+\end{enumerate}
+
+\begin{verbatim}
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+\end{verbatim}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  Once that has installed, type this code into your terminal and press enter
+\end{enumerate}
+
+\begin{verbatim}
+brew install git
+\end{verbatim}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  Git should now be installed
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{github-1}{%
+\section{GitHub}\label{github-1}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Download \href{https://desktop.github.com/}{GitHub Desktop}
+\end{enumerate}
+
+\begin{figure}
+\centering
+\includegraphics{images/research_protocols/github/1.png}
+\caption{}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Create new repository on GitHub Desktop
+\end{enumerate}
+
+\begin{figure}
+\centering
+\includegraphics{images/research_protocols/github/2.png}
+\caption{}
+\end{figure}
+
+\begin{itemize}
+\tightlist
+\item
+  Make sure to select the correct parent folder
+\end{itemize}
+
+\begin{figure}
+\centering
+\includegraphics{images/research_protocols/github/3.png}
+\caption{}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  Initialize the repository
+\end{enumerate}
+
+\begin{figure}
+\centering
+\includegraphics{images/research_protocols/github/4.png}
+\caption{}
+\end{figure}
+
+\begin{itemize}
+\tightlist
+\item
+  If you press command + shift + . you can see the hidden git files
+\end{itemize}
+
+\begin{figure}
+\centering
+\includegraphics{images/research_protocols/github/5.png}
+\caption{}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\item
+  Add your files to the folder
+\item
+  Open back to GitHub Desktop
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  The blue dot means there are changes in that folder to commit
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{5}
+\tightlist
+\item
+  Publish the repository (this sets up the repository online - choose which organization it should go to)
+\end{enumerate}
+
+\begin{figure}
+\centering
+\includegraphics{images/research_protocols/github/6.png}
+\caption{}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{6}
+\tightlist
+\item
+  Create the first commit and publish the repository (add a comment and select your organization)
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Committing saves the changes to your local git (your local computer record of changes)(local changes)
+\end{itemize}
+
+\begin{figure}
+\centering
+\includegraphics{images/research_protocols/github/11.png}
+\caption{}
+\end{figure}
+
+\includegraphics{images/research_protocols/github/7.png}
+\includegraphics{images/research_protocols/github/8.png}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{7}
+\tightlist
+\item
+  Push the repository
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Push the changes that git has catalogued to the online GitHub
+\end{itemize}
+
+\includegraphics{images/research_protocols/github/9.png}
+\includegraphics{images/research_protocols/github/10.png}
+\includegraphics{images/research_protocols/github/12.png}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{8}
+\tightlist
+\item
+  Go to GitHub online and you can see your repository with all of your files and latest commits
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Important to note that the README file will display as the main page for the repository
+\end{itemize}
+
+\includegraphics{images/research_protocols/github/13.png}
+\includegraphics{images/research_protocols/github/14.png}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{9}
+\tightlist
+\item
+  If you click on the commits button, you can browse your entire history of commits, explore the file, and download the version from any point in it's history
+\end{enumerate}
+
+\includegraphics{images/research_protocols/github/15.png}
+\includegraphics{images/research_protocols/github/16.png}
+\includegraphics{images/research_protocols/github/17.png}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{10}
+\tightlist
+\item
+  Adding a .gitignore file will allow you to ``skip'' over certain types of files that you don't want to commit
+\end{enumerate}
+
+\begin{figure}
+\centering
+\includegraphics{images/research_protocols/github/18.png}
+\caption{}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{11}
+\tightlist
+\item
+  You can change the name of the root folder on your local directory - just be sure to use the ``locate'' function in GitHub Desktop to locate it
+\end{enumerate}
+
+\begin{figure}
+\centering
+\includegraphics{images/research_protocols/github/20.png}
+\caption{}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{12}
+\tightlist
+\item
+  Make your respository public
+\end{enumerate}
+
+\begin{figure}
+\centering
+\includegraphics{images/research_protocols/github/19.png}
+\caption{}
+\end{figure}
+
+\textbf{For a more thorough description of Git, see this \href{https://vuorre.netlify.app/publication/2018/06/01/curating-research-assets-a-tutorial-on-the-git-version-control-system/vuorre-curating-research-assets-2018.pdf}{article}.}
+
+\textbf{Vuorre, M., \& Curley, J. P. (2018). Curating Research Assets: A Tutorial on the Git Version Control System. Advances in Methods and Practices in Psychological Science, 1(2), 219--236. \url{https://doi.org/10.1177/2515245918754826}}
+
+\hypertarget{how-to-use-github-like-a-software-developer}{%
+\subsection{How to use GitHub like a Software Developer}\label{how-to-use-github-like-a-software-developer}}
+
+The above method is great if you are working alone in your own repository, but it doesn't work well for collaboration, because only one git repository can be linked to a folder at one time. GitHub has an integrated workflow for this.
+
+\textbf{Collaborative Workflow}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Fetch
+\item
+  Code
+\item
+  Build / Knit
+\item
+  Commit
+\item
+  Push
+\item
+  Pull
+\item
+  Merge
+\item
+  Repeat
+\end{enumerate}
+
+--
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  The first step in a collaborative repository is to create your own branch on GitHub.com.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    NEVER work directly in the master branch - you might break something
+  \item
+    Name it after yourself (this will be your workspace)
+  \end{itemize}
+\end{enumerate}
+
+\begin{figure}
+\centering
+\includegraphics{images/research_protocols/github/21.png}
+\caption{}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Clone the repository from your organization into a local directory on your computer using GitHub Desktop
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Anywhere is fine as long as it's not a shared folder (no shared Box, Google Drive, Dropbox, etc.)
+  \item
+    Box, Dropbox, Google Drive folders are fine as long as you are the ONLY user
+  \end{itemize}
+\end{enumerate}
+
+\begin{figure}
+\centering
+\includegraphics{images/research_protocols/github/22.png}
+\caption{}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  Then navigate to current branch on GitHub Desktop and select your branch
+\end{enumerate}
+
+\begin{figure}
+\centering
+\includegraphics{images/research_protocols/github/23.png}
+\caption{}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  Now we start the 7 step cycle -\textgreater{}
+\end{enumerate}
+
+--
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Fetch origin - this fetches any changes that have been made since the last time you worked on the project
+\end{enumerate}
+
+\begin{figure}
+\centering
+\includegraphics{images/research_protocols/github/24.png}
+\caption{}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\item
+  Code - now you can edit the code, make/add/remove things etc.
+\item
+  Build/Knit - when you are done making your desired changes, click build or knit
+\item
+  Commit - Commit your changes using GitHub Desktop
+
+  \begin{itemize}
+  \tightlist
+  \item
+    This is kind of like saving the changes to your local computer change tracker
+  \item
+    Make sure you put a comment in the box (no description necessary)
+  \item
+    Make your comment useful to those reviewing it
+  \end{itemize}
+\end{enumerate}
+
+\begin{figure}
+\centering
+\includegraphics{images/research_protocols/github/25.png}
+\caption{}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  Push - now push your changes to GitHub.com - this is like saving your local changes online
+\end{enumerate}
+
+\begin{figure}
+\centering
+\includegraphics{images/research_protocols/github/26.png}
+\caption{}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{5}
+\tightlist
+\item
+  Pull - Now, in order to integrate your changes with the master copy (which hosts the public facing ebsite) you need to submit a pull request.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    This means that you want the owner of the repository to pull in your changes to the master branch
+  \item
+    This will take you to GitHub.com, follow the instructions to create your pull request
+  \end{itemize}
+\end{enumerate}
+
+\begin{figure}
+\centering
+\includegraphics{images/research_protocols/github/27.png}
+\caption{}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{6}
+\tightlist
+\item
+  Merge - on GitHub.com, the owner of the repository will then be able to review your pull request, fix any conflicts, and merge the branch into the master. Usually, this is pretty simple if there aren't any conflicts!
+\end{enumerate}
+
+\begin{figure}
+\centering
+\includegraphics{images/research_protocols/github/28.png}
+\caption{}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{7}
+\tightlist
+\item
+  Repeat - now before you start new work, make sure to fetch origin and repeat the process.
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{osf}{%
+\section{OSF}\label{osf}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Create a new project on OSF
+\end{enumerate}
+
+\begin{figure}
+\centering
+\includegraphics{images/research_protocols/osf/1.png}
+\caption{}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Title it and choose storage location (US)
+\end{enumerate}
+
+\begin{figure}
+\centering
+\includegraphics{images/research_protocols/osf/2.png}
+\caption{}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  Navigate to the new project and click Add Ons
+\end{enumerate}
+
+\begin{figure}
+\centering
+\includegraphics{images/research_protocols/osf/3.png}
+\caption{}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  Enable GitHub
+\end{enumerate}
+
+\begin{figure}
+\centering
+\includegraphics{images/research_protocols/osf/4.png}
+\caption{}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  Link OSF to your GitHub account
+\end{enumerate}
+
+\includegraphics{images/research_protocols/osf/5.png}
+\includegraphics{images/research_protocols/osf/6.png}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{5}
+\tightlist
+\item
+  Select the repository you want to link
+\end{enumerate}
+
+\includegraphics{images/research_protocols/osf/7.png}
+\includegraphics{images/research_protocols/osf/8.png}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{6}
+\tightlist
+\item
+  Now all of your files are visible in the OSF project
+\end{enumerate}
+
+\begin{figure}
+\centering
+\includegraphics{images/research_protocols/osf/9.png}
+\caption{}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{7}
+\tightlist
+\item
+  Make your OSF project public
+\end{enumerate}
+
+\begin{figure}
+\centering
+\includegraphics{images/research_protocols/osf/10.png}
+\caption{}
+\end{figure}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{wiki-creation}{%
+\section{Wiki Creation}\label{wiki-creation}}
+
+\textbf{In order to properly build the wiki you will neet to install \href{https://www.latex-project.org/}{LaTex}}
+
+\emph{This is a huge installation, so leave plenty of time}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Create a new project based on the wiki template (duplicate and rename for your project/study)
+\end{enumerate}
+
+\includegraphics{images/research_protocols/wiki/1.png}
+\includegraphics{images/research_protocols/wiki/2.png}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Rename any instance of ``Template'' to your project's title (open using RStudio)
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  .Rproj itself
+\item
+  \_bookdown.yml file
+\item
+  \_output.yml file
+\item
+  index.rmd file
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  Each .Rmd file creates a section
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Index is always the home page
+\item
+  You can create subsections by creating new .Rmd files -
+\item
+  These files use markdown syntax
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\item
+  Create a new repository using GitHub Desktop for the wiki
+\item
+  Move all the files from your draft into the repository folder, commit, and push
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Make sure to always BUILD before you commit and push so that all the necessary files are updated
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{5}
+\tightlist
+\item
+  Go into settings in GitHub online
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Scroll down to GitHub pages
+\item
+  Select master/branch/docs folder to set your GitHub Pages site to the docs folder within your bookdown files
+\end{itemize}
+
+\includegraphics{images/research_protocols/wiki/3.png}
+\includegraphics{images/research_protocols/wiki/4.png}
+\includegraphics{images/research_protocols/wiki/5.png}
+\includegraphics{images/research_protocols/wiki/6.png}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{6}
+\tightlist
+\item
+  Put the link on OSF to the wiki
+\end{enumerate}
+
+\begin{figure}
+\centering
+\includegraphics{images/research_protocols/wiki/7.png}
+\caption{}
+\end{figure}
+
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 \textbf{ECG}
@@ -3088,6 +3763,10 @@ Martin, I. (1963). Delayed GSR conditioning and the effect of electrode placemen
 \url{https://www.sciencedirect.com/science/article/abs/pii/0022399963900473}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{GitHub}
+
+Vuorre, M., \& Curley, J. P. (2018). Curating Research Assets: A Tutorial on the Git Version Control System. Advances in Methods and Practices in Psychological Science, 1(2), 219--236. \url{https://doi.org/10.1177/2515245918754826}
 
 \bibliography{book.bib,packages.bib}
 

@@ -491,3 +491,262 @@ Electrodermal response (EDR) measurements (including Galvanic Skin Response, GSR
 - Hit the green “Start” button and click through all of the dialog boxes that you’re prompted with
 
 ----------------
+
+## Git
+
+To use GitHub and other Git applications, you will need to install Git on your local computer. Git runs in the background and performs tracking and version control for you. This is similar to the way that RStudio runs on top of R. 
+
+To install Git:
+
+1. Go [here](https://git-scm.com/downloads)
+2. Use the [homebrew](https://brew.sh/) method
+   - Type this line of code into your terminal and press enter (you may have to enter your password, if it looks like you aren't entering text, you really are, so just type and press enter)
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
+
+3. Once that has installed, type this code into your terminal and press enter
+
+```
+brew install git
+```
+
+4. Git should now be installed
+
+
+----------------
+
+## GitHub
+
+
+1. Download [GitHub Desktop](https://desktop.github.com/)
+
+![<!--- GitHub --->](images/research_protocols/github/1.png)
+
+2. Create new repository on GitHub Desktop
+
+![<!--- GitHub --->](images/research_protocols/github/2.png)
+
+- Make sure to select the correct parent folder
+
+![<!--- GitHub --->](images/research_protocols/github/3.png)
+
+3. Initialize the repository 
+
+![<!--- GitHub Desktop --->](images/research_protocols/github/4.png)
+
+- If you press command + shift + . you can see the hidden git files
+
+![<!--- GitHub Desktop --->](images/research_protocols/github/5.png)
+
+4. Add your files to the folder
+
+5. Open back to GitHub Desktop
+
+- The blue dot means there are changes in that folder to commit
+
+6. Publish the repository (this sets up the repository online - choose which organization it should go to)
+
+![<!--- GitHub Desktop --->](images/research_protocols/github/6.png)
+
+7. Create the first commit and publish the repository (add a comment and select your organization)
+
+- Committing saves the changes to your local git (your local computer record of changes)(local changes)
+
+![<!--- GitHub Desktop --->](images/research_protocols/github/11.png)
+
+![<!--- GitHub Desktop --->](images/research_protocols/github/7.png)
+![<!--- GitHub Desktop --->](images/research_protocols/github/8.png)
+
+8. Push the repository 
+
+- Push the changes that git has catalogued to the online GitHub
+
+![<!--- GitHub Desktop --->](images/research_protocols/github/9.png)
+![<!--- GitHub Desktop --->](images/research_protocols/github/10.png)
+![<!--- GitHub Desktop --->](images/research_protocols/github/12.png)
+
+9. Go to GitHub online and you can see your repository with all of your files and latest commits
+
+- Important to note that the README file will display as the main page for the repository
+
+![<!--- GitHub Desktop --->](images/research_protocols/github/13.png)
+![<!--- GitHub Desktop --->](images/research_protocols/github/14.png)
+
+10. If you click on the commits button, you can browse your entire history of commits, explore the file, and download the version from any point in it's history
+
+![<!--- GitHub Desktop --->](images/research_protocols/github/15.png)
+![<!--- GitHub Desktop --->](images/research_protocols/github/16.png)
+![<!--- GitHub Desktop --->](images/research_protocols/github/17.png)
+
+11. Adding a .gitignore file will allow you to "skip" over certain types of files that you don't want to commit
+
+![<!--- GitHub Desktop --->](images/research_protocols/github/18.png)
+
+12. You can change the name of the root folder on your local directory - just be sure to use the "locate" function in GitHub Desktop to locate it
+
+![<!--- GitHub Desktop --->](images/research_protocols/github/20.png)
+
+13. Make your respository public
+
+![<!--- GitHub Desktop --->](images/research_protocols/github/19.png)
+
+**For a more thorough description of Git, see this [article](https://vuorre.netlify.app/publication/2018/06/01/curating-research-assets-a-tutorial-on-the-git-version-control-system/vuorre-curating-research-assets-2018.pdf).**
+
+**Vuorre, M., & Curley, J. P. (2018). Curating Research Assets: A Tutorial on the Git Version Control System. Advances in Methods and Practices in Psychological Science, 1(2), 219–236. https://doi.org/10.1177/2515245918754826**
+
+### How to use GitHub like a Software Developer
+
+The above method is great if you are working alone in your own repository, but it doesn't work well for collaboration, because only one git repository can be linked to a folder at one time. GitHub has an integrated workflow for this.
+
+
+**Collaborative Workflow**
+
+1. Fetch
+2. Code
+3. Build / Knit
+4. Commit
+5. Push
+6. Pull
+7. Merge
+8. Repeat
+
+--
+
+1. The first step in a collaborative repository is to create your own branch on GitHub.com.  
+   - NEVER work directly in the master branch - you might break something
+   - Name it after yourself (this will be your workspace)
+   
+![<!--- GitHub --->](images/research_protocols/github/21.png)
+
+2. Clone the repository from your organization into a local directory on your computer using GitHub Desktop
+   - Anywhere is fine as long as it's not a shared folder (no shared Box, Google Drive, Dropbox, etc.)
+   - Box, Dropbox, Google Drive folders are fine as long as you are the ONLY user
+   
+![<!--- GitHub --->](images/research_protocols/github/22.png)
+
+3. Then navigate to current branch on GitHub Desktop and select your branch
+
+![<!--- GitHub --->](images/research_protocols/github/23.png)
+
+4. Now we start the 7 step cycle ->
+
+--
+
+1. Fetch origin - this fetches any changes that have been made since the last time you worked on the project
+
+![<!--- GitHub --->](images/research_protocols/github/24.png)
+
+2. Code - now you can edit the code, make/add/remove things etc.
+
+3. Build/Knit - when you are done making your desired changes, click build or knit
+
+4. Commit - Commit your changes using GitHub Desktop
+   - This is kind of like saving the changes to your local computer change tracker
+   - Make sure you put a comment in the box (no description necessary)
+   - Make your comment useful to those reviewing it
+   
+![<!--- GitHub --->](images/research_protocols/github/25.png)
+
+5. Push - now push your changes to GitHub.com - this is like saving your local changes online
+
+![<!--- GitHub --->](images/research_protocols/github/26.png)
+
+6. Pull - Now, in order to integrate your changes with the master copy (which hosts the public facing ebsite) you need to submit a pull request. 
+   - This means that you want the owner of the repository to pull in your changes to the master branch
+   - This will take you to GitHub.com, follow the instructions to create your pull request
+
+![<!--- GitHub --->](images/research_protocols/github/27.png)
+
+7. Merge - on GitHub.com, the owner of the repository will then be able to review your pull request, fix any conflicts, and merge the branch into the master. Usually, this is pretty simple if there aren't any conflicts!
+
+![<!--- GitHub --->](images/research_protocols/github/28.png)
+
+8. Repeat - now before you start new work, make sure to fetch origin and repeat the process.
+
+----------------
+
+## OSF
+
+1. Create a new project on OSF
+
+![<!--- OSF --->](images/research_protocols/osf/1.png)
+
+
+2. Title it and choose storage location (US)
+
+![<!--- OSF --->](images/research_protocols/osf/2.png)
+
+3. Navigate to the new project and click Add Ons
+
+![<!--- OSF --->](images/research_protocols/osf/3.png)
+
+4. Enable GitHub
+
+![<!--- OSF --->](images/research_protocols/osf/4.png)
+
+5. Link OSF to your GitHub account
+
+![<!--- OSF --->](images/research_protocols/osf/5.png)
+![<!--- OSF --->](images/research_protocols/osf/6.png)
+
+6. Select the repository you want to link
+
+![<!--- OSF --->](images/research_protocols/osf/7.png)
+![<!--- OSF --->](images/research_protocols/osf/8.png)
+
+7. Now all of your files are visible in the OSF project
+
+![<!--- OSF --->](images/research_protocols/osf/9.png)
+
+8. Make your OSF project public
+
+![<!--- OSF --->](images/research_protocols/osf/10.png)
+
+----------------
+
+## Wiki Creation
+
+**In order to properly build the wiki you will neet to install [LaTex](https://www.latex-project.org/)**
+
+*This is a huge installation, so leave plenty of time*
+
+1. Create a new project based on the wiki template (duplicate and rename for your project/study)
+
+![<!--- Wiki --->](images/research_protocols/wiki/1.png)
+![<!--- Wiki --->](images/research_protocols/wiki/2.png)
+
+2. Rename any instance of "Template" to your project's title (open using RStudio)
+
+- .Rproj itself
+-  _bookdown.yml file
+- _output.yml file
+- index.rmd file
+
+3. Each .Rmd file creates a section
+
+- Index is always the home page
+- You can create subsections by creating new .Rmd files - 
+- These files use markdown syntax
+
+4. Create a new repository using GitHub Desktop for the wiki
+
+5. Move all the files from your draft into the repository folder, commit, and push
+
+- Make sure to always BUILD before you commit and push so that all the necessary files are updated
+
+6. Go into settings in GitHub online
+
+- Scroll down to GitHub pages
+- Select master/branch/docs folder to set your GitHub Pages site to the docs folder within your bookdown files
+
+![<!--- Wiki --->](images/research_protocols/wiki/3.png)
+![<!--- Wiki --->](images/research_protocols/wiki/4.png)
+![<!--- Wiki --->](images/research_protocols/wiki/5.png)
+![<!--- Wiki --->](images/research_protocols/wiki/6.png)
+
+7. Put the link on OSF to the wiki
+
+![<!--- Wiki --->](images/research_protocols/wiki/7.png)
+

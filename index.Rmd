@@ -1,6 +1,6 @@
 --- 
 title: "Brain and Body Lab"
-# author: "Emily Towner"
+# author:
 # date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
@@ -25,8 +25,9 @@ The BABLab is directed by Dr. Bridget Callaghan, Assistant Professor of Psycholo
 
 **Current Projects:**
 
- - [Mind, Brain, Body (MBB)](https://bab-lab.github.io/mind_brain_body/)
- - [EGG and Emotionality (EGG)](https://osf.io/nf2bv/)
+ - [Mind, Brain, Body (MBB)](https://bablab.github.io/wiki_mind_brain_body/)
+ - [Parenting Under Pressure (PUP)](https://bablab.github.io/wiki_parenting_under_pressure/)
+ - [Inside Out](https://bablab.github.io/wiki_inside_out/)
  - Transfer Mental Health
 
 <hr>

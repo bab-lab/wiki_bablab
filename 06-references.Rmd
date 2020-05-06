@@ -24,3 +24,7 @@ Martin, I. (1963). Delayed GSR conditioning and the effect of electrode placemen
      https://www.sciencedirect.com/science/article/abs/pii/0022399963900473
 
 --------------
+
+**GitHub**
+
+Vuorre, M., & Curley, J. P. (2018). Curating Research Assets: A Tutorial on the Git Version Control System. Advances in Methods and Practices in Psychological Science, 1(2), 219–236. https://doi.org/10.1177/2515245918754826
