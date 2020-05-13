@@ -784,7 +784,9 @@
 <li>Go <a href="https://git-scm.com/downloads">here</a></li>
 <li>Use the <a href="https://brew.sh/">homebrew</a> method
 <ul>
-<li>Type this line of code into your terminal and press enter (you may have to enter your password, if it looks like you aren’t entering text, you really are, so just type and press enter)</li>
+<li>Type this line of code into your terminal and press enter</li>
+<li>When you see the instructions RETURN - press enter again</li>
+<li>You may have to enter your password, if it looks like you aren’t entering text, you really are, so just type and press enter</li>
 </ul></li>
 </ol>
 <pre><code>/bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)&quot;</code></pre>
@@ -913,7 +915,7 @@
 <ol style="list-style-type: decimal">
 <li>Fetch</li>
 <li>Code</li>
-<li>Build / Knit</li>
+<li>Build / Knit (Build is for Wiki’s/Books - Knit is for regular Rmarkdown files)</li>
 <li>Commit</li>
 <li>Push</li>
 <li>Pull</li>
@@ -1066,6 +1068,10 @@
 <h2><span class="header-section-number">4.11</span> Wiki Creation</h2>
 <p><strong>In order to properly build the wiki you will neet to install <a href="https://www.latex-project.org/">LaTex</a></strong></p>
 <p><em>This is a huge installation, so leave plenty of time</em></p>
+<p><strong>You will also need to have the bookdown package installed in R-Studio</strong></p>
+<p><em>To install and load bookdown in R run the following code</em></p>
+<p><code>install.packages('bookdown')</code></p>
+<p><code>library(bookdown)</code></p>
 <ol style="list-style-type: decimal">
 <li>Create a new project based on the wiki template (duplicate and rename for your project/study)</li>
 </ol>
@@ -1075,7 +1081,7 @@
 <li>Rename any instance of “Template” to your project’s title (open using RStudio)</li>
 </ol>
 <ul>
-<li>.Rproj itself</li>
+<li>.Rproj itself (YOU MUST OPEN THIS PROJECT FILE TO GET STARTED)</li>
 <li>_bookdown.yml file</li>
 <li>_output.yml file</li>
 <li>index.rmd file</li>
