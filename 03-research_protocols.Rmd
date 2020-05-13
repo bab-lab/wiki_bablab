@@ -500,7 +500,9 @@ To install Git:
 
 1. Go [here](https://git-scm.com/downloads)
 2. Use the [homebrew](https://brew.sh/) method
-   - Type this line of code into your terminal and press enter (you may have to enter your password, if it looks like you aren't entering text, you really are, so just type and press enter)
+   - Type this line of code into your terminal and press enter 
+   - When you see the instructions RETURN - press enter again
+   - You may have to enter your password, if it looks like you aren't entering text, you really are, so just type and press enter
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
@@ -605,7 +607,7 @@ The above method is great if you are working alone in your own repository, but i
 
 1. Fetch
 2. Code
-3. Build / Knit
+3. Build / Knit (Build is for Wiki's/Books - Knit is for regular Rmarkdown files)
 4. Commit
 5. Push
 6. Pull
@@ -712,6 +714,14 @@ The above method is great if you are working alone in your own repository, but i
 
 *This is a huge installation, so leave plenty of time*
 
+**You will also need to have the bookdown package installed in R-Studio**
+
+*To install and load bookdown in R run the following code*
+
+`install.packages('bookdown')`
+
+`library(bookdown)`
+
 1. Create a new project based on the wiki template (duplicate and rename for your project/study)
 
 ![<!--- Wiki --->](images/research_protocols/wiki/1.png)
@@ -719,7 +729,7 @@ The above method is great if you are working alone in your own repository, but i
 
 2. Rename any instance of "Template" to your project's title (open using RStudio)
 
-- .Rproj itself
+- .Rproj itself (YOU MUST OPEN THIS PROJECT FILE TO GET STARTED)
 -  _bookdown.yml file
 - _output.yml file
 - index.rmd file
