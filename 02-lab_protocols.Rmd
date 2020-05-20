@@ -474,6 +474,20 @@ If you upgrade your Mac operating system to Catalina, and wish to run tasks on P
 
 ### REDCap
 
+#### Creating Events
+
+1. Click into Project Setup
+
+![<!--- Events --->](images/lab_protocols/redcap/2.png)
+
+2. Click to either Define Your (New) Event or to Designate Instruments to your Events
+
+![<!--- Branching logic test --->](images/lab_protocols/redcap/3.png)
+
+3. Select which Arm you want to designate instruments to
+
+![<!--- Branching logic test --->](images/lab_protocols/redcap/4.png)
+
 #### Entering Instruments
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aKdWA0ABOrU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

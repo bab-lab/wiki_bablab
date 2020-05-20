@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  13 MAY 2020 14:59
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  20 MAY 2020 19:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1247,60 +1247,66 @@ Underfull \hbox (badness 10000) in paragraph at lines 1562--1564
 [29]
 File: images/lab_protocols/catalina/1.png Graphic file (type bmp)
 <images/lab_protocols/catalina/1.png>
+File: images/lab_protocols/redcap/2.png Graphic file (type bmp)
+<images/lab_protocols/redcap/2.png>
+File: images/lab_protocols/redcap/3.png Graphic file (type bmp)
+<images/lab_protocols/redcap/3.png>
+File: images/lab_protocols/redcap/4.png Graphic file (type bmp)
+<images/lab_protocols/redcap/4.png>
 File: images/lab_protocols/redcap/1.png Graphic file (type bmp)
 <images/lab_protocols/redcap/1.png>
-[30] [31]
+[30] [31] [32]
 File: images/lab_protocols/cisco/1.png Graphic file (type bmp)
 <images/lab_protocols/cisco/1.png>
-[32]
+[33] [34]
 File: images/lab_protocols/printer/1.png Graphic file (type bmp)
 <images/lab_protocols/printer/1.png>
 
-Overfull \hbox (71.8935pt too wide) in paragraph at lines 1736--1738
+Overfull \hbox (71.8935pt too wide) in paragraph at lines 1780--1782
 \TU/lmr/m/n/10 Printing System [] 
  []
 
 File: images/lab_protocols/printer/2.png Graphic file (type bmp)
 <images/lab_protocols/printer/2.png>
 
-Overfull \hbox (196.78842pt too wide) in paragraph at lines 1746--1749
+Overfull \hbox (196.78842pt too wide) in paragraph at lines 1790--1793
 []\TU/lmr/m/n/10 Enter IP Address from Printer: 164.67.125.35 [] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[33] [34] [35] [36] [37] [38
+[35] [36] [37] [38] [39] [40
 
 ]
 Chapter 4.
-[39]
+[41]
 Underfull \vbox (badness 2698) has occurred while \output is active []
 
-[40] [41] [42]
+[42] [43] [44]
 File: images/lab_protocols/questionnaire_database/1.png Graphic file (type bmp)
 
 <images/lab_protocols/questionnaire_database/1.png>
-[43]
+[45]
 File: images/lab_protocols/questionnaire_database/2.png Graphic file (type bmp)
 
 <images/lab_protocols/questionnaire_database/2.png>
 File: images/lab_protocols/questionnaire_database/3.png Graphic file (type bmp)
 
 <images/lab_protocols/questionnaire_database/3.png>
-[44] [45] [46] [47] [48] [49] [50] [51]
+[46] [47] [48] [49] [50] [51] [52] [53]
 Missing character: There is no μ in font [lmroman10-regular]:mapping=tex-text;!
-[52]
+[54]
 Missing character: There is no ＜ in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ＞ in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ＜ in font [lmroman10-regular]:mapping=tex-text;!
-[53] [54] [55]
-Overfull \hbox (164.25pt too wide) in paragraph at lines 3098--3098
+[55] [56] [57]
+Overfull \hbox (164.25pt too wide) in paragraph at lines 3142--3142
 []\TU/lmtt/m/n/10 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/
 Homebrew/install/master/install.sh)"[] 
  []
 
-[56]
+[58]
 File: images/research_protocols/github/1.png Graphic file (type bmp)
 <images/research_protocols/github/1.png>
 File: images/research_protocols/github/2.png Graphic file (type bmp)
@@ -1313,7 +1319,7 @@ File: images/research_protocols/github/5.png Graphic file (type bmp)
 <images/research_protocols/github/5.png>
 File: images/research_protocols/github/6.png Graphic file (type bmp)
 <images/research_protocols/github/6.png>
-[57] [58] [59] [60]
+[59] [60] [61] [62]
 File: images/research_protocols/github/11.png Graphic file (type bmp)
 <images/research_protocols/github/11.png>
 File: images/research_protocols/github/7.png Graphic file (type bmp)
@@ -1321,40 +1327,7 @@ File: images/research_protocols/github/7.png Graphic file (type bmp)
 File: images/research_protocols/github/8.png Graphic file (type bmp)
 <images/research_protocols/github/8.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 3239--3241
-[][]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[61]
-File: images/research_protocols/github/9.png Graphic file (type bmp)
-<images/research_protocols/github/9.png>
-File: images/research_protocols/github/10.png Graphic file (type bmp)
-<images/research_protocols/github/10.png>
-File: images/research_protocols/github/12.png Graphic file (type bmp)
-<images/research_protocols/github/12.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 3256--3259
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3256--3259
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[62]
-File: images/research_protocols/github/13.png Graphic file (type bmp)
-<images/research_protocols/github/13.png>
-File: images/research_protocols/github/14.png Graphic file (type bmp)
-<images/research_protocols/github/14.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 3274--3276
+Underfull \hbox (badness 10000) in paragraph at lines 3283--3285
 [][]
  []
 
@@ -1362,6 +1335,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 3274--3276
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [63]
+File: images/research_protocols/github/9.png Graphic file (type bmp)
+<images/research_protocols/github/9.png>
+File: images/research_protocols/github/10.png Graphic file (type bmp)
+<images/research_protocols/github/10.png>
+File: images/research_protocols/github/12.png Graphic file (type bmp)
+<images/research_protocols/github/12.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 3300--3303
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3300--3303
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[64]
+File: images/research_protocols/github/13.png Graphic file (type bmp)
+<images/research_protocols/github/13.png>
+File: images/research_protocols/github/14.png Graphic file (type bmp)
+<images/research_protocols/github/14.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 3318--3320
+[][]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[65]
 File: images/research_protocols/github/15.png Graphic file (type bmp)
 <images/research_protocols/github/15.png>
 File: images/research_protocols/github/16.png Graphic file (type bmp)
@@ -1371,35 +1377,35 @@ File: images/research_protocols/github/17.png Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[64]
+[66]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[65]
+[67]
 File: images/research_protocols/github/18.png Graphic file (type bmp)
 <images/research_protocols/github/18.png>
 File: images/research_protocols/github/20.png Graphic file (type bmp)
 <images/research_protocols/github/20.png>
 File: images/research_protocols/github/19.png Graphic file (type bmp)
 <images/research_protocols/github/19.png>
-[66] [67]
+[68] [69]
 File: images/research_protocols/github/21.png Graphic file (type bmp)
 <images/research_protocols/github/21.png>
-[68]
+[70]
 File: images/research_protocols/github/22.png Graphic file (type bmp)
 <images/research_protocols/github/22.png>
 File: images/research_protocols/github/23.png Graphic file (type bmp)
 <images/research_protocols/github/23.png>
 
-LaTeX Warning: Float too large for page by 24.09303pt on input line 3420.
+LaTeX Warning: Float too large for page by 24.09303pt on input line 3464.
 
 File: images/research_protocols/github/24.png Graphic file (type bmp)
 <images/research_protocols/github/24.png>
-[69] [70]
+[71] [72]
 File: images/research_protocols/github/25.png Graphic file (type bmp)
 <images/research_protocols/github/25.png>
 File: images/research_protocols/github/26.png Graphic file (type bmp)
 <images/research_protocols/github/26.png>
-[71]
+[73]
 File: images/research_protocols/github/27.png Graphic file (type bmp)
 <images/research_protocols/github/27.png>
 File: images/research_protocols/github/28.png Graphic file (type bmp)
@@ -1416,7 +1422,7 @@ File: images/research_protocols/osf/5.png Graphic file (type bmp)
 <images/research_protocols/osf/5.png>
 File: images/research_protocols/osf/6.png Graphic file (type bmp)
 <images/research_protocols/osf/6.png>
-[72] [73] [74]
+[74] [75] [76]
 File: images/research_protocols/osf/7.png Graphic file (type bmp)
 <images/research_protocols/osf/7.png>
 File: images/research_protocols/osf/8.png Graphic file (type bmp)
@@ -1424,12 +1430,12 @@ File: images/research_protocols/osf/8.png Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[75]
+[77]
 File: images/research_protocols/osf/9.png Graphic file (type bmp)
 <images/research_protocols/osf/9.png>
 File: images/research_protocols/osf/10.png Graphic file (type bmp)
 <images/research_protocols/osf/10.png>
-[76] [77]
+[78] [79]
 File: images/research_protocols/wiki/1.png Graphic file (type bmp)
 <images/research_protocols/wiki/1.png>
 File: images/research_protocols/wiki/2.png Graphic file (type bmp)
@@ -1437,7 +1443,7 @@ File: images/research_protocols/wiki/2.png Graphic file (type bmp)
 
 Underfull \vbox (badness 1496) has occurred while \output is active []
 
-[78]
+[80]
 File: images/research_protocols/wiki/3.png Graphic file (type bmp)
 <images/research_protocols/wiki/3.png>
 File: images/research_protocols/wiki/4.png Graphic file (type bmp)
@@ -1447,40 +1453,40 @@ File: images/research_protocols/wiki/5.png Graphic file (type bmp)
 File: images/research_protocols/wiki/6.png Graphic file (type bmp)
 <images/research_protocols/wiki/6.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 3736--3740
+Underfull \hbox (badness 10000) in paragraph at lines 3780--3784
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3736--3740
+Underfull \hbox (badness 10000) in paragraph at lines 3780--3784
 []
  []
 
-[79]
+[81]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[80]
+[82]
 File: images/research_protocols/wiki/7.png Graphic file (type bmp)
 <images/research_protocols/wiki/7.png>
-[81]
+[83]
 No file BABLab.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3785.
-[82]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3785.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3829.
+[84]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3829.
 (./BABLab.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 3785.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3785.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 3829.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3829.
 
 Package rerunfilecheck Info: File `BABLab.out' has not changed.
 (rerunfilecheck)             Checksum: 1E19D5D93B8AB297C3A05AF7E5B4951D.
  ) 
 Here is how much of TeX's memory you used:
- 27094 strings out of 492916
- 501429 string characters out of 6133346
- 713311 words of memory out of 5000000
- 30870 multiletter control sequences out of 15000+600000
+ 27104 strings out of 492916
+ 501794 string characters out of 6133346
+ 713370 words of memory out of 5000000
+ 30880 multiletter control sequences out of 15000+600000
  538732 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  58i,5n,115p,1138b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on BABLab.pdf (82 pages).
+Output written on BABLab.pdf (84 pages).
