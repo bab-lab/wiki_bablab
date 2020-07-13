@@ -1,0 +1,26 @@
+# Offboarding
+
+----------
+
+## Offboarding - Volunteer Research Assistant
+
+----------
+
+### Offboarding Tasks - Volunteer Research Assistant 
+
+1. Ensure all tasks on Trello have been reassigned to another active member of the lab, or completed prior to departure.
+2. Any departing Research Assistant should train another active member of the lab on any processes/tasks they have been in charge of (if nobody else in the lab carries this knowledge).
+3. Lab manager should remove this member from all necessary Lab applications (Slack, Box, Trello, Shared Google Calendar, etc.).
+4. Lab manager to update the Lab website.
+5. Social Media Manager to update status to Lab alumni.
+
+### PAF (non-UCLA employees only)
+ 
+1. If the Volunteer Research Assistnat is a non-UCLA employee that is leaving prior to their previously specified end date, lab manager must submit a PAF form to HR.
+    - If the previously specified end date is not known, email HR to confirm
+2. Request a Personnel Action Form (PAF) from HR (Michelle Claudio, mclaudio@psych.ucla.edu).
+3. Fill out the Personnel Action Form (PAF) with effective date, new official end date, and Bridget's signature. 
+    - Note: fund manager signature is not needed, as volunteer positions do not require funding
+4. Once submitted, HR will update the Volunteer Research Assistant's UCPath. 
+5. Save the PAF to Box (BabLab>Lab>Documents>RA_hiring_documents>RA_offboarding_PAF)
+
