@@ -172,7 +172,7 @@ PAC forms are used for most purchasing requests (besides Amazon which we can ord
 - Save any quote to (BABLAB/Lab/Finances/Purchasing/)
 - Check Trello purchasing board for existing item
 - If no existing item, create one and add description based on templates
-- Fill out blank PAC form located in (BABLAB/Lab/Lab_protocols/Finances/Purchasing/)
+- Fill out blank PAC form located in (BABLAB/Lab/Documents/Financial_templates/Purchasing/)
 - Save to (BABLAB/Lab/Finances/Purchasing)
 - Email the completed PAC order form to <br> psych-orders@psych.ucla.edu
     - **Subject** - CB, [Fill in Vendor] Request, Bridget Callaghan
@@ -214,7 +214,7 @@ Instructions for checking out via our Amazon Business Account.
 
 For reimbursement: 
 
-- Fill out a blank reimbursement form found in  (BABLAB/Lab/Lab_protocols/Finances/Reimbursement/)
+- Fill out a blank reimbursement form found in  (BABLAB/Lab/Documents/Financial_templates/Reimbursement/)
 - Save reimbursement form to (BABLAB/Lab/Finances/Reimbursement)
 - Email the completed reimbursement form to <br> psych-orders@psych.ucla.edu
     - Subject - CB, [Fill in Vendor] Reimbursement, Bridget Callaghan
@@ -236,7 +236,7 @@ For reimbursement:
 
 ### Petty Cash
 
- - Fill out a blank IRB research payment request form (for cash or card)(BABLAB/Lab/Lab_protocols/Finances/Petty_cash/)
+ - Fill out a blank IRB research payment request form (for cash or card)(BABLAB/Lab/Documents/Financial_templates/Petty_cash/)
  - Send it to Brian Hoang (brianhoang@psych.ucla.edu) for a signature
  - Submit the form at this [site](https://sa.ucla.edu/MessageCenter/OneStop/Home/PostMessage?topicId=293)
  - It can take up to 10 business days for them to reply back.
@@ -318,6 +318,7 @@ Of course, if there is an emergency, and you need to contact Bridget, use her em
 | #bablab_core                   | Private | For private communication between the core team - this includes the PI, Lab Managers, Postdocs, and Grad Students  |
 | #bablab_ra                     | Private | For private communication between the lab managers and all the research assistants                                 |
 | #bablab_senior_ra              | Private | For private communication between the lab managers and the senior research assistants                              |
+| #diversity                       | Public  | For lab-wide communication regarding lab commitment to diversity, inclusivity, and allyship                             |
 | #general                       | Public  | For lab-wide communication and announcements                                                                       |
 | #meetings_lab                  | Public  | For notes or communication related to lab meetings                                                                 |
 | #methods_fmri                  | Public  | Sharing wisdom on fMRI data collection / analysis or asking (and answering) the fMRI questions of others           |
@@ -326,11 +327,14 @@ Of course, if there is an emergency, and you need to contact Bridget, use her em
 | #papers                        | Public  | Sharing links to lab-relevant papers and discussing them                                                           |
 | #random                        | Public  | Non-work-related chatting – e.g., pics of pets, funny cartoons etc.                                                |
 | #recruitment                   | Public  | Any ideas you have for recruiting youth into our study                                                             |
+| #rejection_collection                         | Public  | A collection of rejections and reflections!                     |
 | #stats                         | Public  | To ask and answer questions about statistical analyses                                                             |
-| #study_egg_emotionality        | Private | To discuss issues related to the EGG and Emotionality study                                                        |
+| #study_inside_out       | Private | To discuss issues related to the EGG and Emotionality study                                                        |
+| #study_pup       | Private | To discuss issues related to the Parenting Under Pressure Study                                                        |
 | #study_mbb                     | Private | To discuss issues related to the Mind, Brain, Body study                                                           |
 | #study_transfer_mental_health  | Private | To discuss issues related to the Transfer Mental Health Study                                                      |
 | #tips_coding                   | Public  | Sharing wisdom on code writing or asking (and answering) the coding questions of others                            |
+| #writing_group                | Private  | For writing accountability and motivation                            |
 
 ----------
 
