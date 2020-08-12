@@ -3415,7 +3415,9 @@ The above method is great if you are working alone in your own repository, but i
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Fetch
+  Fetch origin
+\item
+  Create branch
 \item
   Code
 \item
@@ -3429,6 +3431,8 @@ The above method is great if you are working alone in your own repository, but i
 \item
   Merge
 \item
+  Delete branch
+\item
   Repeat
 \end{enumerate}
 
@@ -3438,7 +3442,33 @@ The above method is great if you are working alone in your own repository, but i
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  The first step in a collaborative repository is to create your own branch on GitHub.com.
+  The first step is to fetch origin (or clone down if this is your first time working in this repository)
+\end{enumerate}
+
+If fetching:
+
+\begin{figure}
+\centering
+\includegraphics{images/research_protocols/github/30.png}
+\caption{}
+\end{figure}
+
+If cloning: clone the repository from your organization into a local directory on your computer using GitHub Desktop
+- Anywhere is fine as long as it's not a shared folder
+- Box, Dropbox, Google Drive folders are fine as long as you are the ONLY user (i.e.~your personal Google Drive etc.)
+
+\begin{figure}
+\centering
+\includegraphics{images/research_protocols/github/22.png}
+\caption{}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  The next step in a collaborative repository is to create your own branch on the GitHub Desktop app
 
   \begin{itemize}
   \tightlist
@@ -3451,74 +3481,15 @@ The above method is great if you are working alone in your own repository, but i
 
 \begin{figure}
 \centering
-\includegraphics{images/research_protocols/github/21.png}
-\caption{}
-\end{figure}
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\setcounter{enumi}{1}
-\tightlist
-\item
-  Clone the repository from your organization into a local directory on your computer using GitHub Desktop
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Anywhere is fine as long as it's not a shared folder (no shared Box, Google Drive, Dropbox, etc.)
-  \item
-    Box, Dropbox, Google Drive folders are fine as long as you are the ONLY user
-  \end{itemize}
-\end{enumerate}
-
-\begin{figure}
-\centering
-\includegraphics{images/research_protocols/github/22.png}
+\includegraphics{images/research_protocols/github/29.png}
 \caption{}
 \end{figure}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \setcounter{enumi}{2}
-\tightlist
 \item
-  Then navigate to current branch on GitHub Desktop and select your branch
-\end{enumerate}
-
-\begin{figure}
-\centering
-\includegraphics{images/research_protocols/github/23.png}
-\caption{}
-\end{figure}
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\setcounter{enumi}{3}
-\tightlist
-\item
-  Now we start the 7 step cycle -\textgreater{}
-\end{enumerate}
-
---
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Fetch origin - this fetches any changes that have been made since the last time you worked on the project
-\end{enumerate}
-
-\begin{figure}
-\centering
-\includegraphics{images/research_protocols/github/24.png}
-\caption{}
-\end{figure}
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\setcounter{enumi}{1}
-\item
-  Code - now you can edit the code, make/add/remove things etc.
+  Now you can begin coding! (make/add/remove things etc. directly in the folders on your computer)
 \item
   Build/Knit - when you are done making your desired changes, click build or knit
 \item
@@ -3543,7 +3514,7 @@ The above method is great if you are working alone in your own repository, but i
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
-\setcounter{enumi}{4}
+\setcounter{enumi}{5}
 \tightlist
 \item
   Push - now push your changes to GitHub.com - this is like saving your local changes online
@@ -3557,7 +3528,7 @@ The above method is great if you are working alone in your own repository, but i
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
-\setcounter{enumi}{5}
+\setcounter{enumi}{6}
 \tightlist
 \item
   Pull - Now, in order to integrate your changes with the master copy (which hosts the public facing ebsite) you need to submit a pull request.
@@ -3579,7 +3550,7 @@ The above method is great if you are working alone in your own repository, but i
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
-\setcounter{enumi}{6}
+\setcounter{enumi}{7}
 \tightlist
 \item
   Merge - on GitHub.com, the owner of the repository will then be able to review your pull request, fix any conflicts, and merge the branch into the master. Usually, this is pretty simple if there aren't any conflicts!
@@ -3593,7 +3564,37 @@ The above method is great if you are working alone in your own repository, but i
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
-\setcounter{enumi}{7}
+\setcounter{enumi}{8}
+\tightlist
+\item
+  After the merge - delete your branch on your local computer and on the remote (Github.com)
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  You can do both simultaneously by navigating to your GitHub Desktop app and pressing
+\end{itemize}
+
+Mac: COMMAND + SHIFT + D
+
+Windows: WINDOWS + SHIFT + D
+
+\begin{itemize}
+\tightlist
+\item
+  Check the box to delete branch on remote
+\end{itemize}
+
+\begin{figure}
+\centering
+\includegraphics{images/research_protocols/github/31.png}
+\caption{}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{9}
 \tightlist
 \item
   Repeat - now before you start new work, make sure to fetch origin and repeat the process.

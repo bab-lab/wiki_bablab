@@ -605,67 +605,76 @@ The above method is great if you are working alone in your own repository, but i
 
 **Collaborative Workflow**
 
-1. Fetch
-2. Code
-3. Build / Knit (Build is for Wiki's/Books - Knit is for regular Rmarkdown files)
-4. Commit
-5. Push
-6. Pull
-7. Merge
-8. Repeat
+1. Fetch origin
+2. Create branch
+3. Code
+4. Build / Knit (Build is for Wiki's/Books - Knit is for regular Rmarkdown files)
+5. Commit
+6. Push
+7. Pull
+8. Merge
+9. Delete branch
+10. Repeat
 
 --
 
-1. The first step in a collaborative repository is to create your own branch on GitHub.com.  
-   - NEVER work directly in the master branch - you might break something
-   - Name it after yourself (this will be your workspace)
-   
-![<!--- GitHub --->](images/research_protocols/github/21.png)
+1. The first step is to fetch origin (or clone down if this is your first time working in this repository)
 
-2. Clone the repository from your organization into a local directory on your computer using GitHub Desktop
-   - Anywhere is fine as long as it's not a shared folder (no shared Box, Google Drive, Dropbox, etc.)
-   - Box, Dropbox, Google Drive folders are fine as long as you are the ONLY user
+If fetching: 
+
+![<!--- GitHub --->](images/research_protocols/github/30.png)
+
+If cloning: clone the repository from your organization into a local directory on your computer using GitHub Desktop
+   - Anywhere is fine as long as it's not a shared folder
+   - Box, Dropbox, Google Drive folders are fine as long as you are the ONLY user (i.e. your personal Google Drive etc.)
    
 ![<!--- GitHub --->](images/research_protocols/github/22.png)
 
-3. Then navigate to current branch on GitHub Desktop and select your branch
 
-![<!--- GitHub --->](images/research_protocols/github/23.png)
+2. The next step in a collaborative repository is to create your own branch on the GitHub Desktop app  
+   - NEVER work directly in the master branch - you might break something
+   - Name it after yourself (this will be your workspace)
+   
+![<!--- GitHub --->](images/research_protocols/github/29.png)
 
-4. Now we start the 7 step cycle ->
+3. Now you can begin coding! (make/add/remove things etc. directly in the folders on your computer)
 
---
+4. Build/Knit - when you are done making your desired changes, click build or knit
 
-1. Fetch origin - this fetches any changes that have been made since the last time you worked on the project
-
-![<!--- GitHub --->](images/research_protocols/github/24.png)
-
-2. Code - now you can edit the code, make/add/remove things etc.
-
-3. Build/Knit - when you are done making your desired changes, click build or knit
-
-4. Commit - Commit your changes using GitHub Desktop
+5. Commit - Commit your changes using GitHub Desktop
    - This is kind of like saving the changes to your local computer change tracker
    - Make sure you put a comment in the box (no description necessary)
    - Make your comment useful to those reviewing it
    
 ![<!--- GitHub --->](images/research_protocols/github/25.png)
 
-5. Push - now push your changes to GitHub.com - this is like saving your local changes online
+6. Push - now push your changes to GitHub.com - this is like saving your local changes online
 
 ![<!--- GitHub --->](images/research_protocols/github/26.png)
 
-6. Pull - Now, in order to integrate your changes with the master copy (which hosts the public facing ebsite) you need to submit a pull request. 
+7. Pull - Now, in order to integrate your changes with the master copy (which hosts the public facing ebsite) you need to submit a pull request. 
    - This means that you want the owner of the repository to pull in your changes to the master branch
    - This will take you to GitHub.com, follow the instructions to create your pull request
 
 ![<!--- GitHub --->](images/research_protocols/github/27.png)
 
-7. Merge - on GitHub.com, the owner of the repository will then be able to review your pull request, fix any conflicts, and merge the branch into the master. Usually, this is pretty simple if there aren't any conflicts!
+8. Merge - on GitHub.com, the owner of the repository will then be able to review your pull request, fix any conflicts, and merge the branch into the master. Usually, this is pretty simple if there aren't any conflicts!
 
 ![<!--- GitHub --->](images/research_protocols/github/28.png)
 
-8. Repeat - now before you start new work, make sure to fetch origin and repeat the process.
+9. After the merge - delete your branch on your local computer and on the remote (Github.com)
+
+- You can do both simultaneously by navigating to your GitHub Desktop app and pressing
+
+Mac: COMMAND + SHIFT + D
+
+Windows: WINDOWS + SHIFT + D
+
+- Check the box to delete branch on remote
+
+![<!--- GitHub --->](images/research_protocols/github/31.png)
+
+10. Repeat - now before you start new work, make sure to fetch origin and repeat the process.
 
 ----------------
 
