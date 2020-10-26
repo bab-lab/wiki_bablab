@@ -13,10 +13,11 @@
 3. Lab manager should remove this member from all necessary Lab applications (Slack, Box, Trello, Shared Google Calendar, etc.).
 4. Lab manager to update the Lab website.
 5. Social Media Manager to update status to Lab alumni.
+6. Submit PAF form with updated end date to HR for all volunteers.
 
-### PAF (non-UCLA employees only)
+### PAF 
  
-1. If the Volunteer Research Assistnat is a non-UCLA employee that is leaving prior to their previously specified end date, lab manager must submit a PAF form to HR.
+1. If the Volunteer Research Assistant is leaving prior to their previously specified end date, lab manager must submit a PAF form to HR.
     - If the previously specified end date is not known, email HR to confirm
 2. Request a Personnel Action Form (PAF) from HR (Michelle Claudio, mclaudio@psych.ucla.edu).
 3. Fill out the Personnel Action Form (PAF) with effective date, new official end date, and Bridget's signature. 
