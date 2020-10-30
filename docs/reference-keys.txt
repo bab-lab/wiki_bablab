@@ -47,6 +47,7 @@ r
 rstudio
 python
 vpn-to-lab-computers
+google-voice
 equipment
 biopac
 printer
@@ -85,7 +86,6 @@ github-1
 how-to-use-github-like-a-software-developer
 osf
 wiki-creation
-google-voice
 offboarding
 offboarding---volunteer-research-assistant
 offboarding-tasks---volunteer-research-assistant
