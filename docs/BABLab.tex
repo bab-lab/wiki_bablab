@@ -1,41 +1,54 @@
-\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
 %
-\documentclass[]{book}
+\documentclass[
+]{book}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
-\usepackage{fixltx2e} % provides \textsubscript
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
-  \usepackage{textcomp} % provides euro and other symbols
-\else % if luatex or xelatex
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
   \usepackage{unicode-math}
-  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 \fi
-% use upquote if available, for straight quotes in verbatim environments
+% Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-% use microtype if available
-\IfFileExists{microtype.sty}{%
-\usepackage[]{microtype}
-\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
-\IfFileExists{parskip.sty}{%
-\usepackage{parskip}
-}{% else
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
-}
-\usepackage{hyperref}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
-            pdftitle={Brain and Body Lab},
-            pdfborder={0 0 0},
-            breaklinks=true}
-\urlstyle{same}  % don't use monospace font for urls
+  pdftitle={Brain and Body Lab},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
 \usepackage{longtable,booktabs}
-% Fix footnotes in tables (requires footnote package)
-\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{longtable}}{}
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
 \usepackage{graphicx,grffile}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
@@ -45,25 +58,14 @@
 % margins by default, and it is still possible to overwrite the defaults
 % using explicit options in \includegraphics[width, height, ...]{}
 \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-\setlength{\emergencystretch}{3em}  % prevent overfull lines
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\setcounter{secnumdepth}{5}
-% Redefines (sub)paragraphs to behave more like sections
-\ifx\paragraph\undefined\else
-\let\oldparagraph\paragraph
-\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
-\fi
-\ifx\subparagraph\undefined\else
-\let\oldsubparagraph\subparagraph
-\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
-\fi
-
-% set default figure placement to htbp
+% Set default figure placement to htbp
 \makeatletter
 \def\fps@figure{htbp}
 \makeatother
-
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
 \usepackage{booktabs}
 \usepackage{amsthm}
 \makeatletter
@@ -635,6 +637,188 @@ Review:
 
 \hypertarget{onboarding---graduate-student}{%
 \section{Onboarding - Graduate Student}\label{onboarding---graduate-student}}
+
+For lab manager to do:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Add new graduate student to:
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  BABLab calendars
+\item
+  GitHub
+\item
+  Slack workspace
+\item
+  Google group
+\item
+  Box
+\item
+  Relevant REDcap projects
+\item
+  OSF
+\item
+  Trello
+\item
+  IRB(s)
+\end{itemize}
+
+For graduate student to do:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Make your UCLA ID (instructions sent when accept admissions offer)
+\item
+  Submit your statement of intent to register (SIR) and statement of legal residence (SLR) forms
+\item
+  Check your UCLA email regularly and add it to your mail app
+\item
+  Once you are given access to Box through UCLA (you will receive an email notification), \href{https://www.box.com/resources/downloads}{download box drive} and get set up
+\item
+  Once lab manager requests that you be added to REDcap and you get an email about it, fill out the access form and go through the steps to set up an account
+\item
+  Set up \href{https://www.library.ucla.edu/use/computers-computing-services/connect-campus}{access} to papers \& databases off-campus through UCLA.
+\item
+  Watch the BABLab Trello how-to \href{https://www.youtube.com/watch?v=_Ry-SnJygy8\&feature=youtu.be\&ab_channel=BABLab}{video} and download \href{https://trello.com/en-US/platforms}{Trello}.
+\item
+  Make an account on \href{https://accounts.osf.io/login?service=https://osf.io/myprojects/}{OSF}
+\item
+  Do the following IRB trainings:
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  These are done on the \href{https://www.research.ucla.edu/CITIProgram/}{CITI program} by creating a \href{https://ora.research.ucla.edu/OHRPP/Documents/Education/SSO_CITI_New_Acct.pdf}{UCLA SSO}, then add and complete the following
+\item
+  UCLA HIPAA
+\item
+  Human Research - Social \& Behavioral Researchers \& Staff
+\item
+  Human Research- Biomedical Researchers \& Staff
+\item
+  Once you have done them, please slack the lab manager the certificates for our records
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{9}
+\tightlist
+\item
+  Get an account on the IRB site (required before you can be added to IRBs!)
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Email Bridget the following info so that she can get you an account:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Your UCLA logon ID
+  \item
+    Your UCLA ID \# (9 digits)
+  \item
+    Your full name (first, middle, last)
+  \item
+    Your email address
+  \item
+    Your department and division
+  \end{itemize}
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{10}
+\tightlist
+\item
+  Train to collect data for whichever large study is currently going on in the lab
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Meet with lab manager \& Bridget to discuss study
+\item
+  Read study wiki \& data collection protocols
+\item
+  Meet with lab manager to address questions regarding protocols
+\item
+  Shadow several data collection sessions
+\item
+  Do a pilot session \& pass
+\item
+  Run your first session reverse-shadowed by someone who is trained
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{11}
+\tightlist
+\item
+  Get your UCLA BruinCard
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Submit a message to the BruinCard center to request a new bruincard
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Go to my.ucla.edu and log in
+  \item
+    Click the yellow ``Need help?'' in the top right corner, then click on ``message center''
+  \item
+    Submit a question to the BruinCard center, with the topic ``requesting new bruincard''
+  \end{itemize}
+\item
+  In your message, include the following info:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    UCLA ID number, contact phone, contact email, department, requested pickup date and time (Monday, Wednesday, Friday 10am-2pm), have you had a previous BruinCard? Was your online photo submission approved? (you will be prompted to upload a photo in the admissions process, if that was approved you can say yes)
+  \item
+    Attach a scanned copy of your govt issued photo ID
+  \end{itemize}
+\item
+  Go pick up your card at the specified location at the time you were scheduled for
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Make sure to bring the same photo ID you provided a copy of!
+  \end{itemize}
+\item
+  Once you have your bruincard, let the lab manager know so that they can request lab access for you!
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{12}
+\tightlist
+\item
+  Learn how to make IRB amendments and navigate the UCLA IRB portal
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  If you haven't already requested an IRB account, do that ASAP
+\item
+  Once you have an account, meet with the lab manager to go over how to navigate the UCLA \href{https://webirb.research.ucla.edu/WEBIRB/Rooms/DisplayPages/LayoutInitial?Container=com.webridge.entity.Entity\%5BOID\%5BAC482809EC03C442A46F2C8EEC4D75D3\%5D\%5D}{IRB site}
+\end{itemize}
 
 \hypertarget{lab-protocols}{%
 \chapter{Lab Protocols}\label{lab-protocols}}
@@ -1547,7 +1731,7 @@ How-to download/install the \href{https://help.bol.ucla.edu/kb_view.do?sysparm_a
 \begin{quote}
 Every night the server is backed up to the Life Sciences data center in Hershey Hall. That's always been the case. To make those nightly backups more safe, there is another copy of the backups stored offsite (i.e.~to prevent losing both the server AND the backups in a fire, earthquake, etc.)
 
-Once we have Shadow Copy enabled, we'll also have more direct access to backups, so we won't need to work with Life Sciences to retrieve backups. Psych IT will be able to grab a recent copy of your files/folders ourselves. We'll also have access to incremental backups (i.e.~yesterday's copy, two day old copy, three day old copy\ldots{}up to two weeks back).
+Once we have Shadow Copy enabled, we'll also have more direct access to backups, so we won't need to work with Life Sciences to retrieve backups. Psych IT will be able to grab a recent copy of your files/folders ourselves. We'll also have access to incremental backups (i.e.~yesterday's copy, two day old copy, three day old copy\ldots up to two weeks back).
 
 So at that point we'll have 3 forms of backup, and plenty of safety net.
 
@@ -2144,6 +2328,20 @@ Although the the data is routinely backed up, the backup is only on-site -- so m
 \hypertarget{data-organization}{%
 \subsection{Data Organization}\label{data-organization}}
 
+General notes on file naming:
+
+\begin{itemize}
+\tightlist
+\item
+  It is very important that files are named in a clear and consistent way to avoid confusion
+\item
+  Generally, versions of data files, scripts, etc. that are kept in study folders are final versions, meaning that they are ``master'' copies rather than versions that are being edited by individual lab members.
+\item
+  If you would like to edit a script for some reason, please copy it to your user folder and rename it adding \_\textless your initials\textgreater, eg., \_fq to mark it as being edited by you. If we would like to use it for general study use, it will need to be checked and approved. If the check is successful and it is approved, only then can it replace the ``master'' script and the initials be removed.
+\item
+  Data should generally be named in the following way: \textless measure\textgreater\_\textless status\textgreater\_\textless if relevant, date in form YYYYMMDD\textgreater\_\textless if personal copy, initials\textgreater{} (e.g., cbcl\_raw\_20201118\_fq). Date is the date the data file was generated. If it was generated by a script, date needs to be updated each time the script is run.
+\end{itemize}
+
 If you have already run several independent projects and have a data organization structure that works well for you, feel free to use it. If not (or if you are looking for a change), the following structure is recommended (based on Neuropipe):
 
 \begin{itemize}
@@ -2219,6 +2417,8 @@ If you have already run several independent projects and have a data organizatio
     recommend making subdirectories for each type of analysis (e.g., behavior, pattern analysis, functional connectivity, univariate)
   \item
     if you have scripts that are the same for each participant, you can have symbolic links for them in your participant-specific scripts directories
+  \item
+    \textbf{naming convention for scripts}: Note that BABLab has decided on this naming conventions for scripts - \textless measure or study\textgreater\_\textless purpose\textgreater\_\textless if personal copy or editing, initials\textgreater{} (examples: mbb\_cleaning\_fq, cbcl\_scoring\_fq)
   \end{itemize}
 \item
   projectName/results
@@ -2259,6 +2459,16 @@ If you have already run several independent projects and have a data organizatio
 \end{itemize}
 
 When you leave the lab, your projects directories should be set up like this, or something similarly transparent, so that other people can look at your data and code. You must do this, otherwise your analysis pipeline and data structure will be uninterpretable to others once you leave, and this will slow everyone down (and cause us to bug you repeatedly to clean up your project directory or answer questions about it).
+
+Agreed upon organizational structure specific to MBB:
+
+\begin{itemize}
+\tightlist
+\item
+  /../Studies/Mind\_Brain\_Body/Scripts/\textless wave\textgreater/Data: This contains all data that are used in the scripts (including raw data, inputs, and outputs of the scripts). Each file needs to be named clearly (see naming convention for data above).
+\item
+  /../Studies/Mind\_Brain\_Body/Scripts/\textless wave\textgreater/\textless purpose, eg. scoring\textgreater/\textless if necessary, sub-folder for measure\textgreater: scripts go here (e.g., /Scripts/Wave1/scoring/cbcl would contain script to score the cbcl)
+\end{itemize}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
@@ -2673,7 +2883,7 @@ Ensure you have all necessary materials (WASI/WIAT administration instruction sh
   \item
     \textbf{(DK)} if the child does not know
   \item
-    \textbf{(\textgreater{}3)} if it took the child longer than 3 seconds to say
+    \textbf{(\textgreater3)} if it took the child longer than 3 seconds to say
   \item
     \textbf{(SC)} if the child said the word wrong but self-corrected
   \end{itemize}
@@ -2750,7 +2960,7 @@ Ensure you have all necessary materials (WASI/WIAT administration instruction sh
   \item
     Add up Word Reading Total Score Box
   \item
-    Add up Total \textgreater{}3" Box
+    Add up Total \textgreater3" Box
   \item
     Add up Total SC Box
   \end{itemize}
@@ -3986,7 +4196,7 @@ Windows: WINDOWS + SHIFT + D
 \item
   Once submitted, HR will update the Volunteer Research Assistant's UCPath.
 \item
-  Save the PAF to Box (BabLab\textgreater{}Lab\textgreater{}Documents\textgreater{}RA\_hiring\_documents\textgreater{}RA\_offboarding\_PAF)
+  Save the PAF to Box (BabLab\textgreater Lab\textgreater Documents\textgreater RA\_hiring\_documents\textgreater RA\_offboarding\_PAF)
 \end{enumerate}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
@@ -4017,6 +4227,6 @@ Martin, I. (1963). Delayed GSR conditioning and the effect of electrode placemen
 
 Vuorre, M., \& Curley, J. P. (2018). Curating Research Assets: A Tutorial on the Git Version Control System. Advances in Methods and Practices in Psychological Science, 1(2), 219--236. \url{https://doi.org/10.1177/2515245918754826}
 
-\bibliography{book.bib,packages.bib}
+  \bibliography{book.bib,packages.bib}
 
 \end{document}
