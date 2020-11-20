@@ -176,3 +176,61 @@ Pamphlet](https://ucla.app.box.com/s/jyzoag8v9qw6katuvgegjil8an2tsx2j)
 ----------
 
 ## Onboarding - Graduate Student
+
+For lab manager to do:
+
+1. Add new graduate student to:
+  - BABLab calendars
+  - GitHub
+  - Slack workspace
+  - Google group
+  - Box 
+  - Relevant REDcap projects
+  - OSF
+  - Trello
+  - IRB(s)
+
+For graduate student to do:
+
+1. Make your UCLA ID (instructions sent when accept admissions offer)
+2. Submit your statement of intent to register (SIR) and statement of legal residence (SLR) forms
+3. Check your UCLA email regularly and add it to your mail app 
+4. Once you are given access to Box through UCLA (you will receive an email notification), [download box drive](https://www.box.com/resources/downloads) and get set up
+5. Once lab manager requests that you be added to REDcap and you get an email about it, fill out the access form and go through the steps to set up an account
+6. Set up [access](https://www.library.ucla.edu/use/computers-computing-services/connect-campus) to papers & databases off-campus through UCLA.
+7. Watch the BABLab Trello how-to [video](https://www.youtube.com/watch?v=_Ry-SnJygy8&feature=youtu.be&ab_channel=BABLab) and download [Trello](https://trello.com/en-US/platforms). 
+8. Make an account on [OSF](https://accounts.osf.io/login?service=https://osf.io/myprojects/)
+9. Do the following IRB trainings:
+  - These are done on the [CITI program](https://www.research.ucla.edu/CITIProgram/) by creating a [UCLA SSO](https://ora.research.ucla.edu/OHRPP/Documents/Education/SSO_CITI_New_Acct.pdf), then add and complete the following
+  - UCLA HIPAA
+  - Human Research - Social & Behavioral Researchers & Staff
+  - Human Research- Biomedical Researchers & Staff
+  - Once you have done them, please slack the lab manager the certificates for our records
+10. Get an account on the IRB site (required before you can be added to IRBs!)
+  - Email Bridget the following info so that she can get you an account:
+    - Your UCLA logon ID
+    - Your UCLA ID # (9 digits)
+    - Your full name (first, middle, last)
+    - Your email address
+    - Your department and division
+11. Train to collect data for whichever large study is currently going on in the lab
+  - Meet with lab manager & Bridget to discuss study
+  - Read study wiki & data collection protocols
+  - Meet with lab manager to address questions regarding protocols
+  - Shadow several data collection sessions
+  - Do a pilot session & pass
+  - Run your first session reverse-shadowed by someone who is trained
+12. Get your UCLA BruinCard
+  - Submit a message to the BruinCard center to request a new bruincard
+    - Go to my.ucla.edu and log in
+    - Click the yellow “Need help?” in the top right corner, then click on “message center”
+    - Submit a question to the BruinCard center, with the topic “requesting new bruincard”
+  - In your message, include the following info:
+    - UCLA ID number, contact phone, contact email, department, requested pickup date and time (Monday, Wednesday, Friday 10am-2pm), have you had a previous BruinCard? Was your online photo submission approved? (you will be prompted to upload a photo in the admissions process, if that was approved you can say yes)
+    - Attach a scanned copy of your govt issued photo ID
+  - Go pick up your card at the specified location at the time you were scheduled for
+    - Make sure to bring the same photo ID you provided a copy of!
+  - Once you have your bruincard, let the lab manager know so that they can request lab access for you!
+13. Learn how to make IRB amendments and navigate the UCLA IRB portal
+  - If you haven't already requested an IRB account, do that ASAP
+  - Once you have an account, meet with the lab manager to go over how to navigate the UCLA [IRB site](https://webirb.research.ucla.edu/WEBIRB/Rooms/DisplayPages/LayoutInitial?Container=com.webridge.entity.Entity[OID[AC482809EC03C442A46F2C8EEC4D75D3]])
