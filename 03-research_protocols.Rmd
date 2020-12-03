@@ -337,6 +337,11 @@ Ensure you have all necessary materials (WASI/WIAT administration instruction sh
 - Maturity for child for their age
 - Attunement = harmonious 
 
+[FIMS Behavioral Training Protocol](https://docs.google.com/document/d/1oLEg1gAdpcrDWg1Vlh0z_esq9fBy9CKBrNuU-ZokaKg/edit?usp=sharing) 
+
+[FIMS Behavioral Coding Protocol](https://docs.google.com/document/d/1zd4BD7-yQZxle4bH_cXrEaqFAd3MCVKATnVE1PnWn_4/edit?usp=sharing) 
+
+
 ----------
 
 ## Physiological Measurement
@@ -620,13 +625,13 @@ The above method is great if you are working alone in your own repository, but i
 
 1. Fetch origin
 2. Create branch
-3. Code
+3. Code (Make sure you are working in the correct project on R)
 4. Build / Knit (Build is for Wiki's/Books - Knit is for regular Rmarkdown files)
 5. Commit
-6. Push
+6. Push (and/or publish branch)
 7. Pull
 8. Merge
-9. Delete branch
+9. Delete branch on GitHub online AND on local computer GitHub Desktop
 10. Repeat
 
 --
@@ -651,6 +656,7 @@ If cloning: clone the repository from your organization into a local directory o
 ![<!--- GitHub --->](images/research_protocols/github/29.png)
 
 3. Now you can begin coding! (make/add/remove things etc. directly in the folders on your computer)
+   - Make sure you are working in the correct project on R 
 
 4. Build/Knit - when you are done making your desired changes, click build or knit
 
@@ -661,13 +667,14 @@ If cloning: clone the repository from your organization into a local directory o
    
 ![<!--- GitHub --->](images/research_protocols/github/25.png)
 
-6. Push - now push your changes to GitHub.com - this is like saving your local changes online
+6. Push - now push your changes to GitHub.com - this is like saving your local changes online (or publish branch)
 
 ![<!--- GitHub --->](images/research_protocols/github/26.png)
 
 7. Pull - Now, in order to integrate your changes with the master copy (which hosts the public facing ebsite) you need to submit a pull request. 
    - This means that you want the owner of the repository to pull in your changes to the master branch
    - This will take you to GitHub.com, follow the instructions to create your pull request
+   - Make as detailed notes as possible on what changes you have created in this round of updates
 
 ![<!--- GitHub --->](images/research_protocols/github/27.png)
 
@@ -675,7 +682,7 @@ If cloning: clone the repository from your organization into a local directory o
 
 ![<!--- GitHub --->](images/research_protocols/github/28.png)
 
-9. After the merge - delete your branch on your local computer and on the remote (Github.com)
+9. After the merge - delete your branch on your local computer AND on the remote (Github.com)
 
 - You can do both simultaneously by navigating to your GitHub Desktop app and pressing
 
