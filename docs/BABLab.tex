@@ -1,54 +1,41 @@
-% Options for packages loaded elsewhere
-\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
 \PassOptionsToPackage{hyphens}{url}
 %
-\documentclass[
-]{book}
+\documentclass[]{book}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
-  \usepackage{textcomp} % provide euro and other symbols
-\else % if luatex or xetex
+  \usepackage{textcomp} % provides euro and other symbols
+\else % if luatex or xelatex
   \usepackage{unicode-math}
-  \defaultfontfeatures{Scale=MatchLowercase}
-  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
 \fi
-% Use upquote if available, for straight quotes in verbatim environments
+% use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-\IfFileExists{microtype.sty}{% use microtype if available
-  \usepackage[]{microtype}
-  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
-\makeatletter
-\@ifundefined{KOMAClassName}{% if non-KOMA class
-  \IfFileExists{parskip.sty}{%
-    \usepackage{parskip}
-  }{% else
-    \setlength{\parindent}{0pt}
-    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
-}{% if KOMA class
-  \KOMAoptions{parskip=half}}
-\makeatother
-\usepackage{xcolor}
-\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\usepackage{hyperref}
 \hypersetup{
-  pdftitle={Brain and Body Lab},
-  hidelinks,
-  pdfcreator={LaTeX via pandoc}}
-\urlstyle{same} % disable monospaced font for URLs
+            pdftitle={Brain and Body Lab},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
 \usepackage{longtable,booktabs}
-% Correct order of tables after \paragraph or \subparagraph
-\usepackage{etoolbox}
-\makeatletter
-\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
-\makeatother
-% Allow footnotes in longtable head/foot
-\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
-\makesavenoteenv{longtable}
+% Fix footnotes in tables (requires footnote package)
+\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{longtable}}{}
 \usepackage{graphicx,grffile}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
@@ -58,14 +45,25 @@
 % margins by default, and it is still possible to overwrite the defaults
 % using explicit options in \includegraphics[width, height, ...]{}
 \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-% Set default figure placement to htbp
-\makeatletter
-\def\fps@figure{htbp}
-\makeatother
-\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
 \usepackage{booktabs}
 \usepackage{amsthm}
 \makeatletter
@@ -534,8 +532,8 @@ Review:
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\hypertarget{onboarding---volunteer-research-assistant}{%
-\section{Onboarding - Volunteer Research Assistant}\label{onboarding---volunteer-research-assistant}}
+\hypertarget{onboarding---volunteer-research-assistant-ucla-students}{%
+\section{Onboarding - Volunteer Research Assistant (UCLA Students)}\label{onboarding---volunteer-research-assistant-ucla-students}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -595,6 +593,8 @@ Review:
 
   \begin{itemize}
   \tightlist
+  \item
+    Lab Manager must consult with Bridget prior to hiring. Background checks must be run for all volunteers who are not UCLA students (\textasciitilde{}\$50 each). Unless otherwise specified, the Lab Manager should refer to the RA application pool within UCLA students.
   \item
     Please print, read, and complete the forms located in the Dropbox/BAB/Lab/Lab\_protocols/RA\_hiring/Forms
   \item
@@ -1731,7 +1731,7 @@ How-to download/install the \href{https://help.bol.ucla.edu/kb_view.do?sysparm_a
 \begin{quote}
 Every night the server is backed up to the Life Sciences data center in Hershey Hall. That's always been the case. To make those nightly backups more safe, there is another copy of the backups stored offsite (i.e.~to prevent losing both the server AND the backups in a fire, earthquake, etc.)
 
-Once we have Shadow Copy enabled, we'll also have more direct access to backups, so we won't need to work with Life Sciences to retrieve backups. Psych IT will be able to grab a recent copy of your files/folders ourselves. We'll also have access to incremental backups (i.e.~yesterday's copy, two day old copy, three day old copy\ldots up to two weeks back).
+Once we have Shadow Copy enabled, we'll also have more direct access to backups, so we won't need to work with Life Sciences to retrieve backups. Psych IT will be able to grab a recent copy of your files/folders ourselves. We'll also have access to incremental backups (i.e.~yesterday's copy, two day old copy, three day old copy\ldots{}up to two weeks back).
 
 So at that point we'll have 3 forms of backup, and plenty of safety net.
 
@@ -2337,9 +2337,9 @@ General notes on file naming:
 \item
   Generally, versions of data files, scripts, etc. that are kept in study folders are final versions, meaning that they are ``master'' copies rather than versions that are being edited by individual lab members.
 \item
-  If you would like to edit a script for some reason, please copy it to your user folder and rename it adding \_\textless your initials\textgreater, eg., \_fq to mark it as being edited by you. If we would like to use it for general study use, it will need to be checked and approved. If the check is successful and it is approved, only then can it replace the ``master'' script and the initials be removed.
+  If you would like to edit a script for some reason, please copy it to your user folder and rename it adding \_\textless{}your initials\textgreater{}, eg., \_fq to mark it as being edited by you. If we would like to use it for general study use, it will need to be checked and approved. If the check is successful and it is approved, only then can it replace the ``master'' script and the initials be removed.
 \item
-  Data should generally be named in the following way: \textless measure\textgreater\_\textless status\textgreater\_\textless if relevant, date in form YYYYMMDD\textgreater\_\textless if personal copy, initials\textgreater{} (e.g., cbcl\_raw\_20201118\_fq). Date is the date the data file was generated. If it was generated by a script, date needs to be updated each time the script is run.
+  Data should generally be named in the following way: \textless{}measure\textgreater{}\_\textless{}status\textgreater{}\_\textless{}if relevant, date in form YYYYMMDD\textgreater{}\_\textless{}if personal copy, initials\textgreater{} (e.g., cbcl\_raw\_20201118\_fq). Date is the date the data file was generated. If it was generated by a script, date needs to be updated each time the script is run.
 \end{itemize}
 
 If you have already run several independent projects and have a data organization structure that works well for you, feel free to use it. If not (or if you are looking for a change), the following structure is recommended (based on Neuropipe):
@@ -2418,7 +2418,7 @@ If you have already run several independent projects and have a data organizatio
   \item
     if you have scripts that are the same for each participant, you can have symbolic links for them in your participant-specific scripts directories
   \item
-    \textbf{naming convention for scripts}: Note that BABLab has decided on this naming conventions for scripts - \textless measure or study\textgreater\_\textless purpose\textgreater\_\textless if personal copy or editing, initials\textgreater{} (examples: mbb\_cleaning\_fq, cbcl\_scoring\_fq)
+    \textbf{naming convention for scripts}: Note that BABLab has decided on this naming conventions for scripts - \textless{}measure or study\textgreater{}\_\textless{}purpose\textgreater{}\_\textless{}if personal copy or editing, initials\textgreater{} (examples: mbb\_cleaning\_fq, cbcl\_scoring\_fq)
   \end{itemize}
 \item
   projectName/results
@@ -2465,9 +2465,9 @@ Agreed upon organizational structure specific to MBB:
 \begin{itemize}
 \tightlist
 \item
-  /../Studies/Mind\_Brain\_Body/Scripts/\textless wave\textgreater/Data: This contains all data that are used in the scripts (including raw data, inputs, and outputs of the scripts). Each file needs to be named clearly (see naming convention for data above).
+  /../Studies/Mind\_Brain\_Body/Scripts/\textless{}wave\textgreater{}/Data: This contains all data that are used in the scripts (including raw data, inputs, and outputs of the scripts). Each file needs to be named clearly (see naming convention for data above).
 \item
-  /../Studies/Mind\_Brain\_Body/Scripts/\textless wave\textgreater/\textless purpose, eg. scoring\textgreater/\textless if necessary, sub-folder for measure\textgreater: scripts go here (e.g., /Scripts/Wave1/scoring/cbcl would contain script to score the cbcl)
+  /../Studies/Mind\_Brain\_Body/Scripts/\textless{}wave\textgreater{}/\textless{}purpose, eg. scoring\textgreater{}/\textless{}if necessary, sub-folder for measure\textgreater{}: scripts go here (e.g., /Scripts/Wave1/scoring/cbcl would contain script to score the cbcl)
 \end{itemize}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
@@ -2883,7 +2883,7 @@ Ensure you have all necessary materials (WASI/WIAT administration instruction sh
   \item
     \textbf{(DK)} if the child does not know
   \item
-    \textbf{(\textgreater3)} if it took the child longer than 3 seconds to say
+    \textbf{(\textgreater{}3)} if it took the child longer than 3 seconds to say
   \item
     \textbf{(SC)} if the child said the word wrong but self-corrected
   \end{itemize}
@@ -2960,7 +2960,7 @@ Ensure you have all necessary materials (WASI/WIAT administration instruction sh
   \item
     Add up Word Reading Total Score Box
   \item
-    Add up Total \textgreater3" Box
+    Add up Total \textgreater{}3" Box
   \item
     Add up Total SC Box
   \end{itemize}
@@ -3078,6 +3078,10 @@ Ensure you have all necessary materials (WASI/WIAT administration instruction sh
 \item
   Attunement = harmonious
 \end{itemize}
+
+\href{https://docs.google.com/document/d/1oLEg1gAdpcrDWg1Vlh0z_esq9fBy9CKBrNuU-ZokaKg/edit?usp=sharing}{FIMS Behavioral Training Protocol}
+
+\href{https://docs.google.com/document/d/1zd4BD7-yQZxle4bH_cXrEaqFAd3MCVKATnVE1PnWn_4/edit?usp=sharing}{FIMS Behavioral Coding Protocol}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
@@ -3505,8 +3509,8 @@ brew install git
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\hypertarget{github-1}{%
-\section{GitHub}\label{github-1}}
+\hypertarget{github}{%
+\section{GitHub}\label{github}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -3733,19 +3737,19 @@ The above method is great if you are working alone in your own repository, but i
 \item
   Create branch
 \item
-  Code
+  Code (Make sure you are working in the correct project on R)
 \item
   Build / Knit (Build is for Wiki's/Books - Knit is for regular Rmarkdown files)
 \item
   Commit
 \item
-  Push
+  Push (and/or publish branch)
 \item
   Pull
 \item
   Merge
 \item
-  Delete branch
+  Delete branch on GitHub online AND on local computer GitHub Desktop
 \item
   Repeat
 \end{enumerate}
@@ -3804,6 +3808,12 @@ If cloning: clone the repository from your organization into a local directory o
 \setcounter{enumi}{2}
 \item
   Now you can begin coding! (make/add/remove things etc. directly in the folders on your computer)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Make sure you are working in the correct project on R
+  \end{itemize}
 \item
   Build/Knit - when you are done making your desired changes, click build or knit
 \item
@@ -3831,7 +3841,7 @@ If cloning: clone the repository from your organization into a local directory o
 \setcounter{enumi}{5}
 \tightlist
 \item
-  Push - now push your changes to GitHub.com - this is like saving your local changes online
+  Push - now push your changes to GitHub.com - this is like saving your local changes online (or publish branch)
 \end{enumerate}
 
 \begin{figure}
@@ -3853,6 +3863,8 @@ If cloning: clone the repository from your organization into a local directory o
     This means that you want the owner of the repository to pull in your changes to the master branch
   \item
     This will take you to GitHub.com, follow the instructions to create your pull request
+  \item
+    Make as detailed notes as possible on what changes you have created in this round of updates
   \end{itemize}
 \end{enumerate}
 
@@ -3881,7 +3893,7 @@ If cloning: clone the repository from your organization into a local directory o
 \setcounter{enumi}{8}
 \tightlist
 \item
-  After the merge - delete your branch on your local computer and on the remote (Github.com)
+  After the merge - delete your branch on your local computer AND on the remote (Github.com)
 \end{enumerate}
 
 \begin{itemize}
@@ -4166,11 +4178,13 @@ Windows: WINDOWS + SHIFT + D
 \item
   Social Media Manager to update status to Lab alumni.
 \item
-  Submit PAF form with updated end date to HR for all volunteers.
+  Submit PAF form with updated end date to HR for all volunteers (see specific instructions below)
 \end{enumerate}
 
 \hypertarget{paf}{%
 \subsection{PAF}\label{paf}}
+
+NOTE: This action should only be taken if the volunteer has paperwork within HR (a non-UCLA student volunteer)
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -4196,7 +4210,7 @@ Windows: WINDOWS + SHIFT + D
 \item
   Once submitted, HR will update the Volunteer Research Assistant's UCPath.
 \item
-  Save the PAF to Box (BabLab\textgreater Lab\textgreater Documents\textgreater RA\_hiring\_documents\textgreater RA\_offboarding\_PAF)
+  Save the PAF to Box (BabLab\textgreater{}Lab\textgreater{}Documents\textgreater{}RA\_hiring\_documents\textgreater{}RA\_offboarding\_PAF)
 \end{enumerate}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
@@ -4227,6 +4241,6 @@ Martin, I. (1963). Delayed GSR conditioning and the effect of electrode placemen
 
 Vuorre, M., \& Curley, J. P. (2018). Curating Research Assets: A Tutorial on the Git Version Control System. Advances in Methods and Practices in Psychological Science, 1(2), 219--236. \url{https://doi.org/10.1177/2515245918754826}
 
-  \bibliography{book.bib,packages.bib}
+\bibliography{book.bib,packages.bib}
 
 \end{document}
