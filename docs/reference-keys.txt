@@ -48,6 +48,8 @@ rstudio
 python
 vpn-to-lab-computers
 google-voice
+burning-cds
+high-to-low-res-video
 equipment
 biopac
 printer
