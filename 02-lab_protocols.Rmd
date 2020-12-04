@@ -598,6 +598,56 @@ Note: There are some pre-chosen settings like “ forward messages to email” d
 
 ![<!--- Google Voice --->](images/research_protocols/google_voice/pic7.png)
 
+----------
+
+### Burning CDs
+
+1. Connect external DVD drive if your Mac doesn’t have a built-in optical drive. 
+
+2. Insert a blank disk into your drive.  This pop-up will appear.  Click okay.  The disk icon will appear on your desktop.  
+
+![<!--- Burning CDs --->](images/lab_protocols/cd_burning/1.png)
+
+
+3. Create a New Folder of content that you want to burn.  Right click on the file and select “Burn_File Name_to Disc”   
+
+![<!--- Burning CDs --->](images/lab_protocols/cd_burning/2.png)
+
+4.This box will pop-up.  Rename file if you wish.  Then select “Burn”. 
+
+![<!--- Burning CDs --->](images/lab_protocols/cd_burning/3.png)
+
+
+5. Once burning process is complete, the disk icon will appear on your desktop with the name you gave it.  
+
+6. Right click on the CD and click “Eject CD”.  That’s it! 
+
+
+To watch this in a video: https://www.youtube.com/watch?v=ZCBKSkfnqX8 
+
+----------
+
+### High to low res video
+
+Step 1. Open the file you wish to convert in QuickTime.  QuickTime automatically comes with all Mac devices, so no need to download it if you own a Mac.  Usually when you open the video after you download it, the video automatically opens in QuickTime.  
+
+Step 2. Choose File, then mouse down to Export, and choose an option from the Export menu.
+Here, you will see 3 video resolution options and 3 other options:
+
+  - 1080p: QuickTime movie using H.264 or HEVC (H.265), up to 1920x1080 resolution.
+  - 720p: QuickTime movie using H.264, up to 1280x720 resolution.
+  - 480p: QuickTime movie using H.264, up to 640x480 resolution. 
+
+![<!--- High to low res video --->](images/lab_protocols/video_resolution/1.png)
+
+Step 3. Choose size 480p.  Then Save to your computer.  
+
+Step 4. Go to Box: Studies -> MBB -> Data -> Wave_1_online -> Wave_1_online_parent_child_interactions
+
+Step 5. Go to the folder with the old video.  Click the three dots shown below.  Select “Upload New Version”.  That’s it! 
+
+![<!--- High to low res video --->](images/lab_protocols/video_resolution/2.png)
+
 ## Equipment
 
 ----------

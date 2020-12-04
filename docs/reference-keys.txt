@@ -5,7 +5,7 @@ other-information
 onboarding
 first-steps
 onboarding---staff-research-associate
-onboarding---volunteer-research-assistant
+onboarding---volunteer-research-assistant-ucla-students
 onboarding---postdoctoral-scholar
 onboarding---graduate-student
 lab-protocols
@@ -48,6 +48,8 @@ rstudio
 python
 vpn-to-lab-computers
 google-voice
+burning-cds
+high-to-low-res-video
 equipment
 biopac
 printer
