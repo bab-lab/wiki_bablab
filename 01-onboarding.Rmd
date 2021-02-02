@@ -8,7 +8,7 @@ If you are a new member of the BAB Lab, there are a few basic things you will wa
 
 **Here are some tips:**
 
- 1. Read the [Lab Manual](https://bab-lab.github.io/lab_manual/)
+ 1. Read the [Lab Manual](https://bablab.github.io/lab_manual/)
 
  2. Ask the lab manager to be added to the following
 - [Slack](https://slack.com/) (download the desktop and mobile [apps](https://slack.com/downloads/mac))
@@ -230,7 +230,7 @@ Pamphlet](https://ucla.app.box.com/s/jyzoag8v9qw6katuvgegjil8an2tsx2j)
     - Photo(s) for lab website
     - Brief bio for lab website
   
-9.  Read [Lab Manual](https://bab-lab.github.io/lab_manual/)
+9.  Read [Lab Manual](https://bablab.github.io/lab_manual/)
 
 10. Set up [access](https://www.library.ucla.edu/use/computers-computing-services/connect-campus) to papers & databases off-campus through UCLA
 
