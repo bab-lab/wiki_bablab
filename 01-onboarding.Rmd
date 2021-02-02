@@ -20,9 +20,10 @@ If you are a new member of the BAB Lab, there are a few basic things you will wa
 
 3. Send (via Slack) the lab manager your information including your
 - Preferred name
-- Preferred email
+- Preferred pronoun
+- Preferred email address
 - Phone number
-- Photo
+- Photo(s) for lab website
 - Brief bio for the lab website
 
  4. Complete the onboarding process for your position below
@@ -174,7 +175,67 @@ Pamphlet](https://ucla.app.box.com/s/jyzoag8v9qw6katuvgegjil8an2tsx2j)
 
 ## Onboarding - Postdoctoral Scholar
 
-1. Meet with HR
+1.  Schedule hiring orientation meeting with someone from Human Resources (HR) (someone from HR will reach out to you once the office receives approval to hire). Prior to this meeting, you will need to submit:
+    - Forms (Personal Data Form; Postdoc Personal Data Form; Postdoc Union Form)
+    - Your CV
+    - A brief (2-3 sentences) description of your postdoc research and goals
+    - A copy of your PhD diploma, your official transcript, or certificate of completion from Registrar's office
+    
+2.  At the hiring orientation, HR will go over how to:
+    - Set up [UC Path](https://ucpath.universityofcalifornia.edu/) for viewing and updating personal information; viewing paychecks; signing up for direct deposit; updating tax witholdings; viewing and printing W-2s; signing up for Benefits (period of eligibility to enroll in benefits is 31 days)
+    - Submit monthly timesheets through [Time Reporting System](https://uctrs.it.ucla.edu/)
+    - Acquire a parking permit and office keys through the Psychology Main Office
+    - Get a BruinCard (campus ID card)
+    - Submit I-9 Tracker
+
+3.  Create a [UCLA logon ID](https://accounts.iam.ucla.edu/#/)
+
+4.  Attend the [Postdoctoral Scholar Orientation](https://www.postdoc.ucla.edu/resources/new-postdocs/) and sign up for relevant listservs
+
+5.  Complete CITI Trainings and submit certificates to Lab Manager:
+    - Create a [UCLA SSO for CITI Program](http://ora.research.ucla.edu/OHRPP/Documents/Education/SSO_CITI_New_Acct.pdf)
+    - Add and complete the following courses:
+        - Human Research – Social & Behavioral Researchers & Staff
+        - Human Research- Biomedical Researchers & Staff
+        - UCLA HIPAA
+
+6.  Get a WebIRB account:
+    - Email your faculty sponsor/advisor the following information:
+          - Your UCLA Logon ID – (Verify your [UCLA Logon ID](https://accounts.iam.ucla.edu/lookup))
+          - Your UCLA UID # (9-digit)
+          - Your full name
+              - First
+              - Middle
+              - Last
+          - Your email address
+          - Your department and division
+    - Bridget to email this information to webIRBHelp@research.ucla.edu to request the account.
+    - Ask the lab manager to be added to all IRB protocols
+
+7.  Have Lab Manager set you up with the lab's:
+    - Slack (need UCLA logon to access)
+    - Trello
+    - Google Calendars
+    - Box (need UCLA logon to access)
+    - GitHub
+    - OSF
+    - IRBs (need UCLA logon to access)
+    - REDcap
+
+8.  Send the following information to Lab Manager:
+    - Preferred name
+    - Preferred pronoun
+    - Preferred e-mail address
+    - Phone number
+    - Photo(s) for lab website
+    - Brief bio for lab website
+  
+9.  Read [Lab Manual](https://bab-lab.github.io/lab_manual/)
+
+10. Set up [access](https://www.library.ucla.edu/use/computers-computing-services/connect-campus) to papers & databases off-campus through UCLA
+
+11. Create a [Hoffman2 Cluster](https://www.hoffman2.idre.ucla.edu/) account
+
 
 ----------
 
