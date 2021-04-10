@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Section 4 Research Protocols | Brain and Body Lab</title>
   <meta name="description" content="These are the notes, logs, and protocols for the Brain and Body Lab at UCLA" />
-  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Section 4 Research Protocols | Brain and Body Lab" />
   <meta property="og:type" content="book" />
@@ -97,6 +97,7 @@
 <li class="chapter" data-level="3.4.5" data-path="lab-protocols.html"><a href="lab-protocols.html#petty-cash"><i class="fa fa-check"></i><b>3.4.5</b> Petty Cash</a></li>
 <li class="chapter" data-level="3.4.6" data-path="lab-protocols.html"><a href="lab-protocols.html#vendor-specific-protocols"><i class="fa fa-check"></i><b>3.4.6</b> Vendor specific protocols</a></li>
 <li class="chapter" data-level="3.4.7" data-path="lab-protocols.html"><a href="lab-protocols.html#logging-purchases-on-trello"><i class="fa fa-check"></i><b>3.4.7</b> Logging purchases on Trello</a></li>
+<li class="chapter" data-level="3.4.8" data-path="lab-protocols.html"><a href="lab-protocols.html#fund-log---lab-manager"><i class="fa fa-check"></i><b>3.4.8</b> Fund Log - Lab Manager</a></li>
 </ul></li>
 <li class="chapter" data-level="3.5" data-path="lab-protocols.html"><a href="lab-protocols.html#technology"><i class="fa fa-check"></i><b>3.5</b> Technology</a><ul>
 <li class="chapter" data-level="3.5.1" data-path="lab-protocols.html"><a href="lab-protocols.html#slack"><i class="fa fa-check"></i><b>3.5.1</b> Slack</a></li>
@@ -158,7 +159,7 @@
 <li class="chapter" data-level="4.7.3" data-path="research-protocols.html"><a href="research-protocols.html#gsr"><i class="fa fa-check"></i><b>4.7.3</b> GSR</a></li>
 </ul></li>
 <li class="chapter" data-level="4.8" data-path="research-protocols.html"><a href="research-protocols.html#git"><i class="fa fa-check"></i><b>4.8</b> Git</a></li>
-<li class="chapter" data-level="4.9" data-path="research-protocols.html"><a href="research-protocols.html#github-1"><i class="fa fa-check"></i><b>4.9</b> GitHub</a><ul>
+<li class="chapter" data-level="4.9" data-path="lab-protocols.html"><a href="lab-protocols.html#github"><i class="fa fa-check"></i><b>4.9</b> GitHub</a><ul>
 <li class="chapter" data-level="4.9.1" data-path="research-protocols.html"><a href="research-protocols.html#how-to-use-github-like-a-software-developer"><i class="fa fa-check"></i><b>4.9.1</b> How to use GitHub like a Software Developer</a></li>
 </ul></li>
 <li class="chapter" data-level="4.10" data-path="research-protocols.html"><a href="research-protocols.html#osf"><i class="fa fa-check"></i><b>4.10</b> OSF</a></li>
@@ -168,6 +169,9 @@
 <li class="chapter" data-level="5.1" data-path="offboarding.html"><a href="offboarding.html#offboarding---volunteer-research-assistant"><i class="fa fa-check"></i><b>5.1</b> Offboarding - Volunteer Research Assistant</a><ul>
 <li class="chapter" data-level="5.1.1" data-path="offboarding.html"><a href="offboarding.html#offboarding-tasks---volunteer-research-assistant"><i class="fa fa-check"></i><b>5.1.1</b> Offboarding Tasks - Volunteer Research Assistant</a></li>
 <li class="chapter" data-level="5.1.2" data-path="offboarding.html"><a href="offboarding.html#paf"><i class="fa fa-check"></i><b>5.1.2</b> PAF</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="offboarding.html"><a href="offboarding.html#offboarding---lab-manager"><i class="fa fa-check"></i><b>5.2</b> Offboarding - Lab Manager</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="offboarding.html"><a href="offboarding.html#offboarding-tasks---lab-manager"><i class="fa fa-check"></i><b>5.2.1</b> Offboarding Tasks - Lab Manager</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
@@ -200,7 +204,7 @@
 <hr />
 <div id="storing-active-datasets" class="section level3">
 <h3><span class="header-section-number">4.1.1</span> Storing Active Datasets</h3>
-<p>Lab data can be stored on Box, the psychology department server, and on external hard drives and CD's. Any data with personally identifying information can only be stored on non-networked, encrypted, external harddrives, flash drives, and CD's.</p>
+<p>Lab data can be stored on Box, the psychology department server, and on external hard drives and CD’s. Any data with personally identifying information can only be stored on non-networked, encrypted, external harddrives, flash drives, and CD’s.</p>
 <p>Although the the data is routinely backed up, the backup is only on-site – so make extra backups! Each lab member should back up raw data on an external hard drive, as well as the code needed to reproduce all analyses. You should not store data locally on your computer (but logging into your Box/server account on your computer is ok).</p>
 <hr />
 </div>
@@ -209,8 +213,8 @@
 <p>General notes on file naming:</p>
 <ul>
 <li>It is very important that files are named in a clear and consistent way to avoid confusion</li>
-<li>Generally, versions of data files, scripts, etc. that are kept in study folders are final versions, meaning that they are &quot;master&quot; copies rather than versions that are being edited by individual lab members.</li>
-<li>If you would like to edit a script for some reason, please copy it to your user folder and rename it adding _&lt;your initials&gt;, eg., _fq to mark it as being edited by you. If we would like to use it for general study use, it will need to be checked and approved. If the check is successful and it is approved, only then can it replace the &quot;master&quot; script and the initials be removed.</li>
+<li>Generally, versions of data files, scripts, etc. that are kept in study folders are final versions, meaning that they are “master” copies rather than versions that are being edited by individual lab members.</li>
+<li>If you would like to edit a script for some reason, please copy it to your user folder and rename it adding _&lt;your initials&gt;, eg., _fq to mark it as being edited by you. If we would like to use it for general study use, it will need to be checked and approved. If the check is successful and it is approved, only then can it replace the “master” script and the initials be removed.</li>
 <li>Data should generally be named in the following way: &lt;measure&gt;_&lt;status&gt;_&lt;if relevant, date in form YYYYMMDD&gt;_&lt;if personal copy, initials&gt; (e.g., cbcl_raw_20201118_fq). Date is the date the data file was generated. If it was generated by a script, date needs to be updated each time the script is run.</li>
 </ul>
 <p>If you have already run several independent projects and have a data organization structure that works well for you, feel free to use it. If not (or if you are looking for a change), the following structure is recommended (based on Neuropipe):</p>
@@ -292,7 +296,11 @@
 <h3><span class="header-section-number">4.2.1</span> IRB</h3>
 <p><strong>Consent, Assent, and Screening</strong></p>
 <p>Links to <a href="https://ohrpp.research.ucla.edu/consent-templates/">templates</a> from the UCLA research administration group.</p>
+<div id="how-to-request-an-irb-account" class="section level4">
+<h4><span class="header-section-number">4.2.1.1</span> How to request an IRB account</h4>
+<p>Click <a href="https://webirb.research.ucla.edu/WEBIRB/Rooms/DisplayPages/LayoutInitial?Container=com.webridge.entity.Entity%5BOID%5B8990716E5E076B40BFE2D4D479617FD3%5D%5D">here</a> for steps on how to request of an IRB account</p>
 <hr />
+</div>
 </div>
 <div id="ibc" class="section level3">
 <h3><span class="header-section-number">4.2.2</span> IBC</h3>
@@ -306,7 +314,7 @@
 <li>IBC approval IS NOT needed for saliva, stool, or hair samples unless —
 <ul>
 <li>Saliva is collected from dental procedures</li>
-<li>Stool or hair samples are contaminated with blood or infected with pathogens (e.g. HBV, HIV)</li>
+<li>Stool or hair samples are contaminated with blood or infected with pathogens (e.g. HBV, HIV)</li>
 </ul></li>
 </ul></li>
 <li>Once signed in, a new protocol is created by clicking ‘Create BUA’. A BUA is a Biological Use Authorization, which is synonymous with IBC protocol. Completing the BUA is just like completing an IRB protocol, but with a focus on the collection of biological samples.</li>
@@ -321,7 +329,7 @@
 </ol>
 <p><em>NOTE:</em></p>
 <ul>
-<li>Consultation with an EH&amp;S is likely necessary to complete the BUA protocol. Contact EH&amp;S or IBC employees with questions at <a href="mailto:biosafety@ehs.ucla.edu">biosafety@ehs.ucla.edu</a> or <a href="mailto:ibc@research.ucla.edu">ibc@research.ucla.edu</a>.</li>
+<li>Consultation with an EH&amp;S is likely necessary to complete the BUA protocol. Contact EH&amp;S or IBC employees with questions at <a href="mailto:biosafety@ehs.ucla.edu" class="email">biosafety@ehs.ucla.edu</a> or <a href="mailto:ibc@research.ucla.edu" class="email">ibc@research.ucla.edu</a>.</li>
 <li>All EH&amp;S documents are available <a href="https://www.ehs.ucla.edu/documents">here</a>.</li>
 <li>Additional documents may be required depending on the kind of biological material that’s going to be collected.</li>
 </ul>
@@ -342,7 +350,7 @@
 <li>Blood-borne Pathogens Training (online)</li>
 <li>Medical Waste Management (online)</li>
 <li>Biological Safety Cabinet (BSC) (online)</li>
-<li>Biosafety ABC's - Biosafety Level 2 Training (in-person)</li>
+<li>Biosafety ABC’s - Biosafety Level 2 Training (in-person)</li>
 </ul></li>
 <li>The PI is required to complete two courses :
 <ul>
@@ -414,14 +422,12 @@
 <ol style="list-style-type: decimal">
 <li>Start audio recording</li>
 <li>Flip the WASI administration booklet to page 41, item #4 (what is a shirt?)</li>
-<li>Flip WASI scoring booklet to page 74, beginning with item #4 (what is a shirt?)</li>
-</ol>
+<li>Flip WASI scoring booklet to page 74, beginning with item #4 (what is a shirt?)
 <ul>
 <li>Use the WASI scoring booklet to determine if child/adolescent’s description of each item shall be categorized as score 0, 1, or 2</li>
 <li><em>Note</em>: Q indicated on the scoring booklet refers to prompt/query the child further- “Can you tell me more?”</li>
 <li>Provide queries as often as necessary- marginal responses, generalized responses, functional responses, and gand gestures, but NOT answers that are clearly incorrect</li>
-</ul>
-<ol start="4" style="list-style-type: decimal">
+</ul></li>
 <li>Note score on the WASI score sheet: Vocabulary</li>
 <li>If the child does not obtain a perfect score on either item 4 or item 5, administer the preceding items in reverse order until two consecutive perfect scores are obtained</li>
 <li>Stop administering when the child/adolescent receives 3 consecutive Zeros <em>OR</em> participant hits max score for age group (age 6: item 22; age 7-11: item 25; age 12-14: item 28)</li>
@@ -431,19 +437,15 @@
 <p><strong>Part II: Matrix Reasoning</strong></p>
 <p><em>General Instruction</em>: You will be pointing to each matrix reasoning question in the WASI administration booklet and asking the child/adolescent where this item belongs in the missing box</p>
 <ol style="list-style-type: decimal">
-<li>Flip the WASI administration booklet to page 57- Practice Questions</li>
-</ol>
+<li>Flip the WASI administration booklet to page 57- Practice Questions
 <ul>
 <li>Explain you will do a few practice questions first then walk through 2 practice questions</li>
 <li>You may acknowledge correct responses/explain why answers may be incorrect</li>
-</ul>
-<ol start="2" style="list-style-type: decimal">
-<li>Flip to correct start page/item to begin (age 6-8: item 1; age 9+: item 4)</li>
-</ol>
+</ul></li>
+<li>Flip to correct start page/item to begin (age 6-8: item 1; age 9+: item 4)
 <ul>
-<li>Do NOT give verbal acknowledgement to their answers (e.g. Correct! That’s right!)</li>
-</ul>
-<ol start="3" style="list-style-type: decimal">
+<li>Do NOT give verbal acknowledgement to their answers (e.g. Correct! That’s right!)</li>
+</ul></li>
 <li>If adolescents age 9+ do not obtain a perfect score on either item 4 or item 5, administer the preceding items in reverse order until two consecutive perfect scores are obtained</li>
 <li>Note score on the WASI score sheet: Matrix Reasoning</li>
 <li>Stop administering when the child/adolescent receives 3 consecutive Zeros <em>OR</em> participant hits max score for age group (age 6-8: item 24)</li>
@@ -456,21 +458,18 @@
 <p><strong>Part I</strong></p>
 <ol style="list-style-type: decimal">
 <li>Examiner writes “scored by: NAME” at the top of the sheet</li>
-<li>Fill in any missing scores in Vocabulary or Matrix Reasoning tests using audio file if questions are missing (e.g. scores continue before and after this missing question, NOT because the administrator left questions blank because they have stopped the test)</li>
-<li>Add up the Vocabulary total raw score:</li>
-</ol>
+<li>Fill in any missing scores in Vocabulary or Matrix Reasoning tests using audio file if questions are missing (e.g. scores continue before and after this missing question, NOT because the administrator left questions blank because they have stopped the test)</li>
+<li>Add up the Vocabulary total raw score:
 <ul>
 <li><em>Note</em>: Even if a participant begins at item 4 due to age, the total raw score should still include items 1-3</li>
-</ul>
-<ol start="4" style="list-style-type: decimal">
+</ul></li>
 <li>Add up Matrix Reasoning total raw score</li>
-<li>Transfer both total raw scores to front sheet under “Total Raw Score to T-Score Conversion” chart in column titled “Raw Score&quot;</li>
+<li>Transfer both total raw scores to front sheet under “Total Raw Score to T-Score Conversion” chart in column titled “Raw Score”</li>
 </ol>
 <p><strong>Part II</strong></p>
 <ol style="list-style-type: decimal">
 <li>Ensure you have the participant’s correct age at day of testing in the upper right corner</li>
-<li>Open WASI-II Manual book &gt; page 151 for T-Score Conversions</li>
-</ol>
+<li>Open WASI-II Manual book &gt; page 151 for T-Score Conversions
 <ul>
 <li>Flip to correct chart by age group (age group indicated at top of chart using year:month format)</li>
 <li>Under the correct chart by age group of the participant, view VC column for Vocabulary and MR column for Matrix Reasoning
@@ -481,17 +480,16 @@
 <li>Write T-Score number in the boxes under “Total Raw Score to T-Score Conversion” chart in column titled “T-Scores”
 <ul>
 <li>Add T-Scores totals for box titled “Full Scale-2”</li>
-<li>Copy this total number to “Sum of T-Scores to Composite Score Conversion” chart in column titled “Sum of T-Scores&quot;</li>
+<li>Copy this total number to “Sum of T-Scores to Composite Score Conversion” chart in column titled “Sum of T-Scores”</li>
 </ul></li>
-</ul>
-<ol start="3" style="list-style-type: decimal">
-<li>Flip WASI-II Manual book &gt; page 188 for FSIQ, Percentile Rank, and Confidence Interval</li>
-</ol>
+</ul></li>
+<li>Flip WASI-II Manual book &gt; page 188 for FSIQ, Percentile Rank, and Confidence Interval
 <ul>
 <li><strong>To obtain FSIQ</strong>: Scroll down Sum of T-Scores column and compare horizontally to FSIQ-2 column</li>
 <li><strong>To obtain Percentile Rank</strong>: Scroll down Sum of T-Scores column and compare horizontally to Percentile Rank column</li>
 <li><strong>To obtain Confidence Interval (always circle/indicate 95%)</strong>: Scroll down Sum of T-Scores column and compare horizontally to 95% column in correct age group</li>
-</ul>
+</ul></li>
+</ol>
 <hr />
 </div>
 </div>
@@ -506,43 +504,35 @@
 <ol style="list-style-type: decimal">
 <li>Start audio recording</li>
 <li>Note in scoring sheet what grade participant is in</li>
-<li>Note the following basic scoring instructions:</li>
-</ol>
+<li>Note the following basic scoring instructions:
 <ul>
 <li><strong>(1)</strong> if fluent/correct</li>
 <li><strong>(DK)</strong> if the child does not know</li>
 <li><strong>(&gt;3)</strong> if it took the child longer than 3 seconds to say</li>
 <li><strong>(SC)</strong> if the child said the word wrong but self-corrected</li>
-</ul>
-<ol start="4" style="list-style-type: decimal">
+</ul></li>
 <li>If multiple attempts are made to read a word, score only the last attempt</li>
-<li>If the child is sounding the word out/verbalizes the word in a choppy manner, ask the child to “read the word altogether” immediately after</li>
-</ol>
+<li>If the child is sounding the word out/verbalizes the word in a choppy manner, ask the child to “read the word altogether” immediately after
 <ul>
 <li>If the next attempt is not fluent, score as 0 and say “try the next one”</li>
-</ul>
-<ol start="6" style="list-style-type: decimal">
+</ul></li>
 <li>If the child skips a word or row, redirect the child to the appropriate place immediately after and make a note in the scoring sheet</li>
 <li>If the child was unclear when reading a word/you did not hear the child correctly, ask the child to repeat the whole row of words where this particular word was located at the very end after they have finished reading all they can</li>
 <li>Discontinue after the child has reached 4 consecutive Zeros</li>
 </ol>
 <p><strong>Part II: Numerical Operations</strong></p>
 <ol style="list-style-type: decimal">
-<li>You will be asking the child to fill out the “math worksheet” him/herself</li>
-</ol>
+<li>You will be asking the child to fill out the “math worksheet” him/herself
 <ul>
 <li>Indicate where to begin based on age (Grades K-1: item 1; grades 2-4: item 14; grades 5-12+: item 18)</li>
 <li>Explain to the child/adolescent to work on problems from left to right, top to bottom in order and if they do not know a question they may skip it</li>
 <li>If beginning at item 1, refer to WIAT scoring sheet for specific verbal administration instructions</li>
-</ul>
-<ol start="2" style="list-style-type: decimal">
+</ul></li>
 <li>If child does not reach 3 consecutive scores of 1, reverse backward until child has reached a correct response</li>
-<li>Be sure to pay attention to the child’s responses- if the numbers they write are illegible or mirrored, ask the child to verbally indicate the response they meant</li>
-</ol>
+<li>Be sure to pay attention to the child’s responses- if the numbers they write are illegible or mirrored, ask the child to verbally indicate the response they meant
 <ul>
 <li>Note that you obtained a verbal response and note the actual response in your WIAT score sheet</li>
-</ul>
-<ol start="4" style="list-style-type: decimal">
+</ul></li>
 <li>Discontinue this task when they have reached 4 consecutive Zeros</li>
 <li>Stop audio recording</li>
 </ol>
@@ -553,44 +543,35 @@
 <p><strong>Part I</strong></p>
 <ol style="list-style-type: decimal">
 <li>Examiner writes “scored by: NAME” at the top of the sheet</li>
-<li>Fill in any missing scores in Vocabulary or Matrix Reasoning tests using audio file if questions are missing (e.g. scores continue before and after this missing question, NOT because the administrator left questions blank because they have stopped the test)</li>
-<li>Add up the Word Reading Total Raw Score:</li>
-</ol>
+<li>Fill in any missing scores in Vocabulary or Matrix Reasoning tests using audio file if questions are missing (e.g. scores continue before and after this missing question, NOT because the administrator left questions blank because they have stopped the test)</li>
+<li>Add up the Word Reading Total Raw Score:
 <ul>
 <li>Add up Word Reading Total Score Box</li>
 <li>Add up Total &gt;3&quot; Box</li>
 <li>Add up Total SC Box</li>
-</ul>
-<ol start="4" style="list-style-type: decimal">
-<li>Word Reading Speed Total Raw Score:</li>
-</ol>
+</ul></li>
+<li>Word Reading Speed Total Raw Score:
 <ul>
 <li>Listen to the audio file and note time participant began to read words</li>
 <li>Count 30 seconds forward</li>
 <li>Note the word the participant completed at 30 seconds; write item number of this word in box</li>
-</ul>
-<ol start="5" style="list-style-type: decimal">
-<li>Add up the Numerical Operations Total Raw Score</li>
-</ol>
+</ul></li>
+<li>Add up the Numerical Operations Total Raw Score
 <ul>
 <li><em>Note</em>: Even if a participant begins at item 8 due to age, the total raw score should still include items 1-7</li>
-</ul>
-<ol start="6" style="list-style-type: decimal">
+</ul></li>
 <li>Transfer both Word Reading Total Raw Score and Numerical Operations Total Raw Score to front page under “Composite Score Summary” chart</li>
 </ol>
 <p><strong>Part II</strong></p>
 <ol style="list-style-type: decimal">
 <li>Ensure you have the participant’s correct age at day of testing in the upper right corner</li>
-<li>To obtain the Composite Standard Score:</li>
-</ol>
+<li>To obtain the Composite Standard Score:
 <ul>
 <li>Flip WIAT-III Manual book &gt; page 252-387 for Table C.1 based on age of participant (noted at top of chart by year, month, days range)</li>
 <li>Scroll down Word Reading column and compare horizontally to Standard Score column; write standard score in “Composite Standard Score” box</li>
 <li>Scroll down Numerical Operations column and compare horizontally to Standard Score column; write standard score in “Composite Standard Score” box</li>
-</ul>
-<ol start="3" style="list-style-type: decimal">
-<li>To obtain the Confidence Interval (always at 95%):</li>
-</ol>
+</ul></li>
+<li>To obtain the Confidence Interval (always at 95%):
 <ul>
 <li>Flip WIAT-III Manual book &gt; page 392 for Table C.3</li>
 <li>Follow column for correct age &gt; 95% &gt; Word Reading
@@ -601,10 +582,8 @@
 <ul>
 <li>Add and subtract this number to/from the Composite Standard Score: Numerical Operations to create highest and lowest numbers for the Confidence Interval</li>
 </ul></li>
-</ul>
-<ol start="4" style="list-style-type: decimal">
-<li>To obtain GRADE-LEVEL equivalents of score: (<em>Note: No longer doing percentile</em>)</li>
-</ol>
+</ul></li>
+<li>To obtain GRADE-LEVEL equivalents of score: (<em>Note: No longer doing percentile</em>)
 <ul>
 <li>Flip WIAT-III Manual book &gt; page 398 for Table D.2
 <ul>
@@ -614,7 +593,8 @@
 <ul>
 <li>Scroll down through Numerical Operations column and look for raw score, view to left column for grade equivalent</li>
 </ul></li>
-</ul>
+</ul></li>
+</ol>
 <hr />
 </div>
 </div>
@@ -666,15 +646,21 @@
 <ul>
 <li>Lightly abrade the skin at the electrode sites with EL-Prep Gel</li>
 <li>Wipe off excess with a wet wipe or tissue</li>
-<li>After prepping the electrodes with Gel-100, attach electrodes to the skin at the three positions indicated above</li>
+<li>After prepping the electrodes with Gel-100, attach electrodes to the skin at the three positions indicated above
+<ul>
 <li>Let these sit as long as possible to adhere and for the gel to soak in</li>
-<li>Ask the participant to put on the module like a belt around their torso</li>
+</ul></li>
+<li>Ask the participant to put on the module like a belt around their torso
+<ul>
 <li>Make sure the electrode lead inputs are pointed up towards their head</li>
+</ul></li>
 <li>Connect the white lead to the Right Collarbone electrode, connect the black lead to the Left Collarbone electrode, and connect the red lead to the Left Rib electrode</li>
 <li>Turn on the transmitter and ensure that both the light on the Biopac receiver module and the transmitter are green (the transmitter should be flashing, whereas the receiver should be solid)</li>
 <li>Make sure there is a clear, unobstructed line of sight between the transmitter and receiver antenna</li>
-<li>Open AcqKnowledge by selecting the template file on the desktop</li>
+<li>Open AcqKnowledge by selecting the template file on the desktop
+<ul>
 <li>If the system is not connected to the hardware, make sure the wifi is turned off and restart AcqKnowledge</li>
+</ul></li>
 <li>Ensure all devices are connected and lead wires attached properly</li>
 <li>Hit the green “Start” button and click through all of the dialog boxes that you’re prompted with</li>
 </ul>
@@ -706,13 +692,17 @@
 <p><strong>Filtering and signal frequency</strong></p>
 <ul>
 <li><em>Amplification</em>: the EGG signal is usually in a range of 50-500 μV and adequate amplification needs to be provided by a recording device so that the amplified signal is of an appropriate range for display and analysis</li>
-<li><em>Filter setting</em>: determines the frequency range of the EGG signal to be maximally amplified. The interested range of the EGG signal is in the range of 0.5-9.0 cpm or 0.0083 to 0.15 Hz which is much lower than that of most of extracellular recordings.</li>
+<li><em>Filter setting</em>: determines the frequency range of the EGG signal to be maximally amplified. The interested range of the EGG signal is in the range of 0.5-9.0 cpm or 0.0083 to 0.15 Hz which is much lower than that of most of extracellular recordings.
+<ul>
 <li>In addition to the basic fundamental frequencies of 0.5-9.0 cpm, it is also important to record certain harmonics (multiples of the fundamental frequency). Accordingly, an appropriate frequency setting is in the range of 0.0083 to 1 Hz.</li>
+</ul></li>
 </ul>
 <p><strong>Skin Preparation</strong></p>
 <ul>
-<li>First, the abdominal skin where the electrodes are to be positioned should be thoroughly cleaned to ensure that the impedance between the pair of electrodes is below 10 kΩ.</li>
+<li>First, the abdominal skin where the electrodes are to be positioned should be thoroughly cleaned to ensure that the impedance between the pair of electrodes is below 10 kΩ.
+<ul>
 <li>To do so, it is advised to abrade the skin until it turns pinkish using some sandy skin-preparation jelly, and then apply a thin layer of electrode jelly for 1 minute for the jelly to penetrate into the skin.</li>
+</ul></li>
 <li>Before placing the electrode, the excessive jelly must be completely wiped out.</li>
 </ul>
 <p><strong>Subject Position</strong></p>
@@ -744,18 +734,24 @@
 </ul>
 <p><strong>Power Ratio or Relative Electrogastrography</strong></p>
 <ul>
-<li><em>Power Change</em>: The ratio of dominant EGG powers after and before an intervention is a commonly used parameter that is associated with alteration in gastric contractions. It is generally accepted that a ratio of ＞ 1 reflects an increase in gastric contractility due to the intervention, whereas a ratio of ＜ 1 reflects a decrease in gastric contractility.</li>
+<li><em>Power Change</em>: The ratio of dominant EGG powers after and before an intervention is a commonly used parameter that is associated with alteration in gastric contractions. It is generally accepted that a ratio of ＞ 1 reflects an increase in gastric contractility due to the intervention, whereas a ratio of ＜ 1 reflects a decrease in gastric contractility.
+<ul>
 <li>If the decibel (dB) unit is used, the ratio should be replaced by the difference between the baseline and after intervention.</li>
-<li><em>Percentage of Normal Gastric Slow Waves</em>: The percentage of normal slow waves is a quantitative assessment of the regularity of the gastric slow wave measured from the EGG. It is defined as the percentage of time during which normal gastric slow waves are observed in the EGG. The percentage of normal slow waves can be computed from the running power spectra of the EGG.</li>
+</ul></li>
+<li><em>Percentage of Normal Gastric Slow Waves</em>: The percentage of normal slow waves is a quantitative assessment of the regularity of the gastric slow wave measured from the EGG. It is defined as the percentage of time during which normal gastric slow waves are observed in the EGG. The percentage of normal slow waves can be computed from the running power spectra of the EGG.
+<ul>
 <li>In this method, 1 spectrum is derived from every 1 minute (or some other short period) of EGG data; the minute is considered normal if its EGG spectrum exhibits a dominant power in the range of 2-4 cpm. In humans, the normal percentage of gastric slow wave is defined as 70%.</li>
-<li><em>Percentage of Gastric Dysrhythmia</em>: The percentage of gastric dysrhythmia is defined as the percentage of time during which gastric dysrhythmia is observed in the EGG. It is computed in the same way as that for the percentage of normal slow waves.</li>
+</ul></li>
+<li><em>Percentage of Gastric Dysrhythmia</em>: The percentage of gastric dysrhythmia is defined as the percentage of time during which gastric dysrhythmia is observed in the EGG. It is computed in the same way as that for the percentage of normal slow waves.
+<ul>
 <li>It is further classified into the percentage of bradygastria, the percentage of tachygastria and the percentage of arrhythmia.</li>
+</ul></li>
 </ul>
 <hr />
 </div>
 <div id="gsr" class="section level3">
 <h3><span class="header-section-number">4.7.3</span> GSR</h3>
-<p>Electrodermal response (EDR) measurements (including Galvanic Skin Response, GSR) show the activity of the eccrine sweat glands. Typically, one will place electrodes where the concentration of these glands is the highest: namely, the fingertips. The activity of the eccrine sweat glands as a response to physiological excitation (stress, fear, etc.) serves to increase the conductivity of the skin when activated. When one applies a very small electric voltage (0.5 V) between two electrodes, the manifested electrical conductance varies in direct proportion to the electric current flowing between the electrodes. For instance, if a subject is presented a stimulus and the palms start to sweat, this response indicates a highly-stimulated state. The EDR of this subject will then be higher than the subject’s baseline. If another subject receives the same stimulus and the palms remain as &quot;cool as a cucumber,&quot; the EDA reading will remain unchanged with respect to the baseline. EDR undergoes relatively fast habituation (decrease of amplitude) in the event the same stimulus is repeated over and over to the same subject.</p>
+<p>Electrodermal response (EDR) measurements (including Galvanic Skin Response, GSR) show the activity of the eccrine sweat glands. Typically, one will place electrodes where the concentration of these glands is the highest: namely, the fingertips. The activity of the eccrine sweat glands as a response to physiological excitation (stress, fear, etc.) serves to increase the conductivity of the skin when activated. When one applies a very small electric voltage (0.5 V) between two electrodes, the manifested electrical conductance varies in direct proportion to the electric current flowing between the electrodes. For instance, if a subject is presented a stimulus and the palms start to sweat, this response indicates a highly-stimulated state. The EDR of this subject will then be higher than the subject’s baseline. If another subject receives the same stimulus and the palms remain as “cool as a cucumber,” the EDA reading will remain unchanged with respect to the baseline. EDR undergoes relatively fast habituation (decrease of amplitude) in the event the same stimulus is repeated over and over to the same subject.</p>
 <p><strong>Biopac Setup</strong></p>
 <ul>
 <li>In our GSR setup, we have one transmitter with one channel.</li>
@@ -775,8 +771,10 @@
 </ul>
 <p><strong>Filtering and Signal Frequency BioPac Recommendation</strong></p>
 <ul>
-<li>The sample rate can be set quite low for long-term ambulatory measurements or experiments that do not require a high level of temporal precision (i.e., 1-5 samples per second). However, lower sample rates cannot ensure that specific events are accurately represented in what is relayed and graphed, and a degree of timing error might occur.</li>
+<li>The sample rate can be set quite low for long-term ambulatory measurements or experiments that do not require a high level of temporal precision (i.e., 1-5 samples per second). However, lower sample rates cannot ensure that specific events are accurately represented in what is relayed and graphed, and a degree of timing error might occur.
+<ul>
 <li>To avoid this, BioPac recommends the sampling rate be set to a minimum of 2000 samps/sec (2KHz). Higher sample rates are useful for a number of methodological reasons and for improvements in precision.</li>
+</ul></li>
 <li>For EDA/GSR measurements, it is typical to filter the data at 35Hz. Some recommendations are that a sample rate of 200Hz - 400Hz are a minimum to ensure enough samples for accurate separation of phasic waveforms from tonic signals and a more accurate representation of signal shape.</li>
 <li>A general approach is to always err on the side of caution and probably seek to sample higher than you really need. As a general rule 1000Hz - 2000Hz sample rates are more than sufficient and easily achievable. The decision for the present study is to collect at a sampling rate of 2000Hz.</li>
 </ul>
@@ -788,16 +786,22 @@
 <p><strong>Gathering GSR Data</strong></p>
 <ul>
 <li>Don’t abrade the skin</li>
-<li>After prepping 2 electrodes with a dab of Gel101, attach them to the child’s middle and ring fingers</li>
+<li>After prepping 2 electrodes with a dab of Gel101, attach them to the child’s middle and ring fingers
+<ul>
 <li>Let these rest to let the adhesive set and gel soak in for 5 minutes</li>
+</ul></li>
 <li>Ask the child to put on the PPGED transmitter like a wrist watch. Assist if needed.</li>
-<li>Attach the transmitter leads to the electrodes (red to middle, black to pointer)</li>
+<li>Attach the transmitter leads to the electrodes (red to middle, black to pointer)
+<ul>
 <li>These should be the only two leads connected to the device</li>
 <li>If there are more leads present, ensure you have the correct transmitter and that the correct lead set is plugged in</li>
+</ul></li>
 <li>Turn on the transmitter and ensure that both the light on the Biopac receiver module and the transmitter are green (the transmitter should be flashing, whereas the receiver should be solid)</li>
 <li>Make sure there is a clear, unobstructed line of sight between the transmitter and receiver antenna</li>
-<li>Open AcqKnowledge by selecting the template file on the desktop</li>
+<li>Open AcqKnowledge by selecting the template file on the desktop
+<ul>
 <li>If the system is not connected to the hardware, make sure the wifi is turned off and restart AcqKnowledge</li>
+</ul></li>
 <li>Ensure all devices are connected and lead wires attached properly</li>
 <li>Hit the green “Start” button and click through all of the dialog boxes that you’re prompted with</li>
 </ul>
@@ -810,13 +814,13 @@
 <p>To install Git:</p>
 <ol style="list-style-type: decimal">
 <li>Go <a href="https://git-scm.com/downloads">here</a></li>
-<li>Use the <a href="https://brew.sh/">homebrew</a> method</li>
-</ol>
+<li>Use the <a href="https://brew.sh/">homebrew</a> method
 <ul>
 <li>Type this line of code into your terminal and press enter</li>
 <li>When you see the instructions RETURN - press enter again</li>
-<li>You may have to enter your password, if it looks like you aren't entering text, you really are, so just type and press enter</li>
-</ul>
+<li>You may have to enter your password, if it looks like you aren’t entering text, you really are, so just type and press enter</li>
+</ul></li>
+</ol>
 <pre><code>/bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)&quot;</code></pre>
 <ol start="3" style="list-style-type: decimal">
 <li>Once that has installed, type this code into your terminal and press enter</li>
@@ -827,7 +831,7 @@
 </ol>
 <hr />
 </div>
-<div id="github-1" class="section level2">
+<div id="github" class="section level2">
 <h2><span class="header-section-number">4.9</span> GitHub</h2>
 <ol style="list-style-type: decimal">
 <li>Download <a href="https://desktop.github.com/">GitHub Desktop</a></li>
@@ -888,34 +892,40 @@
 <img src="images/research_protocols/github/11.png" alt="" />
 <p class="caption"><!--- GitHub Desktop ---></p>
 </div>
-<p><img src="images/research_protocols/github/7.png" alt="" /> <img src="images/research_protocols/github/8.png" alt="" /></p>
+<p><img src="images/research_protocols/github/7.png" alt="" />
+<img src="images/research_protocols/github/8.png" alt="" /></p>
 <ol start="8" style="list-style-type: decimal">
 <li>Push the repository</li>
 </ol>
 <ul>
 <li>Push the changes that git has catalogued to the online GitHub</li>
 </ul>
-<p><img src="images/research_protocols/github/9.png" alt="" /> <img src="images/research_protocols/github/10.png" alt="" /> <img src="images/research_protocols/github/12.png" alt="" /></p>
+<p><img src="images/research_protocols/github/9.png" alt="" />
+<img src="images/research_protocols/github/10.png" alt="" />
+<img src="images/research_protocols/github/12.png" alt="" /></p>
 <ol start="9" style="list-style-type: decimal">
 <li>Go to GitHub online and you can see your repository with all of your files and latest commits</li>
 </ol>
 <ul>
 <li>Important to note that the README file will display as the main page for the repository</li>
 </ul>
-<p><img src="images/research_protocols/github/13.png" alt="" /> <img src="images/research_protocols/github/14.png" alt="" /></p>
+<p><img src="images/research_protocols/github/13.png" alt="" />
+<img src="images/research_protocols/github/14.png" alt="" /></p>
 <ol start="10" style="list-style-type: decimal">
-<li>If you click on the commits button, you can browse your entire history of commits, explore the file, and download the version from any point in it's history</li>
+<li>If you click on the commits button, you can browse your entire history of commits, explore the file, and download the version from any point in it’s history</li>
 </ol>
-<p><img src="images/research_protocols/github/15.png" alt="" /> <img src="images/research_protocols/github/16.png" alt="" /> <img src="images/research_protocols/github/17.png" alt="" /></p>
+<p><img src="images/research_protocols/github/15.png" alt="" />
+<img src="images/research_protocols/github/16.png" alt="" />
+<img src="images/research_protocols/github/17.png" alt="" /></p>
 <ol start="11" style="list-style-type: decimal">
-<li>Adding a .gitignore file will allow you to &quot;skip&quot; over certain types of files that you don't want to commit</li>
+<li>Adding a .gitignore file will allow you to “skip” over certain types of files that you don’t want to commit</li>
 </ol>
 <div class="figure">
 <img src="images/research_protocols/github/18.png" alt="" />
 <p class="caption"><!--- GitHub Desktop ---></p>
 </div>
 <ol start="12" style="list-style-type: decimal">
-<li>You can change the name of the root folder on your local directory - just be sure to use the &quot;locate&quot; function in GitHub Desktop to locate it</li>
+<li>You can change the name of the root folder on your local directory - just be sure to use the “locate” function in GitHub Desktop to locate it</li>
 </ol>
 <div class="figure">
 <img src="images/research_protocols/github/20.png" alt="" />
@@ -929,16 +939,16 @@
 <p class="caption"><!--- GitHub Desktop ---></p>
 </div>
 <p><strong>For a more thorough description of Git, see this <a href="https://vuorre.netlify.app/publication/2018/06/01/curating-research-assets-a-tutorial-on-the-git-version-control-system/vuorre-curating-research-assets-2018.pdf">article</a>.</strong></p>
-<p>**Vuorre, M., &amp; Curley, J. P. (2018). Curating Research Assets: A Tutorial on the Git Version Control System. Advances in Methods and Practices in Psychological Science, 1(2), 219–236. <a href="https://doi.org/10.1177/2515245918754826**" class="uri">https://doi.org/10.1177/2515245918754826**</a></p>
+<p><strong>Vuorre, M., &amp; Curley, J. P. (2018). Curating Research Assets: A Tutorial on the Git Version Control System. Advances in Methods and Practices in Psychological Science, 1(2), 219–236. <a href="https://doi.org/10.1177/2515245918754826" class="uri">https://doi.org/10.1177/2515245918754826</a></strong></p>
 <div id="how-to-use-github-like-a-software-developer" class="section level3">
 <h3><span class="header-section-number">4.9.1</span> How to use GitHub like a Software Developer</h3>
-<p>The above method is great if you are working alone in your own repository, but it doesn't work well for collaboration, because only one git repository can be linked to a folder at one time. GitHub has an integrated workflow for this.</p>
+<p>The above method is great if you are working alone in your own repository, but it doesn’t work well for collaboration, because only one git repository can be linked to a folder at one time. GitHub has an integrated workflow for this.</p>
 <p><strong>Collaborative Workflow</strong></p>
 <ol style="list-style-type: decimal">
 <li>Fetch origin</li>
 <li>Create branch</li>
 <li>Code (Make sure you are working in the correct project on R)</li>
-<li>Build / Knit (Build is for Wiki's/Books - Knit is for regular Rmarkdown files)</li>
+<li>Build / Knit (Build is for Wiki’s/Books - Knit is for regular Rmarkdown files)</li>
 <li>Commit</li>
 <li>Push (and/or publish branch)</li>
 <li>Pull</li>
@@ -946,7 +956,7 @@
 <li>Delete branch on GitHub online AND on local computer GitHub Desktop</li>
 <li>Repeat</li>
 </ol>
-<p>--</p>
+<p>–</p>
 <ol style="list-style-type: decimal">
 <li>The first step is to fetch origin (or clone down if this is your first time working in this repository)</li>
 </ol>
@@ -955,38 +965,37 @@
 <img src="images/research_protocols/github/30.png" alt="" />
 <p class="caption"><!--- GitHub ---></p>
 </div>
-<p>If cloning: clone the repository from your organization into a local directory on your computer using GitHub Desktop - Anywhere is fine as long as it's not a shared folder - Box, Dropbox, Google Drive folders are fine as long as you are the ONLY user (i.e. your personal Google Drive etc.)</p>
+<p>If cloning: clone the repository from your organization into a local directory on your computer using GitHub Desktop
+- Anywhere is fine as long as it’s not a shared folder
+- Box, Dropbox, Google Drive folders are fine as long as you are the ONLY user (i.e. your personal Google Drive etc.)</p>
 <div class="figure">
 <img src="images/research_protocols/github/22.png" alt="" />
 <p class="caption"><!--- GitHub ---></p>
 </div>
 <ol start="2" style="list-style-type: decimal">
-<li>The next step in a collaborative repository is to create your own branch on the GitHub Desktop app<br />
-</li>
-</ol>
+<li>The next step in a collaborative repository is to create your own branch on the GitHub Desktop app
 <ul>
 <li>NEVER work directly in the master branch - you might break something</li>
 <li>Name it after yourself (this will be your workspace)</li>
-</ul>
+</ul></li>
+</ol>
 <div class="figure">
 <img src="images/research_protocols/github/29.png" alt="" />
 <p class="caption"><!--- GitHub ---></p>
 </div>
 <ol start="3" style="list-style-type: decimal">
-<li>Now you can begin coding! (make/add/remove things etc. directly in the folders on your computer)</li>
-</ol>
+<li>Now you can begin coding! (make/add/remove things etc. directly in the folders on your computer)
 <ul>
 <li>Make sure you are working in the correct project on R</li>
-</ul>
-<ol start="4" style="list-style-type: decimal">
+</ul></li>
 <li><p>Build/Knit - when you are done making your desired changes, click build or knit</p></li>
-<li>Commit - Commit your changes using GitHub Desktop</li>
-</ol>
+<li>Commit - Commit your changes using GitHub Desktop
 <ul>
 <li>This is kind of like saving the changes to your local computer change tracker</li>
 <li>Make sure you put a comment in the box (no description necessary)</li>
 <li>Make your comment useful to those reviewing it</li>
-</ul>
+</ul></li>
+</ol>
 <div class="figure">
 <img src="images/research_protocols/github/25.png" alt="" />
 <p class="caption"><!--- GitHub ---></p>
@@ -999,19 +1008,19 @@
 <p class="caption"><!--- GitHub ---></p>
 </div>
 <ol start="7" style="list-style-type: decimal">
-<li>Pull - Now, in order to integrate your changes with the master copy (which hosts the public facing ebsite) you need to submit a pull request.</li>
-</ol>
+<li>Pull - Now, in order to integrate your changes with the master copy (which hosts the public facing ebsite) you need to submit a pull request.
 <ul>
 <li>This means that you want the owner of the repository to pull in your changes to the master branch</li>
 <li>This will take you to GitHub.com, follow the instructions to create your pull request</li>
 <li>Make as detailed notes as possible on what changes you have created in this round of updates</li>
-</ul>
+</ul></li>
+</ol>
 <div class="figure">
 <img src="images/research_protocols/github/27.png" alt="" />
 <p class="caption"><!--- GitHub ---></p>
 </div>
 <ol start="8" style="list-style-type: decimal">
-<li>Merge - on GitHub.com, the owner of the repository will then be able to review your pull request, fix any conflicts, and merge the branch into the master. Usually, this is pretty simple if there aren't any conflicts!</li>
+<li>Merge - on GitHub.com, the owner of the repository will then be able to review your pull request, fix any conflicts, and merge the branch into the master. Usually, this is pretty simple if there aren’t any conflicts!</li>
 </ol>
 <div class="figure">
 <img src="images/research_protocols/github/28.png" alt="" />
@@ -1071,11 +1080,13 @@
 <ol start="5" style="list-style-type: decimal">
 <li>Link OSF to your GitHub account</li>
 </ol>
-<p><img src="images/research_protocols/osf/5.png" alt="" /> <img src="images/research_protocols/osf/6.png" alt="" /></p>
+<p><img src="images/research_protocols/osf/5.png" alt="" />
+<img src="images/research_protocols/osf/6.png" alt="" /></p>
 <ol start="6" style="list-style-type: decimal">
 <li>Select the repository you want to link</li>
 </ol>
-<p><img src="images/research_protocols/osf/7.png" alt="" /> <img src="images/research_protocols/osf/8.png" alt="" /></p>
+<p><img src="images/research_protocols/osf/7.png" alt="" />
+<img src="images/research_protocols/osf/8.png" alt="" /></p>
 <ol start="7" style="list-style-type: decimal">
 <li>Now all of your files are visible in the OSF project</li>
 </ol>
@@ -1103,9 +1114,10 @@
 <ol style="list-style-type: decimal">
 <li>Create a new project based on the wiki template (duplicate and rename for your project/study)</li>
 </ol>
-<p><img src="images/research_protocols/wiki/1.png" alt="" /> <img src="images/research_protocols/wiki/2.png" alt="" /></p>
+<p><img src="images/research_protocols/wiki/1.png" alt="" />
+<img src="images/research_protocols/wiki/2.png" alt="" /></p>
 <ol start="2" style="list-style-type: decimal">
-<li>Rename any instance of &quot;Template&quot; to your project's title (open using RStudio)</li>
+<li>Rename any instance of “Template” to your project’s title (open using RStudio)</li>
 </ol>
 <ul>
 <li>.Rproj itself (YOU MUST OPEN THIS PROJECT FILE TO GET STARTED)</li>
@@ -1135,7 +1147,10 @@
 <li>Scroll down to GitHub pages</li>
 <li>Select master/branch/docs folder to set your GitHub Pages site to the docs folder within your bookdown files</li>
 </ul>
-<p><img src="images/research_protocols/wiki/3.png" alt="" /> <img src="images/research_protocols/wiki/4.png" alt="" /> <img src="images/research_protocols/wiki/5.png" alt="" /> <img src="images/research_protocols/wiki/6.png" alt="" /></p>
+<p><img src="images/research_protocols/wiki/3.png" alt="" />
+<img src="images/research_protocols/wiki/4.png" alt="" />
+<img src="images/research_protocols/wiki/5.png" alt="" />
+<img src="images/research_protocols/wiki/6.png" alt="" /></p>
 <ol start="7" style="list-style-type: decimal">
 <li>Put the link on OSF to the wiki</li>
 </ol>

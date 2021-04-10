@@ -145,8 +145,10 @@ Pamphlet](https://ucla.app.box.com/s/jyzoag8v9qw6katuvgegjil8an2tsx2j)
 
 ## Onboarding - Volunteer Research Assistant (UCLA Students)
 
-1. Website
+1. Website & Information
    - Please send us your preferred name, photo, and a brief bio for the lab website
+   - Lab Manager to add to Lab News
+   - Please provide the Lab Manager with your birthday, UID, phone number, and preferred email
 2. IRB Trainings- IMPORTANT
    - No one can access our Box or data until all IRB trainings are complete!
    - Create a [UCLA SSO](https://ora.research.ucla.edu/OHRPP/Documents/Education/SSO_CITI_New_Acct.pdf) for CITI Program or [login](https://www.research.ucla.edu/CITIProgram/) through UCLA
@@ -161,7 +163,7 @@ Pamphlet](https://ucla.app.box.com/s/jyzoag8v9qw6katuvgegjil8an2tsx2j)
       - Download the desktop an mobile [apps](https://trello.com/en-US/platforms)
       - Please watch this [tutorial](https://youtu.be/_Ry-SnJygy8)
 4. HR Requirements (not necessary for UCLA students)
-   - Lab Manager must consult with Bridget prior to hiring. Background checks must be run for all volunteers who are not UCLA students (~$50 each). Unless otherwise specified, the Lab Manager should refer to the RA application pool within UCLA students.
+   - Lab Manager must consult with Bridget prior to hiring. Background checks must be run for all volunteers who are NOT UCLA students (~$50 each). Unless otherwise specified, the Lab Manager should refer to the RA application pool within UCLA students.
    - Please print, read, and complete the forms located in the Dropbox/BAB/Lab/Lab_protocols/RA_hiring/Forms
    - Each form MUST be completed thoroughly. Some persons omit information such as social security information, but if any area is left vacant, we cannot accept the forms and the volunteer will not be able to work on the UCLA campus. There must be a clear start date and a clear end date. The majority of the forms are filled out by the volunteer, but there are a few areas where the UCLA professor whose lab is overseeing the volunteer must sign and date as well. 
    - The volunteer may not work on the UCLA campus until all forms are filled out, signed, and submitted back to HR.
@@ -172,6 +174,11 @@ Pamphlet](https://ucla.app.box.com/s/jyzoag8v9qw6katuvgegjil8an2tsx2j)
    - The swipe access reader is located on the right hand side of door to the right courtyard of the tower entrance.
 6. BMC Requirements
    - TBD
+7. Ask the Lab Manager to be added to REDCap
+   - Complete and send REDCap access form to Lab Manager to be submitted to Martin Lai (mylai@mednet.ucla.edu) (BABLAB/Lab/Lab_protocols/REDCap/Access/Template/)
+8. Ask Lab Manager to be added to Slack, Box, Google Calendars, Google Group, OSF
+
+----------
 
 ## Onboarding - Postdoctoral Scholar
 

@@ -11,13 +11,12 @@
 1. Ensure all tasks on Trello have been reassigned to another active member of the lab, or completed prior to departure.
 2. Any departing Research Assistant should train another active member of the lab on any processes/tasks they have been in charge of (if nobody else in the lab carries this knowledge).
 3. Lab manager should remove this member from all necessary Lab applications (Slack, Box, Trello, Shared Google Calendar, etc.).
-4. Lab manager to update the Lab website.
+4. Lab manager to update the Lab website. Remove inforamtion from website internal.
 5. Social Media Manager to update status to Lab alumni.
 6. Submit PAF form with updated end date to HR for all volunteers (see specific instructions below)
+7. Lab Manager to send RA [BABLAB academic activity](https://docs.google.com/spreadsheets/d/1BDrPZkQR2k0A2yIzCgjrRj-ve8a-tWYQdN2QSSsppbQ/edit?usp=sharing) list to fill out before they depart
 
 ### PAF 
- 
-NOTE: This action should only be taken if the volunteer has paperwork within HR (a non-UCLA student volunteer)
 
 1. If the Volunteer Research Assistant is leaving prior to their previously specified end date, lab manager must submit a PAF form to HR.
     - If the previously specified end date is not known, email HR to confirm
@@ -26,4 +25,33 @@ NOTE: This action should only be taken if the volunteer has paperwork within HR 
     - Note: fund manager signature is not needed, as volunteer positions do not require funding
 4. Once submitted, HR will update the Volunteer Research Assistant's UCPath. 
 5. Save the PAF to Box (BabLab>Lab>Documents>RA_hiring_documents>RA_offboarding_PAF)
+
+----------
+
+## Offboarding - Lab Manager
+
+----------
+
+### Offboarding Tasks - Lab Manager
+
+1. Ensure all tasks on Trello have been reassigned to another active member of the lab, or completed prior to departure.
+2. Lab Manager to transfer ownership on the following applications:
+  - GitHub (all wikis and projects)
+  - Slack Ownership
+  - Psychology website 
+  - Trello
+  - Google voice forwarding phone
+  - Security email/information for bab gmail
+  - ALBMC account
+3. Remove from all necessary Lab applications (Slack, Box, Trello, Shared Google Calendar, etc.).
+4. Update the Lab website. Remove inforamtion from website internal.
+5. Social Media Manager to update status to Lab alumni.
+6. Contact HR for all offboarding paperwork/tasks.
+7. Fill out the[BABLAB academic activity](https://docs.google.com/spreadsheets/d/1BDrPZkQR2k0A2yIzCgjrRj-ve8a-tWYQdN2QSSsppbQ/edit?usp=sharing) list to fill out before they depart
+8. Lab Manager to write any outstanding protocols needed.
+9. Lab Manager to pass over financial log password. 
+
+
+
+
 

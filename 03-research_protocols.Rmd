@@ -82,6 +82,11 @@ Before you leave, or upon completion of a project, you must archive old datasets
 
 Links to [templates](https://ohrpp.research.ucla.edu/consent-templates/) from the UCLA research administration group. 
 
+
+#### How to request an IRB account
+
+Click [here](https://webirb.research.ucla.edu/WEBIRB/Rooms/DisplayPages/LayoutInitial?Container=com.webridge.entity.Entity[OID[8990716E5E076B40BFE2D4D479617FD3]]) for steps on how to request of an IRB account
+
 ----------
 
 ### IBC

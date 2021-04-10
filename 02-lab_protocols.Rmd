@@ -152,6 +152,14 @@ Using a shared Dropbox Paper document, please prepare the following:
 
 When sending things out USPS, you can place your recharge ID under the sender’s address, circle it, & drop it in the outgoing mail bin in 1282 (faculty mailroom)
 
+#### How to check your Charges
+
+- Go to the MDDS ucla mail services [check my charges page](https://www.mdds.ucla.edu/mail-services/how-to-check-your-ucla-mail-service-charges)
+- Click on MDDS Billing Data and sign in with your UCLA logon ID
+- Navigate to the "Billing Activity Review" page
+- At the Search bar: the financial services dept. code is 0875 and enter the appropriate recharge ID/month and year
+- Under the Outgoing Mail Billing Activity, there will be a total cost of charges as well as number of pieces of mail for this FAU during the mobth/year you selected
+
 ----------
 
 ## Recycling & Waste
@@ -296,6 +304,23 @@ Uprinting
 Watch the video for a detailed explanation.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6YPngZ2cZto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+----------
+
+### Fund Log - Lab Manager 
+
+**Items to add to the Fund Log**
+
+- TRELLO - amazon purchases
+- reimbursements
+- purchases in Box (uPrinting should be stored on box)
+- petty cash
+- staff reseracher salaries 
+- usps charges through mdds (participant payments, magic boxes)
+- fedex charges through financial report/receipts Brian sends
+- lamination - must email them for receipts
+- DNA genotek on financial report (and they should send receipts for each PO)
+- guest permits through emailing tyler
 
 ----------
 
