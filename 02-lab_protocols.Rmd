@@ -538,8 +538,16 @@ You can use the test logic with a record feature to see if this question will be
 
 ![<!--- Custom Dashboard Settings --->](images/lab_protocols/redcap/6.png)
 
+#### Backend of Instument Settings
 
+CHECKLIST for REDCap Survey backends:
 
+- title of survey
+- delete survey instructions
+- color: BABLAB
+- allow respondents to return without needing a return code
+- auto continue to next survey
+- delete survey completion text
 
 
 ----------
