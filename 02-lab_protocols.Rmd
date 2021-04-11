@@ -521,11 +521,26 @@ If you upgrade your Mac operating system to Catalina, and wish to run tasks on P
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aKdWA0ABOrU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Using the test logic feature
+#### Using the test logic feature
 
 You can use the test logic with a record feature to see if this question will be shown for a specific participant
 
 ![<!--- Branching logic test --->](images/lab_protocols/redcap/1.png)
+
+
+#### Custom Record Dashboards
+
+- to create a custom record dashboard in record status dashboard that you can filter participants to based off of certain characteristics, open your REDCap project and navigate to the record status dashboard then click "Create custom dashboard"
+
+![<!--- Navigate to Custom Dashboard Creation --->](images/lab_protocols/redcap/5.png)
+
+- Refer to the following custom record dashboard settings. Fill out the dashboard title, header orientation, group columns by event, filter logic (based off your qualifying variable), filter by arm (indicate correct arm this dashboard will attend to), and sort by (how the items in the dashboard should be sorted):
+
+![<!--- Custom Dashboard Settings --->](images/lab_protocols/redcap/6.png)
+
+
+
+
 
 ----------
 
