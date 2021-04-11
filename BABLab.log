@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  11 APR 2021 13:58
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  11 APR 2021 14:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1066,16 +1066,12 @@ File: images/lab_protocols/redcap/5.png Graphic file (type bmp)
 [37]
 File: images/lab_protocols/redcap/6.png Graphic file (type bmp)
 <images/lab_protocols/redcap/6.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[38]
+[38] [39]
 File: images/lab_protocols/cisco/1.png Graphic file (type bmp)
 <images/lab_protocols/cisco/1.png>
-[39]
+[40]
 File: images/research_protocols/google_voice/pic1.png Graphic file (type bmp)
 <images/research_protocols/google_voice/pic1.png>
-[40]
 File: images/research_protocols/google_voice/pic2.png Graphic file (type bmp)
 <images/research_protocols/google_voice/pic2.png>
 File: images/research_protocols/google_voice/pic3.png Graphic file (type bmp)
@@ -1086,9 +1082,9 @@ File: images/research_protocols/google_voice/pic5.png Graphic file (type bmp)
 <images/research_protocols/google_voice/pic5.png>
 File: images/research_protocols/google_voice/pic6.png Graphic file (type bmp)
 <images/research_protocols/google_voice/pic6.png>
+[41] [42] [43]
 File: images/research_protocols/google_voice/pic7.png Graphic file (type bmp)
 <images/research_protocols/google_voice/pic7.png>
-[41] [42] [43]
 File: images/lab_protocols/cd_burning/1.png Graphic file (type bmp)
 <images/lab_protocols/cd_burning/1.png>
 File: images/lab_protocols/cd_burning/2.png Graphic file (type bmp)
@@ -1103,46 +1099,46 @@ File: images/lab_protocols/video_resolution/2.png Graphic file (type bmp)
 File: images/lab_protocols/printer/1.png Graphic file (type bmp)
 <images/lab_protocols/printer/1.png>
 
-Overfull \hbox (71.8935pt too wide) in paragraph at lines 2403--2405
+Overfull \hbox (71.8935pt too wide) in paragraph at lines 2424--2426
 \TU/lmr/m/n/10 Printing System [] 
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [47] [48]
 File: images/lab_protocols/printer/2.png Graphic file (type bmp)
 <images/lab_protocols/printer/2.png>
 
-Overfull \hbox (196.78842pt too wide) in paragraph at lines 2413--2416
+Overfull \hbox (196.78842pt too wide) in paragraph at lines 2434--2437
 []\TU/lmr/m/n/10 Enter IP Address from Printer: 164.67.125.35 [] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[49] [50] [51] [52]
+[49] [50]
+Underfull \vbox (badness 2698) has occurred while \output is active []
+
+[51] [52]
 Chapter 4.
 [53
 
 ]
-Underfull \hbox (badness 3138) in paragraph at lines 2649--2650
+Underfull \hbox (badness 3138) in paragraph at lines 2670--2671
 []\TU/lmr/m/n/10 Data should generally be named in the following way: <mea-
  []
 
 
-Underfull \hbox (badness 4036) in paragraph at lines 2649--2650
+Underfull \hbox (badness 4036) in paragraph at lines 2670--2671
 \TU/lmr/m/n/10 sure>_<status>_<if relevant, date in form YYYYMMDD>_<if
  []
 
 [54]
-Underfull \hbox (badness 2205) in paragraph at lines 2728--2729
+Underfull \hbox (badness 2205) in paragraph at lines 2749--2750
 []\TU/lmr/bx/n/10 naming convention for scripts\TU/lmr/m/n/10 : Note that BABLa
 b has
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 2777--2778
+Underfull \hbox (badness 1281) in paragraph at lines 2798--2799
 []\TU/lmr/m/n/10 /../Studies/Mind_Brain_Body/Scripts/<wave>/<purpose, eg. scor-
 
  []
@@ -1168,7 +1164,7 @@ Missing character: There is no ＜ in font [lmroman10-regular]:mapping=tex-text;
 Missing character: There is no ＞ in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ＜ in font [lmroman10-regular]:mapping=tex-text;!
 [69] [70] [71]
-Overfull \hbox (164.25pt too wide) in paragraph at lines 3800--3800
+Overfull \hbox (164.25pt too wide) in paragraph at lines 3821--3821
 []\TU/lmtt/m/n/10 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/
 Homebrew/install/master/install.sh)"[] 
  []
@@ -1193,7 +1189,7 @@ File: images/research_protocols/github/7.png Graphic file (type bmp)
 File: images/research_protocols/github/8.png Graphic file (type bmp)
 <images/research_protocols/github/8.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 3941--3943
+Underfull \hbox (badness 10000) in paragraph at lines 3962--3964
 [][]
  []
 
@@ -1211,12 +1207,12 @@ File: images/research_protocols/github/10.png Graphic file (type bmp)
 File: images/research_protocols/github/12.png Graphic file (type bmp)
 <images/research_protocols/github/12.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 3958--3961
+Underfull \hbox (badness 10000) in paragraph at lines 3979--3982
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3958--3961
+Underfull \hbox (badness 10000) in paragraph at lines 3979--3982
 []
  []
 
@@ -1229,7 +1225,7 @@ File: images/research_protocols/github/13.png Graphic file (type bmp)
 File: images/research_protocols/github/14.png Graphic file (type bmp)
 <images/research_protocols/github/14.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 3976--3978
+Underfull \hbox (badness 10000) in paragraph at lines 3997--3999
 [][]
  []
 
@@ -1319,12 +1315,12 @@ File: images/research_protocols/wiki/5.png Graphic file (type bmp)
 File: images/research_protocols/wiki/6.png Graphic file (type bmp)
 <images/research_protocols/wiki/6.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 4447--4451
+Underfull \hbox (badness 10000) in paragraph at lines 4468--4472
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4447--4451
+Underfull \hbox (badness 10000) in paragraph at lines 4468--4472
 []
  []
 
@@ -1339,19 +1335,19 @@ File: images/research_protocols/wiki/7.png Graphic file (type bmp)
 ]
 Chapter 5.
 [99]
-Overfull \hbox (110.0189pt too wide) in paragraph at lines 4525--4526
+Overfull \hbox (110.0189pt too wide) in paragraph at lines 4546--4547
 []\TU/lmr/m/n/10 Save the PAF to Box (BabLab>Lab>Documents>RA_hiring_documents>
 RA_offboarding_PAF) 
  []
 
 [100]
 No file BABLab.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 4615.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 4636.
 [101]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 4615.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 4636.
 (./BABLab.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 4615.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 4615.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 4636.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 4636.
 
 Package rerunfilecheck Info: File `BABLab.out' has not changed.
 (rerunfilecheck)             Checksum: 372636938D82D56927E2F5BA7944CC7A;4818.
@@ -1360,10 +1356,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18406 strings out of 479418
- 338954 string characters out of 5884586
- 767784 words of memory out of 5000000
- 35606 multiletter control sequences out of 15000+600000
+ 18407 strings out of 479418
+ 338985 string characters out of 5884586
+ 767857 words of memory out of 5000000
+ 35607 multiletter control sequences out of 15000+600000
  538797 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  58i,5n,118p,1138b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
