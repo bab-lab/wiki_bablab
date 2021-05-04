@@ -113,19 +113,23 @@ Union membership requires pension plan
             - Varicella (Chickenpox)
             - Tdap (Tetanus, Diptheria, Pertussis)
             - Meningococcal
-14. REDCap
+14. Shipping of Biological Materials Training
+    - Take the training survey to determine which trainings need to be completed [EHS Shipping of Biological Materials Trainings](https://www.ehs.ucla.edu/training-support/courses/biosafety/bioshipping). It should direct you to two separate trainings:
+      - Login to worksafe to take the UCLA training [UCLA Worksafe](https://worksafe.ucla.edu/ucla/Programs/Standard/Control/elmLearner.wml)
+      - The survey should also take you to the CDC website to take another training
+15. REDCap
     - Complete and send REDCap access form to Martin Lai (mylai@mednet.ucla.edu) (BABLAB/Lab/Lab_protocols/REDCap/Access/Template/)
-15. Website admin access 
+16. Website admin access 
     - Contact Jun Wan (jwan@psych.ucla.edu) for access to the [life sciences Wordpress multisite server](https://sites.lifesci.ucla.edu/)
-16. MRI Trainings
+17. MRI Trainings
     - TBD 
-17. Department of Psychology Printing Acess
+18. Department of Psychology Printing Acess
     - [Login](https://support.lifesci.ucla.edu/hc/en-us) (upper right hand corner)
     - Click submit a request
     - Inquire about gaining printer access- include your UID number and email
     - Access printing at Franz Hall 
     - [Instructions](https://ucla.app.box.com/s/db0zzvgrydw1yz99yo1nlooq1j4n7jos) - sending print jobs via email 
-18. [Departmental Email Distributions](https://ucla.app.box.com/v/Psych-Directory-List)
+19. [Departmental Email Distributions](https://ucla.app.box.com/v/Psych-Directory-List)
 
 <h4>Important links:</h4>
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  11 APR 2021 14:08
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  4 MAY 2021 11:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -822,16 +822,25 @@ Overfull \hbox (7.40999pt too wide) in paragraph at lines 360--362
 ining) 
  []
 
-
-Overfull \hbox (48.09998pt too wide) in paragraph at lines 470--471
+[9]
+Overfull \hbox (48.09998pt too wide) in paragraph at lines 486--487
 [][][][][][] [] [][][][] [] [][][]$[]\TU/lmr/m/n/10 ) (BABLAB/Lab/Lab_protocols
 /REDCap/Access/Template/) 
  []
 
-[9] [10]
-Overfull \hbox (174.94998pt too wide) in paragraph at lines 643--644
+[10]
+Overfull \hbox (174.94998pt too wide) in paragraph at lines 659--660
 \TU/lmr/m/n/10 mitted to Martin Lai ([]$[][][][][] [] [][][][][][] [] [][][][] 
 [] [][][]$[]) (BABLAB/Lab/Lab_protocols/REDCap/Access/Template/) 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (42.76454pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10 2.3.  ONBOARDING - VOLUNTEER RESEARCH ASSISTANT (UCLA STUDENTS)
+ \TU/lmr/m/n/10 11
  []
 
 [11] [12] [13] [14] [15] [16
@@ -847,18 +856,18 @@ File: images/lab_protocols/trainee_tuesdays_thursdays/2.png Graphic file (type
 bmp)
 <images/lab_protocols/trainee_tuesdays_thursdays/2.png>
 [21] [22]
-Overfull \hbox (107.6989pt too wide) in paragraph at lines 1258--1260
+Overfull \hbox (107.6989pt too wide) in paragraph at lines 1274--1276
 []\TU/lmr/m/n/10 Fill out blank PAC form located in (BABLAB/Lab/Documents/Finan
 cial_templates/Purchasing/) 
  []
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 1318--1320
+Underfull \hbox (badness 10000) in paragraph at lines 1334--1336
 
  []
 
 
-Overfull \hbox (172.10002pt too wide) in paragraph at lines 1354--1356
+Overfull \hbox (172.10002pt too wide) in paragraph at lines 1370--1372
 []\TU/lmr/m/n/10 Fill out a blank reimbursement form found in (BABLAB/Lab/Docum
 ents/Financial_templates/Reimbursement/) 
  []
@@ -867,157 +876,157 @@ ents/Financial_templates/Reimbursement/)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [24] [25] [26]
-Overfull \hbox (8.34232pt too wide) in paragraph at lines 1587--1588
+Overfull \hbox (8.34232pt too wide) in paragraph at lines 1603--1604
 []\TU/lmr/m/n/10 Type|  
  []
 
 
-Overfull \hbox (0.99252pt too wide) in paragraph at lines 1594--1595
+Overfull \hbox (0.99252pt too wide) in paragraph at lines 1610--1611
 []\TU/lmr/m/n/10 #bablab_core|  
  []
 
 
-Overfull \hbox (17.76231pt too wide) in paragraph at lines 1596--1597
+Overfull \hbox (17.76231pt too wide) in paragraph at lines 1612--1613
 []\TU/lmr/m/n/10 Private|  
  []
 
 
-Overfull \hbox (17.76231pt too wide) in paragraph at lines 1603--1604
+Overfull \hbox (17.76231pt too wide) in paragraph at lines 1619--1620
 []\TU/lmr/m/n/10 Private|  
  []
 
 
-Overfull \hbox (25.25253pt too wide) in paragraph at lines 1608--1609
+Overfull \hbox (25.25253pt too wide) in paragraph at lines 1624--1625
 []\TU/lmr/m/n/10 #bablab_senior_ra|  
  []
 
 
-Overfull \hbox (17.76231pt too wide) in paragraph at lines 1610--1611
+Overfull \hbox (17.76231pt too wide) in paragraph at lines 1626--1627
 []\TU/lmr/m/n/10 Private|  
  []
 
 
-Overfull \hbox (14.13232pt too wide) in paragraph at lines 1617--1618
+Overfull \hbox (14.13232pt too wide) in paragraph at lines 1633--1634
 []\TU/lmr/m/n/10 Public|  
  []
 
 
-Overfull \hbox (14.13232pt too wide) in paragraph at lines 1624--1625
+Overfull \hbox (14.13232pt too wide) in paragraph at lines 1640--1641
 []\TU/lmr/m/n/10 Public|  
  []
 
 
-Overfull \hbox (5.45253pt too wide) in paragraph at lines 1629--1630
+Overfull \hbox (5.45253pt too wide) in paragraph at lines 1645--1646
 []\TU/lmr/m/n/10 #meetings_lab|  
  []
 
 
-Overfull \hbox (14.13232pt too wide) in paragraph at lines 1631--1632
+Overfull \hbox (14.13232pt too wide) in paragraph at lines 1647--1648
 []\TU/lmr/m/n/10 Public|  
  []
 
 
-Overfull \hbox (8.82253pt too wide) in paragraph at lines 1636--1637
+Overfull \hbox (8.82253pt too wide) in paragraph at lines 1652--1653
 []\TU/lmr/m/n/10 #methods_fmri|  
  []
 
 
-Overfull \hbox (14.13232pt too wide) in paragraph at lines 1638--1639
+Overfull \hbox (14.13232pt too wide) in paragraph at lines 1654--1655
 []\TU/lmr/m/n/10 Public|  
  []
 
 
-Overfull \hbox (4.34253pt too wide) in paragraph at lines 1643--1644
+Overfull \hbox (4.34253pt too wide) in paragraph at lines 1659--1660
 []\TU/lmr/m/n/10 #methods_mb|  
  []
 
 
-Overfull \hbox (14.13232pt too wide) in paragraph at lines 1645--1646
+Overfull \hbox (14.13232pt too wide) in paragraph at lines 1661--1662
 []\TU/lmr/m/n/10 Public|  
  []
 
 
-Overfull \hbox (25.80254pt too wide) in paragraph at lines 1650--1651
+Overfull \hbox (25.80254pt too wide) in paragraph at lines 1666--1667
 []\TU/lmr/m/n/10 #notes_conferences|  
  []
 
 
-Overfull \hbox (14.13232pt too wide) in paragraph at lines 1652--1653
+Overfull \hbox (14.13232pt too wide) in paragraph at lines 1668--1669
 []\TU/lmr/m/n/10 Public|  
  []
 
 
-Overfull \hbox (14.13232pt too wide) in paragraph at lines 1659--1660
+Overfull \hbox (14.13232pt too wide) in paragraph at lines 1675--1676
 []\TU/lmr/m/n/10 Public|  
  []
 
 
-Overfull \hbox (14.13232pt too wide) in paragraph at lines 1666--1667
+Overfull \hbox (14.13232pt too wide) in paragraph at lines 1682--1683
 []\TU/lmr/m/n/10 Public|  
  []
 
 
-Overfull \hbox (14.13232pt too wide) in paragraph at lines 1673--1674
+Overfull \hbox (14.13232pt too wide) in paragraph at lines 1689--1690
 []\TU/lmr/m/n/10 Public|  
  []
 
 
-Overfull \hbox (32.37253pt too wide) in paragraph at lines 1678--1679
+Overfull \hbox (32.37253pt too wide) in paragraph at lines 1694--1695
 []\TU/lmr/m/n/10 #rejection_collection|  
  []
 
 
-Overfull \hbox (14.13232pt too wide) in paragraph at lines 1680--1681
+Overfull \hbox (14.13232pt too wide) in paragraph at lines 1696--1697
 []\TU/lmr/m/n/10 Public|  
  []
 
 
-Overfull \hbox (14.13232pt too wide) in paragraph at lines 1687--1688
+Overfull \hbox (14.13232pt too wide) in paragraph at lines 1703--1704
 []\TU/lmr/m/n/10 Public|  
  []
 
 
-Overfull \hbox (24.97253pt too wide) in paragraph at lines 1692--1693
+Overfull \hbox (24.97253pt too wide) in paragraph at lines 1708--1709
 []\TU/lmr/m/n/10 #study_inside_out|  
  []
 
 
-Overfull \hbox (17.76231pt too wide) in paragraph at lines 1694--1695
+Overfull \hbox (17.76231pt too wide) in paragraph at lines 1710--1711
 []\TU/lmr/m/n/10 Private|  
  []
 
 
-Overfull \hbox (17.76231pt too wide) in paragraph at lines 1701--1702
+Overfull \hbox (17.76231pt too wide) in paragraph at lines 1717--1718
 []\TU/lmr/m/n/10 Private|  
  []
 
 
-Overfull \hbox (17.76231pt too wide) in paragraph at lines 1708--1709
+Overfull \hbox (17.76231pt too wide) in paragraph at lines 1724--1725
 []\TU/lmr/m/n/10 Private|  
  []
 
 
-Overfull \hbox (83.64253pt too wide) in paragraph at lines 1713--1714
+Overfull \hbox (83.64253pt too wide) in paragraph at lines 1729--1730
 []\TU/lmr/m/n/10 #study_transfer_mental_health|  
  []
 
 
-Overfull \hbox (17.76231pt too wide) in paragraph at lines 1715--1716
+Overfull \hbox (17.76231pt too wide) in paragraph at lines 1731--1732
 []\TU/lmr/m/n/10 Private|  
  []
 
 
-Overfull \hbox (14.13232pt too wide) in paragraph at lines 1722--1723
+Overfull \hbox (14.13232pt too wide) in paragraph at lines 1738--1739
 []\TU/lmr/m/n/10 Public|  
  []
 
 
-Overfull \hbox (9.92253pt too wide) in paragraph at lines 1727--1728
+Overfull \hbox (9.92253pt too wide) in paragraph at lines 1743--1744
 []\TU/lmr/m/n/10 #writing_group|  
  []
 
 
-Overfull \hbox (17.76231pt too wide) in paragraph at lines 1729--1730
+Overfull \hbox (17.76231pt too wide) in paragraph at lines 1745--1746
 []\TU/lmr/m/n/10 Private|  
  []
 
@@ -1033,19 +1042,19 @@ File: images/lab_protocols/box/4.png Graphic file (type bmp)
 File: images/lab_protocols/box/5.png Graphic file (type bmp)
 <images/lab_protocols/box/5.png>
 [28] [29] [30] [31]
-Overfull \hbox (76.07501pt too wide) in paragraph at lines 1880--1882
+Overfull \hbox (76.07501pt too wide) in paragraph at lines 1896--1898
 []\TU/lmr/m/n/10 Enter the network/server address: \TU/lmtt/m/n/10 smb://pythia
 .psych.ucla.edu/Users/CallaghanLab/ 
  []
 
 
-Overfull \hbox (38.71498pt too wide) in paragraph at lines 1905--1906
+Overfull \hbox (38.71498pt too wide) in paragraph at lines 1921--1922
 []\TU/lmr/m/n/10 Network/server location: \TU/lmtt/m/n/10 \\pythia.psych.ucla.e
 du\Users\CallaghanLab\ 
  []
 
 [32] [33]
-Underfull \hbox (badness 10000) in paragraph at lines 1964--1966
+Underfull \hbox (badness 10000) in paragraph at lines 1980--1982
 
  []
 
@@ -1099,7 +1108,7 @@ File: images/lab_protocols/video_resolution/2.png Graphic file (type bmp)
 File: images/lab_protocols/printer/1.png Graphic file (type bmp)
 <images/lab_protocols/printer/1.png>
 
-Overfull \hbox (71.8935pt too wide) in paragraph at lines 2424--2426
+Overfull \hbox (71.8935pt too wide) in paragraph at lines 2440--2442
 \TU/lmr/m/n/10 Printing System [] 
  []
 
@@ -1107,7 +1116,7 @@ Overfull \hbox (71.8935pt too wide) in paragraph at lines 2424--2426
 File: images/lab_protocols/printer/2.png Graphic file (type bmp)
 <images/lab_protocols/printer/2.png>
 
-Overfull \hbox (196.78842pt too wide) in paragraph at lines 2434--2437
+Overfull \hbox (196.78842pt too wide) in paragraph at lines 2450--2453
 []\TU/lmr/m/n/10 Enter IP Address from Printer: 164.67.125.35 [] 
  []
 
@@ -1122,23 +1131,23 @@ Chapter 4.
 [53
 
 ]
-Underfull \hbox (badness 3138) in paragraph at lines 2670--2671
+Underfull \hbox (badness 3138) in paragraph at lines 2686--2687
 []\TU/lmr/m/n/10 Data should generally be named in the following way: <mea-
  []
 
 
-Underfull \hbox (badness 4036) in paragraph at lines 2670--2671
+Underfull \hbox (badness 4036) in paragraph at lines 2686--2687
 \TU/lmr/m/n/10 sure>_<status>_<if relevant, date in form YYYYMMDD>_<if
  []
 
 [54]
-Underfull \hbox (badness 2205) in paragraph at lines 2749--2750
+Underfull \hbox (badness 2205) in paragraph at lines 2765--2766
 []\TU/lmr/bx/n/10 naming convention for scripts\TU/lmr/m/n/10 : Note that BABLa
 b has
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 2798--2799
+Underfull \hbox (badness 1281) in paragraph at lines 2814--2815
 []\TU/lmr/m/n/10 /../Studies/Mind_Brain_Body/Scripts/<wave>/<purpose, eg. scor-
 
  []
@@ -1164,7 +1173,7 @@ Missing character: There is no ＜ in font [lmroman10-regular]:mapping=tex-text;
 Missing character: There is no ＞ in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ＜ in font [lmroman10-regular]:mapping=tex-text;!
 [69] [70] [71]
-Overfull \hbox (164.25pt too wide) in paragraph at lines 3821--3821
+Overfull \hbox (164.25pt too wide) in paragraph at lines 3837--3837
 []\TU/lmtt/m/n/10 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/
 Homebrew/install/master/install.sh)"[] 
  []
@@ -1189,7 +1198,7 @@ File: images/research_protocols/github/7.png Graphic file (type bmp)
 File: images/research_protocols/github/8.png Graphic file (type bmp)
 <images/research_protocols/github/8.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 3962--3964
+Underfull \hbox (badness 10000) in paragraph at lines 3978--3980
 [][]
  []
 
@@ -1207,12 +1216,12 @@ File: images/research_protocols/github/10.png Graphic file (type bmp)
 File: images/research_protocols/github/12.png Graphic file (type bmp)
 <images/research_protocols/github/12.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 3979--3982
+Underfull \hbox (badness 10000) in paragraph at lines 3995--3998
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3979--3982
+Underfull \hbox (badness 10000) in paragraph at lines 3995--3998
 []
  []
 
@@ -1225,7 +1234,7 @@ File: images/research_protocols/github/13.png Graphic file (type bmp)
 File: images/research_protocols/github/14.png Graphic file (type bmp)
 <images/research_protocols/github/14.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 3997--3999
+Underfull \hbox (badness 10000) in paragraph at lines 4013--4015
 [][]
  []
 
@@ -1315,12 +1324,12 @@ File: images/research_protocols/wiki/5.png Graphic file (type bmp)
 File: images/research_protocols/wiki/6.png Graphic file (type bmp)
 <images/research_protocols/wiki/6.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 4468--4472
+Underfull \hbox (badness 10000) in paragraph at lines 4484--4488
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4468--4472
+Underfull \hbox (badness 10000) in paragraph at lines 4484--4488
 []
  []
 
@@ -1335,19 +1344,19 @@ File: images/research_protocols/wiki/7.png Graphic file (type bmp)
 ]
 Chapter 5.
 [99]
-Overfull \hbox (110.0189pt too wide) in paragraph at lines 4546--4547
+Overfull \hbox (110.0189pt too wide) in paragraph at lines 4562--4563
 []\TU/lmr/m/n/10 Save the PAF to Box (BabLab>Lab>Documents>RA_hiring_documents>
 RA_offboarding_PAF) 
  []
 
 [100]
 No file BABLab.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 4636.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 4652.
 [101]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 4636.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 4652.
 (./BABLab.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 4636.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 4636.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 4652.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 4652.
 
 Package rerunfilecheck Info: File `BABLab.out' has not changed.
 (rerunfilecheck)             Checksum: 372636938D82D56927E2F5BA7944CC7A;4818.
