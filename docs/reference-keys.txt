@@ -20,6 +20,7 @@ trainee-tuesdays-thursdays
 clinical-meetings
 mail
 usps
+how-to-check-your-charges
 recycling-waste
 purchasing
 pac-orders
@@ -29,6 +30,7 @@ guest-parking-passes
 petty-cash
 vendor-specific-protocols
 logging-purchases-on-trello
+fund-log---lab-manager
 technology
 slack
 box
@@ -38,11 +40,14 @@ dropbox-paper
 github
 google-calendars
 e-mail
+listserv
 mac-os---catalina
 redcap
 creating-events
 entering-instruments
 using-the-test-logic-feature
+custom-record-dashboards
+backend-of-instument-settings
 r
 rstudio
 python
@@ -66,6 +71,7 @@ data-organization
 archiving-inactive-datasets
 ethics
 irb
+how-to-request-an-irb-account
 ibc
 questionnaire-database
 interviews
@@ -83,6 +89,7 @@ physiological-measurement
 ecg
 egg
 gsr
+asa
 git
 github-1
 how-to-use-github-like-a-software-developer
@@ -92,3 +99,5 @@ offboarding
 offboarding---volunteer-research-assistant
 offboarding-tasks---volunteer-research-assistant
 paf
+offboarding---lab-manager
+offboarding-tasks---lab-manager
