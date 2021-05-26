@@ -166,9 +166,16 @@ Pamphlet](https://ucla.app.box.com/s/jyzoag8v9qw6katuvgegjil8an2tsx2j)
    - [Trello](https://trello.com) is our task management software!
       - Download the desktop an mobile [apps](https://trello.com/en-US/platforms)
       - Please watch this [tutorial](https://youtu.be/_Ry-SnJygy8)
-4. HR Requirements (not necessary for UCLA students)
-   - Lab Manager must consult with Bridget prior to hiring. Background checks must be run for all volunteers who are NOT UCLA students (~$50 each). Unless otherwise specified, the Lab Manager should refer to the RA application pool within UCLA students.
-   - Please print, read, and complete the forms located in the Dropbox/BAB/Lab/Lab_protocols/RA_hiring/Forms
+4. HR Requirements 
+   - Lab Manager must consult with Bridget prior to hiring. If for any reason a non-UCLA student is brought on, a background check must be run (~$50 each). Unless otherwise specified, the Lab Manager should refer to the RA application pool within UCLA students.
+   - This also applies to volunteers who have graduated from UCLA. Once a student volunteer has graduated, their status must be switched to staff volunteer and all HR paperwork should be resubmitted to reflect this change. A Background Check must also now be run, since the graduated student is technically no longer affiliated with UCLA on the date after their graduation.
+   - Please print, read, and complete the following forms located in Box (BABLAB/Lab/Documents/RA_hiring_documents/RA_hiring_forms_templates/HR documents)
+        - RA_volunteer_agreement
+        - RA_volunteer_application
+        - RA_volunteer_assignment
+        - RA_volunteer_workerscomp
+        - RA_volunteer_authorization (only if a Background Check is required)
+        - PAF form (obtained from HR)
    - Each form MUST be completed thoroughly. Some persons omit information such as social security information, but if any area is left vacant, we cannot accept the forms and the volunteer will not be able to work on the UCLA campus. There must be a clear start date and a clear end date. The majority of the forms are filled out by the volunteer, but there are a few areas where the UCLA professor whose lab is overseeing the volunteer must sign and date as well. 
    - The volunteer may not work on the UCLA campus until all forms are filled out, signed, and submitted back to HR.
 5. Franz Access
