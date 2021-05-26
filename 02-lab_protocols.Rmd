@@ -493,6 +493,68 @@ There is also a lab email account which people use to contact the lab to partici
 
 ----------
 
+### ListServ
+
+**Protocol: Adding MBB Participants to the BabLab Newsletter Google Group**
+
+The Brain and Body Lab has a Newsletter Google Group where we send previous study participants newsletters and updates regarding the research within our lab, and it is important to consistently add new study participant emails to this list, so they can receive our newsletters! 
+
+The BabLab’s Google Groups can be found Here.
+
+Find the group called “Brain and Body Lab News!” – this group contains previous study participants within the lab. 
+
+Click on the “People” tab to view and add new members to the group.
+![<!--- Listserv --->](images/lab_protocols/listserv/listserv_1.png)
+
+Filter list by “join date” to view the newest members added to the group – and locate these members on the Participant Database. This will make it clear to see when the Newsletter Google Group was last updated, and which names from the Participant database need to be added to the Google Group.
+
+![<!--- Listserv --->](images/lab_protocols/listserv/listserv_2.png)
+
+Click “Add Members” and enter any new emails from the Participant Database one at a time in the “Group Members” box. 
+
+![<!--- Listserv --->](images/lab_protocols/listserv/listserv_3.png)
+
+Enter the following message in the “Welcome Message” box before sending.
+
+**“Hi there!
+You are receiving this message because you may have indicated that you are interested in opting in to the UCLA Brain and Body Lab’s newsletter, updates, and findings! Thanks for signing up to receive our emails- we’re excited to welcome you to the BAB Lab community!  As a part of our community, you will be hearing about all things new and exciting in our team and our research. We couldn’t be more excited to have you! (Note: If you would like to be removed from this group, please feel free to “unsubscribe” below.)
+Sincerely,
+The BAB Lab Team”**
+
+Select “Add Members” and all new emails will be directly added to the BabLab Newsletter Google Group. 
+
+
+**Protocol: Adding all RA applicants to the BabLab Google Group**
+
+The Brain and Body lab also has a Google group for students who have applied to be RA’s in the Lab – so that anyone who is interested in our lab can get lab updates and join in on lab meetings.
+
+The BabLab’s Google Groups can be found Here.
+
+Find the group called “BabLab” – this group includes:  PI (Bridget), postdocs, graduate students, lab managers, paid research assistants/technicians, undergraduate research assistants and volunteers, students from other labs who attend our meetings, visiting scholars, etc.
+
+Click on the “People” tab to view and add new members to the group.
+![<!--- Listserv --->](images/lab_protocols/listserv/listserv_4.png)
+
+Filter list by “join date” to view the newest members added to the group – and locate these in the Bablab Gmail – in the folders “RA_applications” and “RA_app_archive”. This will make it clear to see when the BabLab Google Group was last updated, and which names/emails from the Bablab Gmail need to be added to the Google Group.
+![<!--- Listserv --->](images/lab_protocols/listserv/listserv_5.png)
+
+Click “Add Members” and enter any new emails from the RA application folders within Gmail, one at a time in the “Group Members” box. 
+![<!--- Listserv --->](images/lab_protocols/listserv/listserv_6.png)
+
+
+Enter the following message in the “Welcome Message” box before sending.
+
+**“Hello there! 
+We hope you are well! You are receiving this invitation to join our Brain and Body Lab google group, as you may have indicated on our google form that you were interested in hearing about BABLab news and about our lab meetings. We use this google group to send BABLab updates, newsletters, lab meeting information, and more! If you have changed your mind, please follow the unsubscribe link below. Thank you! 
+Best Regards, 
+The Brain and Body Lab Team”**
+
+
+Select “Add Members” and all new emails from interested RAs will be directly added to the BabLab Google Group. 
+
+
+----------
+
 ### Mac OS - Catalina
 
 If you upgrade your Mac operating system to Catalina, and wish to run tasks on PsychoPy, you must enable the following settings in the image below. 
