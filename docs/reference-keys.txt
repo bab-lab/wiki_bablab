@@ -91,6 +91,7 @@ ecg
 egg
 gsr
 asa
+gorilla
 git
 github-1
 how-to-use-github-like-a-software-developer
