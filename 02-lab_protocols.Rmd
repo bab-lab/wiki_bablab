@@ -837,6 +837,7 @@ Step 5. Go to the folder with the old video.  Click the three dots shown below. 
 - Click on + sign to add a printer 
 - Enter IP Address from Printer: 164.67.125.35
 ![<!--- Printer --->](images/lab_protocols/printer/2.png)
+
 - Make sure Use displays: EPSON WF-7710 Series 
 - Click ADD
 - Reset your Printer Presets if needed 
@@ -909,6 +910,126 @@ Just ensure that you stay active with checking notifications and responding to c
 Consistency across all of the lab materials is the most important thing to maintain for our online footprint. 
 
 If you are unsure of what a post should look like, check out previous posts and highlights for ideas!
+
+----------
+
+## Recruitment
+
+
+### Facebook Ads
+
+One way we recruit participants for MBB is by running ads on Facebook through our lab page. Below is all the relevant information for running a Facebok ad. Facebook has been successful for recruiting parents.
+
+
+1. First go the Brain and Body Facebook page and click on the Ad Center tab. 
+
+![<!--- Recruitment --->](images/lab_protocols/fb_ads/1.png)
+
+2. Once on the ad center click on Create Ad
+
+![<!--- Recruitment --->](images/lab_protocols/fb_ads/2.png)
+
+3. Choose "create new ad" for choose ad type. 
+
+    - Do *not* choose the automated ad option because the Facebook algorithm doesn't understand our ad needs.
+    
+![<!--- Recruitment --->](images/lab_protocols/fb_ads/3.png)
+
+4. For goal choose "get more website visitors" or if promoting a post choose "get more page likes"
+
+![<!--- Recruitment --->](images/lab_protocols/fb_ads/4.png)
+
+5. Fill in the ad description
+
+    - keep the description short and general
+    
+    - do not mention payment or other words that could cause the ad to be flagged ( mention of money, els related words like adopted or gaurdianship children)
+    
+    - typically bablab email is included so they can contact us
+
+5.1. Add ad picture by clicking choose image
+
+   - the picture should also have minimal writing so it runs successfully
+    
+   - it is okay to say adopted / guardianship in the picture since picture words won't get flagged
+    
+  - include the irb approval line at the bottom of ad picture when making it on Canva
+    
+![<!--- Recruitment --->](images/lab_protocols/fb_ads/5.png)
+
+6. Put the url for the lab website page you want to direct participants to.
+
+![<!--- Recruitment --->](images/lab_protocols/fb_ads/6.png)
+
+7. For audience chose "People you choose through targeting" and click the pencil to edit the audience.
+![<!--- Recruitment --->](images/lab_protocols/fb_ads/7.png)
+
+8. Choose a location for ad to run and add appropriate filters to further target individuals
+
+    - examples of filters used: adoption, parents, parents with young childrenm international adoption
+    
+    - it is best to start with a bigger audience and then fine tune filters as needed 
+    
+![<!--- Recruitment --->](images/lab_protocols/fb_ads/8.png)
+
+9. Choose how long you want the ad to run
+
+    - let it run for at least three days and a budget of at least $3 a day to maximize chances of it running well.
+  
+![<!--- Recruitment --->](images/lab_protocols/fb_ads/9.png)
+
+10. Look at the ad previews to make sure everything is correct and the picture is not cropped incorrectly
+
+![<!--- Recruitment --->](images/lab_protocols/fb_ads/10.png)
+
+11. This gives an estimate of the ammount of people we will reach and how much it will cost. Once done looking through it click the submit button at the bottom of the page.
+![<!--- Recruitment --->](images/lab_protocols/fb_ads/11.png)
+
+
+----------
+
+### Instagram Ads
+
+Another way we recruit participants for MBB is by running ads on Instagram through our lab page. Below is all the relevant information for running an Instagram ad. Instagram has been successful for recruiting teens and young adults but not very successful for recruiting lots of parents thus far. 
+
+To run an instagram ad you need to promote a post.
+
+1. Click the plus sign on top right corner of screen then choose post.
+![<!--- Recruitment --->](images/lab_protocols/ig_ads/6.png)
+
+2. Choose picture and click next. On next page it gives you options for filters, just skip that.
+![<!--- Recruitment --->](images/lab_protocols/ig_ads/7.png)
+
+
+3. Write the caption for the post you'll be promoting. Click on the "create a promotion" button to make a promotion from the post. Click share to post the picture to our IG account.
+    - keep the caption short and try to avoid words that could get the ad flagged
+![<!--- Recruitment --->](images/lab_protocols/ig_ads/1.png)
+
+
+4. Once the post has been shared to our IG page it should take you directly to the promotion settings. On this page you'll choose the goal for the ad. Choose "more website visits" and make sure the link is correct
+![<!--- Recruitment --->](images/lab_protocols/ig_ads/2.png)
+
+
+5. Here you will define your audience. If audience is els you can choose the ELS filter we previously made.
+
+5.1 If making a new audience filter then choose Create your own
+![<!--- Recruitment --->](images/lab_protocols/ig_ads/3.png)
+
+5.1 If creating your own filter ad in location you want for the ad and some filters of who you are trying to target.
+
+  - Examples: parents, parents with young children, adoption
+    
+  - it is best to start with a bigger audience and then fine tune filters as needed 
+![<!--- Recruitment --->](images/lab_protocols/ig_ads/4.png)
+
+
+6. Choose how long you want the ad to run
+
+    - let it run for at least three days and a budget of at least $3 a day to maximize chances of it running well
+![<!--- Recruitment --->](images/lab_protocols/ig_ads/5.png)
+
+7. On the last page it gives you a summary of the ad. Look over it before  submitting the promotion. Lab manager may need to provide payment info to complete transaction. 
+
 
 ----------
 

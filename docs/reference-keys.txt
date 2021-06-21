@@ -62,6 +62,9 @@ printer
 social-media
 instagram
 facebook
+recruitment
+facebook-ads
+instagram-ads
 research-assistant-hiring
 not-hiring
 hiring
