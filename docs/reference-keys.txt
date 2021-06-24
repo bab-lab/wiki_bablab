@@ -65,6 +65,8 @@ facebook
 recruitment
 facebook-ads
 instagram-ads
+getting-ad-receipts
+craigslist-posting
 research-assistant-hiring
 not-hiring
 hiring
