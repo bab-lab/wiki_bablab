@@ -1030,6 +1030,73 @@ To run an instagram ad you need to promote a post.
 
 7. On the last page it gives you a summary of the ad. Look over it before  submitting the promotion. Lab manager may need to provide payment info to complete transaction. 
 
+#### **Getting Ad Receipts**
+
+**Getting Facebook Ad Receipt**
+
+1) Go to the business Suite from the BAB Lab page
+![<!--- Recruitment --->](images/lab_protocols/fb_pay/pay1.png)
+
+
+2. Click on more tools.
+
+![<!--- Recruitment --->](images/lab_protocols/fb_pay/pay2.png)
+
+
+3. Go to billing option which should open up in a seperate tab.
+![<!--- Recruitment --->](images/lab_protocols/fb_pay/pay3.png)
+
+
+4. If there is an outstanding balance then pay by clicking pay now. After paying the transaction should show up at the top of the list and you can download the receipt using the arrow button. 
+![<!--- Recruitment --->](images/lab_protocols/fb_pay/pay4.png)
+
+
+**Getting IG Ad receipt**
+
+1. In the IG app, click on the plus sign. 
+![<!--- Recruitment --->](images/lab_protocols/ig_pay/ig_1.png)
+
+
+2. Click on settings on the popup options that will show up.
+![<!--- Recruitment --->](images/lab_protocols/ig_pay/ig_2.png)
+
+
+3. Click on promotion payments
+![<!--- Recruitment --->](images/lab_protocols/ig_pay/ig_3.png)
+
+
+4. If you have already been charged/ paid for the latest ad then click on the Transaction History tab.
+![<!--- Recruitment --->](images/lab_protocols/ig_pay/ig_4.png)
+
+
+4.1. If the top has an outstanding balance then pay by clicking the pay now button. After paying you can click the Transaction History button.
+![<!--- Recruitment --->](images/lab_protocols/ig_pay/ig_7.png)
+
+
+5. Once on transaction history click on the date of when the latest ad was paid for.
+![<!--- Recruitment --->](images/lab_protocols/ig_pay/ig_5.png)
+
+
+6. Click the download button to download the receipt. In most cases you can redirect so it opens on a different page and you can email it to yourself or save as a pdf. 
+![<!--- Recruitment --->](images/lab_protocols/ig_pay/ig_6.png)
+
+
+----------
+
+### Craigslist posting
+
+1. Login into Bablab’s craigslist account. See internal of Lab website for login info
+2.	Click on “create a posting.” 
+![<!--- Recruitment --->](images/lab_protocols/craigslist/1.png)
+
+3. Click the option “community”: DO NOT choose “gig offered” because you have to pay for these advertisements.  The community option is free
+![<!--- Recruitment --->](images/lab_protocols/craigslist/2.png)
+
+4. Choose “volunteers”. 
+![<!--- Recruitment --->](images/lab_protocols/craigslist/3.png)
+
+5. Fill out this page based on the research study.  Type “Los Angeles” for the city and the postal code 90095.  Then press continue and post it!
+![<!--- Recruitment --->](images/lab_protocols/craigslist/4.png)
 
 ----------
 
