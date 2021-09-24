@@ -1098,6 +1098,25 @@ To run an instagram ad you need to promote a post.
 5. Fill out this page based on the research study.  Type “Los Angeles” for the city and the postal code 90095.  Then press continue and post it!
 ![<!--- Recruitment --->](images/lab_protocols/craigslist/4.png)
 
+
+
+----------
+
+### SAND Lab Collaboration
+
+1. How the Collaboration Works
+- Once a month, Lab Managers from SAND Lab and BABLab to meet and/or check-in on cross-collaboration recruitment status
+- If eligible participants become available for cross-collaboration, Lab Managers should first check to make sure these participants have consented to be contacted by other labs at UCLA 
+- If they have consented, Lab Managers of each lab should send their own participants [template_email] 1 month post-session 
+- At the next cross-collaboration meeting, Lab Managers to transfer over contact information for eligible participants 
+
+2. Transferring Over Contact Information 
+- Lab Managers should pass over contact information on an excel sheet detailing nothing other than participant names and contact information and notes on prior contact 
+- Contact information excel should be passed through a secure box link upload 
+
+3. Calling referred participants directly
+- After contact information is received, 2 weeks after the email template has been sent, Lab Managers may contact cross-collaborated participants directly via phone call using the [phone_template]
+
 ----------
 
 ## Research Assistant Hiring
