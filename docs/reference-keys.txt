@@ -32,6 +32,7 @@ vendor-specific-protocols
 logging-purchases-on-trello
 fund-log---lab-manager
 technology
+computer-security-protocols
 slack
 box
 using-trello
@@ -67,9 +68,12 @@ facebook-ads
 instagram-ads
 getting-ad-receipts
 craigslist-posting
+sand-lab-collaboration
 research-assistant-hiring
 not-hiring
 hiring
+covid-19
+transition-back-in-person
 research-protocols
 data-management
 storing-active-datasets
