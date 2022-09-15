@@ -328,6 +328,35 @@ Watch the video for a detailed explanation.
 
 ----------
 
+### Computer Security Protocols
+
+For members of the lab that are interacting with participant data stored in the cloud (e.g., Box, a lab server) or their personal computer, making sure your device has appropriate security is very important. The UCLA IT department recommends the following best-practices for computer security; these differ depending on whether you are using a computer that is owned by UCLA or your own personal device not owned by UCLA. If you need help setting up any of these, and for those with university-owned computers, to get FireEye installed, please send an email to support@psych.ucla.edu. 
+
+**University-Owned Computers**: FireEye (UCLA antivirus software), firewall, encryption, software updates, screen lock options.    
+**Personally-Owned Computers**: 
+
+- Windows: Windows Defender (built-in antivirus), firewall, encryption, software updates, screen lock.
+- Mac: Firewall, encryption, software updates, screen lock, free version of commercial antivirus such as BitDefender, Avast, or similar*
+
+*note: these free versions of antivirus are "freemium" products.  This means they will bug you to upgrade to a paid version.  We strongly recommend NOT paying for these upgrades, most of which are subscriptions that will get quite costly over time.
+
+See below for further instructions for the steps above:
+
+**Firewall**   
+Mac: Go to Apple menu > System Preferences > Security and Privacy. Go to the Firewall tab and toggle Firewall to On.   
+Windows:  
+
+**Encryption**    
+Mac: Go to Apple menu > System Preferences > Security and Privacy. Go to the FileVault tab and turn FileVault on.   
+Windows:   
+
+**Software Updates**   
+UCLA IT recommends regularly updating all software installed on your computer (e.g., OS, applications) to the latest version released because updates sometimes involve bug fixes relating to security. The only potential issue to weigh with updates is that some programs we use for research may be incompatible with the most updated version of a software (at least for awhile). Also, you may want to wait a short amount of time after an update is released (e.g., 1-2 months) before upgrading to allow for any common bugs to be worked out, though that depends on the nature of the update. 
+
+**Screen Lock**   
+Mac: Go to Apple menu > System Preferences > Security and Privacy > General tab. Ensure you've set a login password on your computer, and check the box for "Requite password after sleep or screensaver begins". Change the time after sleep/screensaver to "immediately".   
+Windows:   
+
 ### Slack
 
 If you haven’t already found this out for yourself, emails are a clunky way of communicating for most lab needs. Moreover, most people will find that they have a backlog of emails awaiting their attention. For this reason, we will use Slack for the primary means of lab communication.

@@ -26,7 +26,9 @@ If you are a new member of the BAB Lab, there are a few basic things you will wa
 - Photo(s) for lab website
 - Brief bio for the lab website
 
- 4. Complete the onboarding process for your position below
+ 4. Complete the onboarding process for your position below   
+ 
+ 5. Go to section 3.5.1 of this wiki, "Computer Security Protocols" and follow the relevant steps to make the computer you'll be using for lab work secure. 
 
 ----------
 

@@ -1,42 +1,56 @@
-\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
 %
-\documentclass[]{book}
+\documentclass[
+]{book}
+\usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{amssymb,amsmath}
-\usepackage{ifxetex,ifluatex}
-\usepackage{fixltx2e} % provides \textsubscript
-\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+\usepackage{iftex}
+\ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
-  \usepackage{textcomp} % provides euro and other symbols
-\else % if luatex or xelatex
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
   \usepackage{unicode-math}
-  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 \fi
-% use upquote if available, for straight quotes in verbatim environments
+% Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-% use microtype if available
-\IfFileExists{microtype.sty}{%
-\usepackage[]{microtype}
-\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
-\IfFileExists{parskip.sty}{%
-\usepackage{parskip}
-}{% else
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
-}
-\usepackage{hyperref}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
-            pdftitle={Brain and Body Lab},
-            pdfborder={0 0 0},
-            breaklinks=true}
-\urlstyle{same}  % don't use monospace font for urls
-\usepackage{longtable,booktabs}
-% Fix footnotes in tables (requires footnote package)
-\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{longtable}}{}
-\usepackage{graphicx,grffile}
+  pdftitle={Brain and Body Lab},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
 \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
@@ -45,25 +59,14 @@
 % margins by default, and it is still possible to overwrite the defaults
 % using explicit options in \includegraphics[width, height, ...]{}
 \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-\setlength{\emergencystretch}{3em}  % prevent overfull lines
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\setcounter{secnumdepth}{5}
-% Redefines (sub)paragraphs to behave more like sections
-\ifx\paragraph\undefined\else
-\let\oldparagraph\paragraph
-\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
-\fi
-\ifx\subparagraph\undefined\else
-\let\oldsubparagraph\subparagraph
-\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
-\fi
-
-% set default figure placement to htbp
+% Set default figure placement to htbp
 \makeatletter
 \def\fps@figure{htbp}
 \makeatother
-
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
 \usepackage{booktabs}
 \usepackage{amsthm}
 \makeatletter
@@ -72,6 +75,9 @@
   \thm@postskip=\thm@preskip
 }
 \makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
 \usepackage[]{natbib}
 \bibliographystyle{apalike}
 
@@ -196,9 +202,10 @@ If you are a new member of the BAB Lab, there are a few basic things you will wa
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \setcounter{enumi}{3}
-\tightlist
 \item
   Complete the onboarding process for your position below
+\item
+  Go to section 3.5.1 of this wiki, ``Computer Security Protocols'' and follow the relevant steps to make the computer you'll be using for lab work secure.
 \end{enumerate}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
@@ -616,7 +623,7 @@ Review:
   \begin{itemize}
   \tightlist
   \item
-    Lab Manager must consult with Bridget prior to hiring. If for any reason a non-UCLA student is brought on, a background check must be run (\textasciitilde{}\$50 each). Unless otherwise specified, the Lab Manager should refer to the RA application pool within UCLA students.
+    Lab Manager must consult with Bridget prior to hiring. If for any reason a non-UCLA student is brought on, a background check must be run (\textasciitilde\$50 each). Unless otherwise specified, the Lab Manager should refer to the RA application pool within UCLA students.
   \item
     This also applies to volunteers who have graduated from UCLA. Once a student volunteer has graduated, their status must be switched to staff volunteer and all HR paperwork should be resubmitted to reflect this change. A Background Check must also now be run, since the graduated student is technically no longer affiliated with UCLA on the date after their graduation.
   \item
@@ -1602,6 +1609,41 @@ Watch the video for a detailed explanation.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
+\hypertarget{computer-security-protocols}{%
+\subsection{Computer Security Protocols}\label{computer-security-protocols}}
+
+For members of the lab that are interacting with participant data stored in the cloud (e.g., Box, a lab server) or their personal computer, making sure your device has appropriate security is very important. The UCLA IT department recommends the following best-practices for computer security; these differ depending on whether you are using a computer that is owned by UCLA or your own personal device not owned by UCLA. If you need help setting up any of these, and for those with university-owned computers, to get FireEye installed, please send an email to \href{mailto:support@psych.ucla.edu}{\nolinkurl{support@psych.ucla.edu}}.
+
+\textbf{University-Owned Computers}: FireEye (UCLA antivirus software), firewall, encryption, software updates, screen lock options.\\
+\textbf{Personally-Owned Computers}:
+
+\begin{itemize}
+\tightlist
+\item
+  Windows: Windows Defender (built-in antivirus), firewall, encryption, software updates, screen lock.
+\item
+  Mac: Firewall, encryption, software updates, screen lock, free version of commercial antivirus such as BitDefender, Avast, or similar*
+\end{itemize}
+
+*note: these free versions of antivirus are ``freemium'' products. This means they will bug you to upgrade to a paid version. We strongly recommend NOT paying for these upgrades, most of which are subscriptions that will get quite costly over time.
+
+See below for further instructions for the steps above:
+
+\textbf{Firewall}\\
+Mac: Go to Apple menu \textgreater{} System Preferences \textgreater{} Security and Privacy. Go to the Firewall tab and toggle Firewall to On.\\
+Windows:
+
+\textbf{Encryption}\\
+Mac: Go to Apple menu \textgreater{} System Preferences \textgreater{} Security and Privacy. Go to the FileVault tab and turn FileVault on.\\
+Windows:
+
+\textbf{Software Updates}\\
+UCLA IT recommends regularly updating all software installed on your computer (e.g., OS, applications) to the latest version released because updates sometimes involve bug fixes relating to security. The only potential issue to weigh with updates is that some programs we use for research may be incompatible with the most updated version of a software (at least for awhile). Also, you may want to wait a short amount of time after an update is released (e.g., 1-2 months) before upgrading to allow for any common bugs to be worked out, though that depends on the nature of the update.
+
+\textbf{Screen Lock}\\
+Mac: Go to Apple menu \textgreater{} System Preferences \textgreater{} Security and Privacy \textgreater{} General tab. Ensure you've set a login password on your computer, and check the box for ``Requite password after sleep or screensaver begins''. Change the time after sleep/screensaver to ``immediately''.\\
+Windows:
+
 \hypertarget{slack}{%
 \subsection{Slack}\label{slack}}
 
@@ -1613,157 +1655,40 @@ Full-time lab members should install Slack on their computers and/or phones and 
 
 Of course, if there is an emergency, and you need to contact Bridget, use her email or phone or drop into her office.
 
-\begin{longtable}[]{@{}lll@{}}
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1921}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.0464}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.7616}}@{}}
 \toprule
-\begin{minipage}[b]{0.18\columnwidth}\raggedright
-Slack Channel\strut
-\end{minipage} & \begin{minipage}[b]{0.04\columnwidth}\raggedright
-Type\strut
-\end{minipage} & \begin{minipage}[b]{0.70\columnwidth}\raggedright
-Purpose\strut
-\end{minipage}\tabularnewline
+\begin{minipage}[b]{\linewidth}\raggedright
+Slack Channel
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Type
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Purpose
+\end{minipage} \\
 \midrule
 \endhead
-\begin{minipage}[t]{0.18\columnwidth}\raggedright
-\#bablab\_core\strut
-\end{minipage} & \begin{minipage}[t]{0.04\columnwidth}\raggedright
-Private\strut
-\end{minipage} & \begin{minipage}[t]{0.70\columnwidth}\raggedright
-For private communication between the core team - this includes the PI, Lab Managers, Postdocs, and Grad Students\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.18\columnwidth}\raggedright
-\#bablab\_ra\strut
-\end{minipage} & \begin{minipage}[t]{0.04\columnwidth}\raggedright
-Private\strut
-\end{minipage} & \begin{minipage}[t]{0.70\columnwidth}\raggedright
-For private communication between the lab managers and all the research assistants\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.18\columnwidth}\raggedright
-\#bablab\_senior\_ra\strut
-\end{minipage} & \begin{minipage}[t]{0.04\columnwidth}\raggedright
-Private\strut
-\end{minipage} & \begin{minipage}[t]{0.70\columnwidth}\raggedright
-For private communication between the lab managers and the senior research assistants\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.18\columnwidth}\raggedright
-\#diversity\strut
-\end{minipage} & \begin{minipage}[t]{0.04\columnwidth}\raggedright
-Public\strut
-\end{minipage} & \begin{minipage}[t]{0.70\columnwidth}\raggedright
-For lab-wide communication regarding lab commitment to diversity, inclusivity, and allyship\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.18\columnwidth}\raggedright
-\#general\strut
-\end{minipage} & \begin{minipage}[t]{0.04\columnwidth}\raggedright
-Public\strut
-\end{minipage} & \begin{minipage}[t]{0.70\columnwidth}\raggedright
-For lab-wide communication and announcements\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.18\columnwidth}\raggedright
-\#meetings\_lab\strut
-\end{minipage} & \begin{minipage}[t]{0.04\columnwidth}\raggedright
-Public\strut
-\end{minipage} & \begin{minipage}[t]{0.70\columnwidth}\raggedright
-For notes or communication related to lab meetings\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.18\columnwidth}\raggedright
-\#methods\_fmri\strut
-\end{minipage} & \begin{minipage}[t]{0.04\columnwidth}\raggedright
-Public\strut
-\end{minipage} & \begin{minipage}[t]{0.70\columnwidth}\raggedright
-Sharing wisdom on fMRI data collection / analysis or asking (and answering) the fMRI questions of others\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.18\columnwidth}\raggedright
-\#methods\_mb\strut
-\end{minipage} & \begin{minipage}[t]{0.04\columnwidth}\raggedright
-Public\strut
-\end{minipage} & \begin{minipage}[t]{0.70\columnwidth}\raggedright
-Sharing wisdom on microbiome data collection / analysis or asking and answering the microbiome questions of others\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.18\columnwidth}\raggedright
-\#notes\_conferences\strut
-\end{minipage} & \begin{minipage}[t]{0.04\columnwidth}\raggedright
-Public\strut
-\end{minipage} & \begin{minipage}[t]{0.70\columnwidth}\raggedright
-For taking notes at conferences\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.18\columnwidth}\raggedright
-\#papers\strut
-\end{minipage} & \begin{minipage}[t]{0.04\columnwidth}\raggedright
-Public\strut
-\end{minipage} & \begin{minipage}[t]{0.70\columnwidth}\raggedright
-Sharing links to lab-relevant papers and discussing them\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.18\columnwidth}\raggedright
-\#random\strut
-\end{minipage} & \begin{minipage}[t]{0.04\columnwidth}\raggedright
-Public\strut
-\end{minipage} & \begin{minipage}[t]{0.70\columnwidth}\raggedright
-Non-work-related chatting -- e.g., pics of pets, funny cartoons etc.\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.18\columnwidth}\raggedright
-\#recruitment\strut
-\end{minipage} & \begin{minipage}[t]{0.04\columnwidth}\raggedright
-Public\strut
-\end{minipage} & \begin{minipage}[t]{0.70\columnwidth}\raggedright
-Any ideas you have for recruiting youth into our study\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.18\columnwidth}\raggedright
-\#rejection\_collection\strut
-\end{minipage} & \begin{minipage}[t]{0.04\columnwidth}\raggedright
-Public\strut
-\end{minipage} & \begin{minipage}[t]{0.70\columnwidth}\raggedright
-A collection of rejections and reflections!\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.18\columnwidth}\raggedright
-\#stats\strut
-\end{minipage} & \begin{minipage}[t]{0.04\columnwidth}\raggedright
-Public\strut
-\end{minipage} & \begin{minipage}[t]{0.70\columnwidth}\raggedright
-To ask and answer questions about statistical analyses\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.18\columnwidth}\raggedright
-\#study\_inside\_out\strut
-\end{minipage} & \begin{minipage}[t]{0.04\columnwidth}\raggedright
-Private\strut
-\end{minipage} & \begin{minipage}[t]{0.70\columnwidth}\raggedright
-To discuss issues related to the EGG and Emotionality study\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.18\columnwidth}\raggedright
-\#study\_pup\strut
-\end{minipage} & \begin{minipage}[t]{0.04\columnwidth}\raggedright
-Private\strut
-\end{minipage} & \begin{minipage}[t]{0.70\columnwidth}\raggedright
-To discuss issues related to the Parenting Under Pressure Study\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.18\columnwidth}\raggedright
-\#study\_mbb\strut
-\end{minipage} & \begin{minipage}[t]{0.04\columnwidth}\raggedright
-Private\strut
-\end{minipage} & \begin{minipage}[t]{0.70\columnwidth}\raggedright
-To discuss issues related to the Mind, Brain, Body study\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.18\columnwidth}\raggedright
-\#study\_transfer\_mental\_health\strut
-\end{minipage} & \begin{minipage}[t]{0.04\columnwidth}\raggedright
-Private\strut
-\end{minipage} & \begin{minipage}[t]{0.70\columnwidth}\raggedright
-To discuss issues related to the Transfer Mental Health Study\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.18\columnwidth}\raggedright
-\#tips\_coding\strut
-\end{minipage} & \begin{minipage}[t]{0.04\columnwidth}\raggedright
-Public\strut
-\end{minipage} & \begin{minipage}[t]{0.70\columnwidth}\raggedright
-Sharing wisdom on code writing or asking (and answering) the coding questions of others\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.18\columnwidth}\raggedright
-\#writing\_group\strut
-\end{minipage} & \begin{minipage}[t]{0.04\columnwidth}\raggedright
-Private\strut
-\end{minipage} & \begin{minipage}[t]{0.70\columnwidth}\raggedright
-For writing accountability and motivation\strut
-\end{minipage}\tabularnewline
+\#bablab\_core & Private & For private communication between the core team - this includes the PI, Lab Managers, Postdocs, and Grad Students \\
+\#bablab\_ra & Private & For private communication between the lab managers and all the research assistants \\
+\#bablab\_senior\_ra & Private & For private communication between the lab managers and the senior research assistants \\
+\#diversity & Public & For lab-wide communication regarding lab commitment to diversity, inclusivity, and allyship \\
+\#general & Public & For lab-wide communication and announcements \\
+\#meetings\_lab & Public & For notes or communication related to lab meetings \\
+\#methods\_fmri & Public & Sharing wisdom on fMRI data collection / analysis or asking (and answering) the fMRI questions of others \\
+\#methods\_mb & Public & Sharing wisdom on microbiome data collection / analysis or asking and answering the microbiome questions of others \\
+\#notes\_conferences & Public & For taking notes at conferences \\
+\#papers & Public & Sharing links to lab-relevant papers and discussing them \\
+\#random & Public & Non-work-related chatting -- e.g., pics of pets, funny cartoons etc. \\
+\#recruitment & Public & Any ideas you have for recruiting youth into our study \\
+\#rejection\_collection & Public & A collection of rejections and reflections! \\
+\#stats & Public & To ask and answer questions about statistical analyses \\
+\#study\_inside\_out & Private & To discuss issues related to the EGG and Emotionality study \\
+\#study\_pup & Private & To discuss issues related to the Parenting Under Pressure Study \\
+\#study\_mbb & Private & To discuss issues related to the Mind, Brain, Body study \\
+\#study\_transfer\_mental\_health & Private & To discuss issues related to the Transfer Mental Health Study \\
+\#tips\_coding & Public & Sharing wisdom on code writing or asking (and answering) the coding questions of others \\
+\#writing\_group & Private & For writing accountability and motivation \\
 \bottomrule
 \end{longtable}
 
@@ -1955,7 +1880,7 @@ How-to download/install the \href{https://help.bol.ucla.edu/kb_view.do?sysparm_a
 \begin{quote}
 Every night the server is backed up to the Life Sciences data center in Hershey Hall. That's always been the case. To make those nightly backups more safe, there is another copy of the backups stored offsite (i.e.~to prevent losing both the server AND the backups in a fire, earthquake, etc.)
 
-Once we have Shadow Copy enabled, we'll also have more direct access to backups, so we won't need to work with Life Sciences to retrieve backups. Psych IT will be able to grab a recent copy of your files/folders ourselves. We'll also have access to incremental backups (i.e.~yesterday's copy, two day old copy, three day old copy\ldots{}up to two weeks back).
+Once we have Shadow Copy enabled, we'll also have more direct access to backups, so we won't need to work with Life Sciences to retrieve backups. Psych IT will be able to grab a recent copy of your files/folders ourselves. We'll also have access to incremental backups (i.e.~yesterday's copy, two day old copy, three day old copy\ldots up to two weeks back).
 
 So at that point we'll have 3 forms of backup, and plenty of safety net.
 
@@ -3312,9 +3237,9 @@ General notes on file naming:
 \item
   Generally, versions of data files, scripts, etc. that are kept in study folders are final versions, meaning that they are ``master'' copies rather than versions that are being edited by individual lab members.
 \item
-  If you would like to edit a script for some reason, please copy it to your user folder and rename it adding \_\textless{}your initials\textgreater{}, eg., \_fq to mark it as being edited by you. If we would like to use it for general study use, it will need to be checked and approved. If the check is successful and it is approved, only then can it replace the ``master'' script and the initials be removed.
+  If you would like to edit a script for some reason, please copy it to your user folder and rename it adding \_\textless your initials\textgreater, eg., \_fq to mark it as being edited by you. If we would like to use it for general study use, it will need to be checked and approved. If the check is successful and it is approved, only then can it replace the ``master'' script and the initials be removed.
 \item
-  Data should generally be named in the following way: \textless{}measure\textgreater{}\_\textless{}status\textgreater{}\_\textless{}if relevant, date in form YYYYMMDD\textgreater{}\_\textless{}if personal copy, initials\textgreater{} (e.g., cbcl\_raw\_20201118\_fq). Date is the date the data file was generated. If it was generated by a script, date needs to be updated each time the script is run.
+  Data should generally be named in the following way: \textless measure\textgreater\_\textless status\textgreater\_\textless if relevant, date in form YYYYMMDD\textgreater\_\textless if personal copy, initials\textgreater{} (e.g., cbcl\_raw\_20201118\_fq). Date is the date the data file was generated. If it was generated by a script, date needs to be updated each time the script is run.
 \end{itemize}
 
 If you have already run several independent projects and have a data organization structure that works well for you, feel free to use it. If not (or if you are looking for a change), the following structure is recommended (based on Neuropipe):
@@ -3393,7 +3318,7 @@ If you have already run several independent projects and have a data organizatio
   \item
     if you have scripts that are the same for each participant, you can have symbolic links for them in your participant-specific scripts directories
   \item
-    \textbf{naming convention for scripts}: Note that BABLab has decided on this naming conventions for scripts - \textless{}measure or study\textgreater{}\_\textless{}purpose\textgreater{}\_\textless{}if personal copy or editing, initials\textgreater{} (examples: mbb\_cleaning\_fq, cbcl\_scoring\_fq)
+    \textbf{naming convention for scripts}: Note that BABLab has decided on this naming conventions for scripts - \textless measure or study\textgreater\_\textless purpose\textgreater\_\textless if personal copy or editing, initials\textgreater{} (examples: mbb\_cleaning\_fq, cbcl\_scoring\_fq)
   \end{itemize}
 \item
   projectName/results
@@ -3440,9 +3365,9 @@ Agreed upon organizational structure specific to MBB:
 \begin{itemize}
 \tightlist
 \item
-  /../Studies/Mind\_Brain\_Body/Scripts/\textless{}wave\textgreater{}/Data: This contains all data that are used in the scripts (including raw data, inputs, and outputs of the scripts). Each file needs to be named clearly (see naming convention for data above).
+  /../Studies/Mind\_Brain\_Body/Scripts/\textless wave\textgreater/Data: This contains all data that are used in the scripts (including raw data, inputs, and outputs of the scripts). Each file needs to be named clearly (see naming convention for data above).
 \item
-  /../Studies/Mind\_Brain\_Body/Scripts/\textless{}wave\textgreater{}/\textless{}purpose, eg. scoring\textgreater{}/\textless{}if necessary, sub-folder for measure\textgreater{}: scripts go here (e.g., /Scripts/Wave1/scoring/cbcl would contain script to score the cbcl)
+  /../Studies/Mind\_Brain\_Body/Scripts/\textless wave\textgreater/\textless purpose, eg. scoring\textgreater/\textless if necessary, sub-folder for measure\textgreater: scripts go here (e.g., /Scripts/Wave1/scoring/cbcl would contain script to score the cbcl)
 \end{itemize}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
@@ -3863,7 +3788,7 @@ Ensure you have all necessary materials (WASI/WIAT administration instruction sh
   \item
     \textbf{(DK)} if the child does not know
   \item
-    \textbf{(\textgreater{}3)} if it took the child longer than 3 seconds to say
+    \textbf{(\textgreater3)} if it took the child longer than 3 seconds to say
   \item
     \textbf{(SC)} if the child said the word wrong but self-corrected
   \end{itemize}
@@ -3940,7 +3865,7 @@ Ensure you have all necessary materials (WASI/WIAT administration instruction sh
   \item
     Add up Word Reading Total Score Box
   \item
-    Add up Total \textgreater{}3" Box
+    Add up Total \textgreater3'' Box
   \item
     Add up Total SC Box
   \end{itemize}
@@ -4796,8 +4721,8 @@ brew install git
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\hypertarget{github}{%
-\section{GitHub}\label{github}}
+\hypertarget{github-1}{%
+\section{GitHub}\label{github-1}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -5497,7 +5422,7 @@ Windows: WINDOWS + SHIFT + D
 \item
   Once submitted, HR will update the Volunteer Research Assistant's UCPath.
 \item
-  Save the PAF to Box (BabLab\textgreater{}Lab\textgreater{}Documents\textgreater{}RA\_hiring\_documents\textgreater{}RA\_offboarding\_PAF)
+  Save the PAF to Box (BabLab\textgreater Lab\textgreater Documents\textgreater RA\_hiring\_documents\textgreater RA\_offboarding\_PAF)
 \end{enumerate}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
@@ -5585,6 +5510,6 @@ Martin, I. (1963). Delayed GSR conditioning and the effect of electrode placemen
 
 Vuorre, M., \& Curley, J. P. (2018). Curating Research Assets: A Tutorial on the Git Version Control System. Advances in Methods and Practices in Psychological Science, 1(2), 219--236. \url{https://doi.org/10.1177/2515245918754826}
 
-\bibliography{book.bib,packages.bib}
+  \bibliography{book.bib,packages.bib}
 
 \end{document}
