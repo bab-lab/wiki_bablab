@@ -822,16 +822,20 @@ The above method is great if you are working alone in your own repository, but i
 
 **Collaborative Workflow**
 
-1. Fetch origin
-2. Create branch
-3. Code (Make sure you are working in the correct project on R)
-4. Build / Knit (Build is for Wiki's/Books - Knit is for regular Rmarkdown files)
-5. Commit
-6. Push (and/or publish branch)
-7. Pull
-8. Merge
-9. Delete branch on GitHub online AND on local computer GitHub Desktop
-10. Repeat
+1. Open GitHub Desktop
+2. Clone repo down or fetch origin if you've already cloned it
+3. Create branch
+4. Go to folder in your Finder
+5. Open .rproj
+6. Edit .Rmd of interest
+7. Save
+8. Build tab --> "Build book" (Build is for Wiki's/Books - Knit is for regular Rmarkdown files)
+9. Commit
+10. Push/publish branch
+11. Pull
+12. Merge your branch with main branch
+13. Delete branch on github AND on local computer via GitHub desktop
+14. Check to make sure changes are correctly reflected on online wiki (usually takes ~4 min to update)
 
 --
 
